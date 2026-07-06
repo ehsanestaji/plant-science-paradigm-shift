@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite the associated paper."
+title: "Plant Science is Reorganizing Around Climate-Relevant Crops: Evidence from 4.9 Million Publications"
+authors:
+  - family-names: Estaji
+    given-names: Ehsan
+    affiliation: "Umeå Plant Science Centre (UPSC), Department of Plant Physiology, Umeå University"
+    email: ehsan.estaji@umu.se
+  - family-names: Mao
+    given-names: Jian-Feng
+    affiliation: "Umeå Plant Science Centre (UPSC), Department of Plant Physiology, Umeå University"
+year: 2026
+license: MIT
+repository-code: "https://github.com/ehsanestaji/plant-science-paradigm-shift"
+keywords:
+  - bibliometrics
+  - metascience
+  - plant science
+  - paradigm shift
+  - crop research
+  - Arabidopsis
+  - CRISPR

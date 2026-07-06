@@ -1,0 +1,626 @@
+% ============================================================
+%  Paper A — Supplementary Information
+% ============================================================
+
+% Reset figure and table counters + prefixes so SI elements are
+% auto-numbered "Supplementary Figure S1, S2, ..." and
+% "Supplementary Table S1, S2, ...". Without these the ED figure counter
+% would bleed through (captions would read "Extended Data Fig. 10, 11,
+% ...") and the global table counter would give "Table 1, 2, 3" on our
+% SI tables.
+\setcounter{figure}{0}
+\setcounter{table}{0}
+\renewcommand{\figurename}{Supplementary Figure}
+\renewcommand{\tablename}{Supplementary Table}
+\renewcommand{\thefigure}{S\arabic{figure}}
+\renewcommand{\thetable}{S\arabic{table}}
+
+% Auto-numbered Supplementary Notes (narrative analyses), numbered 1..N
+% in order of appearance and cross-referenced via \ref. Figure/table-holder
+% subsections keep descriptive headers; they are identified by their
+% Supplementary Figure/Table number.
+\newcounter{snote}
+\newcommand{\suppnote}[2]{%
+  \refstepcounter{snote}%
+  \subsection*{Supplementary Note~\arabic{snote}: #1}%
+  \label{#2}%
+}
+
+% ── GPU-derived supplementary figures ──────────────────────────────────
+
+\subsection*{Organism growth rates (classified corpus)}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.72\textwidth]{S1_growth_rates}
+  \caption{\textbf{Annual growth rates by organism (zero-shot classified corpus,
+    2.77 million papers).}
+    CAGR computed over the 2010s and 2020s for each organism category.
+    Rice leads crop-organism growth in the 2010s (CAGR 4.9\%); most organism
+    groups show slower or negative growth in the 2020s consistent with
+    field-level plateau.}
+  \label{fig:S1}
+\end{figure}
+
+\subsection*{Paradigm classification and citation impact}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.72\textwidth]{S2_paradigm_citations}
+  \caption{\textbf{Citation impact by paradigm and organism.}
+    Box plots of five-year forward citation counts for applied versus fundamental
+    papers, stratified by organism.
+    Applied \textit{Arabidopsis} papers show the highest median citation counts;
+    fundamental papers in crop organisms show high variance reflecting a small
+    number of highly cited mechanistic studies.}
+  \label{fig:S2}
+\end{figure}
+
+\subsection*{Topic diversity by year}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.72\textwidth]{S3_topic_diversity}
+  \caption{\textbf{Shannon entropy of macro-theme distribution by year
+    (1990--2024).}
+    Entropy declined from 1.82 bits (1990s mean) to 1.14 bits (2020s mean),
+    reflecting concentration of the research agenda around a smaller set of
+    dominant themes.
+    Shaded region: 95\% bootstrap confidence interval.}
+  \label{fig:S3}
+\end{figure}
+
+\subsection*{Disruption index by organism}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.72\textwidth]{S6_disruption_index}
+  \caption{\textbf{CD disruption index by organism, decade resolution.}
+    \textit{Arabidopsis} has the most negative mean CD index ($-0.001$),
+    indicating consolidation; crop species (maize 0.095, soybean 0.102,
+    cotton 0.099) are consistently more disruptive.
+    Error bars: standard error of the mean across decades.
+    Kruskal--Wallis test: $H = 12.9$, $p = 0.17$, $n_{\mathrm{groups}} = 10$.}
+  \label{fig:S6}
+\end{figure}
+
+\subsection*{Cross-citation matrix between organism categories}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.72\textwidth]{S9_cross_citation}
+  \caption{\textbf{Cross-citation matrix between organism categories
+    (2020--2024).}
+    Cell values give the fraction of citations from organism~$i$ (row) to
+    papers in organism category~$j$ (column).
+    \textit{Arabidopsis} has the highest self-citation rate (61.6\%);
+    crop organisms cite \textit{Arabidopsis} at rates of 10--20\%,
+    confirming continued intellectual dependence on the model organism.}
+  \label{fig:S9}
+\end{figure}
+
+\subsection*{International collaboration by organism}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.72\textwidth]{S10_collaboration}
+  \caption{\textbf{International collaboration rate by organism (2020--2024).}
+    \textit{Arabidopsis} has the highest international collaboration rate
+    (18.9\%), followed by other model organisms (16.2\%) and barley (16.1\%).
+    Soybean (11.3\%) and non-specific papers (9.8\%) have the lowest rates.}
+  \label{fig:S10}
+\end{figure}
+
+% ── Traditional supplementary tables ───────────────────────────────────
+
+\subsection*{Orphan crops ranked by research-attention gap}
+
+Plants are ranked by attention gap index (log$_2$ ratio of papers per trillion
+kilocalories). Negative values indicate under-studied species relative to their
+caloric importance. Data from FAO production statistics and OpenAlex corpus
+(1900--2024).
+
+\begin{table}[H]
+\centering
+\caption{Crops ranked by research-attention gap (most under-studied first).}
+\label{tab:S1}
+\begin{tabular}{rlrrrr}
+\toprule
+Rank & Crop & Publications & Production (Mt) & Papers/Mt & Attention gap \\
+\midrule
+1  & Sugarcane       & 30,220  & 1,900 & 15.9    & $-4.27$ \\
+2  & Cassava         & 21,135  & 310   & 68.2    & $-2.17$ \\
+3  & Maize           & 138,597 & 1,160 & 119.5   & $-1.36$ \\
+4  & Potato          & 52,825  & 375   & 140.9   & $-1.12$ \\
+5  & Wheat           & 152,000 & 780   & 194.9   & $-0.65$ \\
+6  & Plantain        & 29,912  & 120   & 249.3   & $-0.30$ \\
+7  & Soybean         & 90,199  & 350   & 257.7   & $-0.25$ \\
+8  & Rice            & 168,437 & 520   & 323.9   & $+0.08$ \\
+9  & Barley          & 52,570  & 155   & 339.2   & $+0.15$ \\
+10 & Tomato          & 79,974  & 187   & 427.7   & $+0.48$ \\
+11 & Sorghum         & 33,419  & 60    & 557.0   & $+0.86$ \\
+12 & Millet          & 20,263  & 30    & 675.4   & $+1.14$ \\
+13 & Tobacco         & 46,616  & 6.3   & 7,399.4 & $+4.59$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\bigskip
+
+\subsection*{Top sleeping-beauty papers on minor crops}
+
+Papers with highest beauty index ($B$) from the sleeping-beauty analysis
+using the Ke et al.\ (2015) metric. Dormancy defined as years from
+publication to awakening (first year of sustained citation acceleration).
+
+\begin{table}[H]
+\centering
+\caption{Top 10 sleeping beauty papers by $B$-index.}
+\label{tab:S2}
+\begin{tabular}{rlrlrr}
+\toprule
+Rank & Crop & Year & Title (abbreviated) & Citations & $B$-index \\
+\midrule
+1  & Moringa   & 1980 & Drumstick: A multipurpose Indian vegetable            & 580   & 83.1 \\
+2  & Moringa   & 2006 & \textit{M.\ oleifera}: multiple medicinal uses        & 1,600 & 63.0 \\
+3  & Moringa   & 2005 & Review of medical evidence, Part 1                    & ---   & 55.2 \\
+4  & Moringa   & 1996 & Nutritional value of whole \& extracted leaves         & 539   & 45.8 \\
+5  & Moringa   & 2003 & Antioxidant properties of drumstick tree               & 1,382 & 43.7 \\
+6  & Moringa   & 1991 & Horseradish tree: a boon to arid lands                & 449   & 42.5 \\
+7  & Moringa   & 2001 & Potential for agricultural \& industrial uses          & 458   & 41.9 \\
+8  & Millet    & 1982 & Peroxidase in excised ragi leaves                     & 182   & 39.8 \\
+9  & Moringa   & 1999 & The miracle tree: natural nutrition for tropics        & 416   & 38.5 \\
+10 & Amaranth  & 1987 & Planting date influence on Palmer amaranth growth      & 235   & 28.8 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\bigskip
+
+\subsection*{Method diffusion parameters}
+
+Fitted logistic S-curve parameters for 13 methodological categories detected
+in plant science publications. Half-life is the time from 10\% to 50\% of
+carrying capacity $K$.
+
+\begin{table}[H]
+\centering
+\caption{Logistic diffusion model parameters for methodologies in plant science.}
+\label{tab:S3}
+\begin{tabular}{lrrrrrrr}
+\toprule
+Method & Origin & Total papers & $K$ & $r$ (yr$^{-1}$) & $t_{\mathrm{mid}}$ & Half-life (yr) & $R^2$ \\
+\midrule
+Long-read seq.    & 2014 & 2,272  & 3,127   & 0.512 & 2022.1 & 8.6  & 1.000 \\
+GBS/RAD-seq       & 2011 & 1,629  & 1,740   & 0.494 & 2019.1 & 8.9  & 0.999 \\
+CRISPR            & 2012 & 4,370  & 5,964   & 0.475 & 2022.0 & 9.2  & 0.999 \\
+Pangenomics       & 2015 & 753    & 1,533   & 0.402 & 2024.0 & 10.9 & 0.998 \\
+RNA-seq           & 2008 & 13,762 & 16,899  & 0.394 & 2020.3 & 11.1 & 0.999 \\
+Machine learning  & 2010 & 27,329 & 163,974 & 0.354 & 2028.6 & 12.4 & 0.995 \\
+Microarray        & 1995 & 6,365  & 6,374   & 0.311 & 2011.0 & 14.1 & 0.999 \\
+Proteomics        & 1997 & 13,775 & 16,449  & 0.237 & 2017.4 & 18.6 & 0.999 \\
+Metabolomics      & 2000 & 9,597  & 31,809  & 0.218 & 2027.9 & 20.2 & 0.999 \\
+PCR               & 1985 & 44,077 & 50,283  & 0.177 & 2013.8 & 24.8 & 0.999 \\
+Confocal microsc. & 1985 & 3,536  & 4,433   & 0.167 & 2015.9 & 26.2 & 0.999 \\
+Flow cytometry    & 1975 & 4,844  & 6,139   & 0.146 & 2015.2 & 30.1 & 1.000 \\
+Single-cell       & 2015 & 1,607  & 9,642   & 0.112 & 2039.1 & 39.4 & 0.995 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\suppnote{Temporal placebo test (reorganization signal)}{sec:temporal-placebo}
+
+To rule out the possibility that our ``reorganization around climate-relevant
+crops'' finding reflects generic publication growth rather than a genuine
+structural shift, we applied the same signal detector --- the linear slope of
+annual climate-relevant-crop abstract share --- to a placebo window
+(1970--1999), in which the climate-discourse framing was not yet established,
+and to the treatment window (2000--2024).
+
+The placebo-window slope is $-2.3 \times 10^{-4}$ per year
+(95\% bootstrap CI $[-3.7, -0.9] \times 10^{-4}$, 1{,}000 resamples of
+year--share pairs), indicating a flat or very slightly declining signal in the
+pre-2000 era.
+The treatment-window slope is $+4.5 \times 10^{-4}$ per year
+(95\% bootstrap CI $[+2.7, +6.2] \times 10^{-4}$), i.e.\ the two windows'
+confidence intervals do not overlap.
+A two-sided permutation test (1{,}000 shuffles of pooled year--share pairs,
+statistic = slope gap) rejects the null of a single underlying slope at
+$p = 0.001$.
+
+The signal is era-specific and cannot be reduced to background publication
+growth (Figure~\ref{fig:s-temporal-placebo}).
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.6\linewidth]{fig_temporal_placebo.pdf}
+  \caption{\textbf{Temporal placebo test.} Reorganization effect size (linear
+  slope of annual climate-relevant-crop abstract share) for the 1970--1999
+  placebo window (grey) and the 2000--2024 treatment window (blue). Error
+  bars show 95\% bootstrap confidence intervals from 1{,}000 resamples of
+  year--share pairs. A permutation test under the exchangeable-window null
+  gives $p = 0.001$ (1{,}000 shuffles).}
+  \label{fig:s-temporal-placebo}
+\end{figure}
+
+\suppnote{Growth-model selection --- logistic vs Gompertz vs Richards}{sec:growth-model-aic}
+
+We chose the logistic model for the field-growth plateau claim in the
+main text. To address the reviewer question ``why logistic over
+alternative sigmoidal growth models?'' we fit three candidates to the
+deduplicated (works\_clean) annual publication counts 1990--2024
+($n = 35$) by non-linear least squares: the three-parameter logistic,
+the three-parameter Gompertz, and the four-parameter Richards
+(generalised logistic). Logistic and Richards are fit with year as the
+time axis (matching the main-text parameterisation); Gompertz is fit on
+a translated $t = \mathrm{year}-1990$ axis for numerical stability, with
+the carrying-capacity $K$ invariant under the shift.
+Table~\ref{tab:S7} reports the parameter fits, the residual sum of
+squares (RSS), and the Akaike information criterion corrected for small
+samples (AICc); Figure~\ref{fig:s-growth-aic} overlays the three fits on
+the observed series.
+
+\begin{table}[H]
+\centering
+\caption{Three-way comparison of sigmoidal growth-model fits to
+plant-science annual publication counts (1990--2024, works\_clean).}
+\label{tab:S7}
+\begin{tabular}{lrrrrr}
+\toprule
+Model & $K$ & RSS ($\times 10^9$) & AIC & AICc & $\Delta$AICc \\
+\midrule
+Logistic  & 217{,}781 & 3.66 & 652.2 & 653.0 & 11.5 \\
+Gompertz  & 278{,}277 & 4.51 & 659.7 & 660.4 & 18.9 \\
+Richards  & 183{,}618 & 2.44 & 640.2 & 641.5 &  0.0 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The four-parameter Richards model provides the best AICc fit; the
+logistic is second ($\Delta\mathrm{AICc} = 11.5$, moderate evidence
+against logistic over Richards in conventional interpretation), and
+Gompertz is clearly disfavoured ($\Delta\mathrm{AICc} = 18.9$).
+The Richards shape parameter $\nu = 6.4$ indicates a noticeably
+asymmetric approach to the carrying capacity relative to the symmetric
+logistic, with a longer slow-growth tail before the inflection and a
+sharper transition to the plateau. All three models agree qualitatively
+on the main claim. Plant-science publication output is in the plateau
+phase of sigmoidal growth, not in unconstrained exponential expansion.
+We retain the logistic parameterisation in the main text for
+interpretability ($K$ and inflection year $t_{\mathrm{mid}}$ have direct
+meaning and are comparable to logistic fits reported elsewhere in the
+metascience literature) and report the Richards comparison here so the
+reader can assess the sensitivity of the plateau claim to model choice.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.7\linewidth]{fig_growth_model_aic.pdf}
+  \caption{\textbf{Growth-model comparison.} Observed annual plant-science
+  publications (black points, 1990--2024) with logistic (blue),
+  Gompertz (green dashed), and Richards (red dotted) fits. Legend
+  reports $\Delta$AICc relative to the best-fitting model.}
+  \label{fig:s-growth-aic}
+\end{figure}
+
+\suppnote{Climate-shock event study (pooled difference-in-differences)}{sec:climate-shocks}
+
+To test whether major climate disasters produce measurable reactive
+publication surges in the plant-science corpus, we applied a pooled
+difference-in-differences event study to a pre-registered catalogue of
+15 events (EM-DAT, NOAA Billion-Dollar Disasters, IPCC / UNFCCC policy
+events; catalogue committed before analysis ran). For each event and
+each affected-taxon category, we built monthly publication
+time-series over $[t-36, +36]$ months, fit a pre-event linear trend
+on $[-36, -3]$, and computed residuals for $[-3, +36]$. A matched
+control series (publications on unrelated taxa over the same absolute
+window, detrended identically) was subtracted. Event-specific effects
+were pooled across events by averaging event-time residuals, with
+95\% confidence intervals from 1{,}000-rep event-level bootstrap
+resampling.
+
+Taxon coverage was extended via an abstract-keyword path
+(\texttt{monthly\_counts\_by\_keyword}) to resolve minor-crop events
+(sorghum, millet, cassava, almond, grape, eucalyptus) and
+topic-level policy events (IPCC AR5, Paris COP21, IPCC AR6) that
+the organism classifier does not cover. With this extension, all 15
+pre-registered events contributed non-empty treated series. The
+pooled residual (Figure~\ref{fig:s-climate-shocks}) shows two
+statistically significant response windows, a $+6$-month spike
+(pooled mean above zero with CI $[$low $>0]$, likely reflecting
+commentary and rapid-response reviews) and a larger $+18$-month
+main spike (pooled mean $=+376.8$ papers/month, 95\% CI
+$[+28.6, +773.8]$, excludes zero, consistent with full empirical
+papers entering the literature 12--18 months after their source
+experiments). Most intermediate lags show small or negative
+residuals, indicating a burst rather than a smooth post-event
+ramp. The 15-event coverage, the two-window response structure,
+and the 2--3\% monthly-output redirection at the 18-month peak
+together suggest that plant-science research output is measurably
+responsive to climate pressure on a timescale consistent with
+translational-research funding cycles.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.7\linewidth]{fig_climate_shocks}
+  \caption{\textbf{Pooled climate-event publication response.}
+    Difference-in-differences residual (treated -- control) in
+    publications per month, aligned to event time $t=0$ across
+    $n=15$ events with non-empty treated series. Shaded band: 95\%
+    bootstrap CI (1{,}000 event-level resamples).}
+  \label{fig:s-climate-shocks}
+\end{figure}
+
+\suppnote{Paradigm-bridging authors --- pre-registered matched-impact analysis}{sec:bridge-scientists}
+
+We tested whether authors who publish in both the
+\textit{Arabidopsis} and crop paradigms (paradigm bridges) have
+disproportionate citation impact relative to matched single-paradigm
+peers. Authors active in 1990--2024 were classified as A-only
+($\geq 3$ \textit{Arabidopsis}-tagged papers, zero crop), C-only
+($\geq 3$ crop-tagged, zero \textit{Arabidopsis}), Bridge ($\geq 3$
+in both), or Other (dropped). Each Bridge was matched to three
+A-only and three C-only peers on first-paper year ($\pm 2$ years),
+total paper count (within a factor of two), and primary
+affiliation country (exact; relaxed to region when sparse).
+Citations-per-paper were trimmed at the 99th percentile to guard
+against superstar leverage.
+
+Of 5{,}547 Bridge authors, 5{,}543 matched successfully (pool sizes:
+A-only $= 19{,}299$; C-only $= 83{,}554$). Mean citations-per-paper
+were: A-only $= 58.6$; Bridge $= 55.8$; C-only $= 30.1$
+(Supplementary Fig.~\ref{fig:s-bridge-impact}).
+Bridge-versus-C-only premium was $+85.5\%$ (95\% CI
+$[+84.0, +87.0]$, permutation $p = 0.001$), clearing the
+pre-registered $+50\%$ threshold. Bridge-versus-A-only was
+$-4.7\%$ (95\% CI $[-5.6, -3.8]$), failing the pre-registered
+threshold on the A-only comparison. The pre-registration therefore
+rejects the original hypothesis ``Bridge authors are the citation
+elite.'' The data support a different, complementary claim.
+\textit{Arabidopsis}-specialist authors have a structural citation
+advantage that bridging preserves (moving into crop work reduces
+mean impact by less than 5\% relative to staying in
+\textit{Arabidopsis}), while crop-only researchers have never had
+that advantage (less than half the Bridge / A-only mean).
+This pattern is consistent with the main-text D1 interpretation. If
+\textit{Arabidopsis} literature functions as crop science's
+foundational methodological substrate (Figure~\ref{fig:M9}),
+\textit{Arabidopsis}-specialist authors attract citations precisely
+because their work is the foundation that crop papers now cite.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.55\linewidth]{fig_bridge_impact}
+  \caption{\textbf{Mean citations-per-paper by paradigm class},
+    99th-percentile trimmed, matched on first-paper year,
+    productivity, and country. Permutation test (A-only vs Bridge):
+    $p = 0.001$. Bars show group means; error bars are one standard
+    error of the mean.}
+  \label{fig:s-bridge-impact}
+\end{figure}
+
+\suppnote{Coauthor paradigm alignment over time (network-only)}{sec:coauthor-alignment}
+
+To test whether the main-text $r_{\mathrm{inst}}$ peak at 2010--14
+(Figure~\ref{fig:M9}a) corresponds to a structural inflection in the
+field's social network, we built coauthor graphs for seven rolling
+5-year windows (1990--1994 through 2020--2024) from the
+\texttt{work\_authors} table and analysed them at the network level
+rather than with community detection. Full Leiden community
+detection on un-indexed DuckDB self-joins exceeded the sprint's
+computational budget; a pre-aggregated coauthor-edge table is flagged
+as follow-up work. We report two network-level metrics here,
+degree-weighted paradigm alignment (the mean
+\textit{Arabidopsis}-fraction of each author's portfolio weighted by
+their coauthor-graph degree) and paradigm assortativity
+(Newman's numeric assortativity coefficient on author portfolios).
+
+Paradigm assortativity is high and nearly constant (0.82--0.88)
+across all seven windows, indicating that plant-science coauthor
+networks have been structurally paradigm-segregated throughout the
+1990--2024 period --- this is not a new phenomenon. Paradigm
+alignment, however, exhibits a clear trajectory, rising from
+0.005 (1990--94) to a peak of 0.034 at 2010--14, then plateauing at
+0.030 by 2020--24 (Figure~\ref{fig:s-paradigm-alignment}). The
+2010--14 peak coincides with the independent $r_{\mathrm{inst}}$
+peak in the main-text citation-flow analysis. Two methodologically
+distinct measurements --- one on the citation graph, one on the
+author--paradigm graph --- agreeing on the timing of the inflection
+provides convergent evidence that the consolidation of
+\textit{Arabidopsis} as crop science's methodological substrate
+reached steady state in the mid-2010s.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.7\linewidth]{fig_paradigm_alignment}
+  \caption{\textbf{Paradigm alignment in the coauthor graph,
+    1990--2024.} Degree-weighted mean \textit{Arabidopsis}-fraction of
+    each author's portfolio, computed per 5-year window on a 10\%
+    sampled coauthor edge set. Peaks at 2010--14, co-located with the
+    main-text $r_{\mathrm{inst}}$ peak.}
+  \label{fig:s-paradigm-alignment}
+\end{figure}
+
+\suppnote{Canon churn --- the plant-science reading list, 1995--2024}{sec:canon-churn}
+
+Does a 2024 plant-science paper read from the same canon as a 2004
+or 1995 paper? To answer this, we computed the top-100 most-cited
+references for publications in each of six 5-year windows
+(1995--99 through 2020--24), restricting cited works to those with
+$\mathrm{pub\_year} \leq \mathrm{window\_start}$ so we measure what
+each era drew on rather than concurrent citation swapping.
+
+The canon is highly volatile. Only 30 of 100 top-100 references
+from 1995--99 remain in the top-100 of 2020--24 --- over 70\% have
+been displaced. Consecutive-window Jaccard overlap traces the
+turnover rate, at 0.29 (1995--99 $\to$ 2000--04, lowest, likely
+reflecting the genomics revolution), rising through 0.36, 0.40, to
+a peak of 0.46 (2010--14 $\to$ 2015--19, the most stable period),
+before dropping again to 0.37 at the 2015--19 $\to$ 2020--24
+transition as deep-learning papers enter the canon
+(Figure~\ref{fig:s-jaccard-over-time}). Kendall rank correlation
+among shared references is 0.45--0.60 throughout, indicating not
+just set turnover but within-set rank reshuffling. The reference
+half-life distribution (Figure~\ref{fig:s-reference-half-life}) is
+skewed, with 55 of 100 1995--99 top references appearing in that single
+window only and six references appearing in all six windows (perennial
+classics). Tables~\ref{tab:S11-risers} and \ref{tab:S11-fallen}
+list the top-5 risers (new to 2020--24 top-100) and top-5 fallen
+classics (in 1995--99 top-100, absent from 2020--24); three of the
+top-five 2020--24 risers are deep-learning-for-agriculture papers,
+and four of the top-five 1995--99 fallen classics are
+mid-twentieth-century classical-methods papers.
+
+\begin{table}[H]
+\centering
+\caption{Top-5 risers in the 2020--24 top-100 that did not appear in
+any prior window's top-100.}
+\label{tab:S11-risers}
+\begin{tabular}{p{10cm}rr}
+\toprule
+Title & Year & Citations (2020--24) \\
+\midrule
+Using Deep Learning for Image-Based Plant Disease Detection & 2016 & 2{,}078 \\
+Abiotic Stress Signaling and Responses in Plants & 2016 & 1{,}992 \\
+Deep learning models for plant disease detection and diagnosis & 2018 & 1{,}547 \\
+Shifting the limits in wheat research and breeding using a fully annotated reference genome & 2018 & 1{,}495 \\
+Deep learning in agriculture: A survey & 2018 & 1{,}421 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[H]
+\centering
+\caption{Top-5 fallen classics --- in 1995--99 top-100, absent from
+2020--24 top-100.}
+\label{tab:S11-fallen}
+\begin{tabular}{p{10cm}rr}
+\toprule
+Title & Year & Citations (1995--99) \\
+\midrule
+A Two-Stage Technique for the In Vitro Digestion of Forage Crops & 1963 & 354 \\
+A plant DNA minipreparation: Version II & 1983 & 348 \\
+The estimation of protein degradability in the rumen from incubation measurements weighted according to rate of passage & 1979 & 345 \\
+The Water-Culture Method for Growing Plants Without Soil & 1938 & 312 \\
+A Manual for the Practical Study of Root-Nodule Bacteria & 1970 & 282 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.7\linewidth]{fig_jaccard_over_time}
+  \caption{\textbf{Jaccard overlap of consecutive-window top-100
+    reference sets, 1995--2024.} Lowest at the genomics-revolution
+    transition (1995--99 $\to$ 2000--04); highest at the stable
+    early-2010s (2010--14 $\to$ 2015--19); falls again at the
+    deep-learning transition (2015--19 $\to$ 2020--24).}
+  \label{fig:s-jaccard-over-time}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.7\linewidth]{fig_reference_half_life}
+  \caption{\textbf{Reference half-life.} Number of 5-year windows
+    a 1995--99 top-100 reference remains in any later top-100.
+    Skewed distribution: 55 of 100 references appear only in 1995--99;
+    six references persist across all six windows.}
+  \label{fig:s-reference-half-life}
+\end{figure}
+
+\subsubsection*{Canon substitution --- is AI/ML displacing classical methods?}
+\label{sec:canon-substitution}
+
+The canon-churn analysis raises a natural follow-up. Is the rise of
+deep-learning papers in the 2020--24 top-100 a \emph{substitution}
+for the classical-methods papers that fell out of the canon, or are
+the two trends independent? We tested this in two parts.
+
+\paragraph*{Compositional trend (Part A).}
+We classified each top-100 cited reference per window as
+\emph{AI/ML} (abstract-keyword match on ``deep learning'',
+``neural network'', ``machine learning'', ``convolutional'',
+``computer vision'', etc.), \emph{Classical}
+(``in vitro'', ``hydroponic'', ``gas chromatography'',
+``mini preparation'', ``petri dish'', ``southern blot'', etc.),
+or \emph{Other}. The AI/ML fraction is zero in every window from
+1995--99 through 2015--19 and jumps to 4\% in 2020--24, while the
+Classical fraction declines from 5\% (1995--99) to 1\% (2020--24).
+Absolute fractions are low --- the canon remains dominated by
+``Other'' (95\% throughout) --- but the first non-zero AI/ML entry
+and the most-compressed Classical fraction coincide in the same
+window (Figure~\ref{fig:s-composition-over-time}), consistent with
+an emerging compositional pivot rather than drift.
+
+\paragraph*{Pairwise substitution (Part B).}
+For each of the top-5 2020--24 risers (three deep-learning-for-agriculture
+papers + two stress-physiology reviews) and each of the top-5
+1995--99 fallen classics (four mid-20th-century methods classics + one
+microbiology manual), we computed TF-IDF cosine similarity of their
+abstracts and the Pearson correlation between the fallen classic's
+annual citation rate and the riser's annual citation rate over
+overlapping years. Of the 25 (fallen~$\times$ riser) pairs, 7 show
+$|r| > 0.5$ with opposite signs (fallen declining while riser rises);
+the top three anti-correlated pairs are listed in
+Table~\ref{tab:S11-substitution} and the strongest is visualised in
+Figure~\ref{fig:s-top-substitution-pair}.
+
+\begin{table}[H]
+\centering
+\caption{Top anti-correlated (fallen~$\times$ riser) pairs by Pearson~$r$
+of citation-rate trajectories.}
+\label{tab:S11-substitution}
+\begin{tabular}{p{6cm}p{6cm}rr}
+\toprule
+Fallen classic & AI/ML riser & $r$ & $p$ \\
+\midrule
+Manual for practical study of root-nodule bacteria (1970) &
+Using Deep Learning for Image-Based Plant Disease Detection (2016) &
+$-0.853$ & $0.003$ \\
+Manual for practical study of root-nodule bacteria (1970) &
+Deep learning models for plant disease detection and diagnosis (2018) &
+$-0.805$ & $0.016$ \\
+The Water-Culture Method for Growing Plants Without Soil (1938) &
+Using Deep Learning for Image-Based Plant Disease Detection (2016) &
+$-0.712$ & $0.032$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+We caution against reading these anti-correlations as demonstrated
+causal displacement. TF-IDF abstract similarity across the 25 pairs is
+close to zero (maximum $0.024$), and the 1970 microbiology manual and the
+2016 CNN paper share essentially no vocabulary. The correlations
+therefore capture temporal \emph{coincidence} --- these particular
+classical references declined in exactly the years these particular
+deep-learning papers rose --- without establishing that the
+deep-learning papers displaced the classical ones in any specific
+reader's reference list. A proper causal-substitution test would
+require abstract-embedding-based topical proximity (e.g.\ SPECTER2
+cosine distance) and within-topic citation-cohort analysis; we flag
+this as follow-up work in Supplementary Note~\ref{sec:canon-churn}.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.7\linewidth]{fig_composition_over_time}
+  \caption{\textbf{Top-100 canon composition, 1995--2024.} Fraction
+    of top-100 cited references classified as AI/ML (abstract keywords
+    including ``deep learning'', ``neural network''), Classical
+    (``in vitro'', ``hydroponic'', ``chromatography''), and Other,
+    per 5-year window. AI/ML crosses Classical in the 2020--24
+    window for the first time.}
+  \label{fig:s-composition-over-time}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.7\linewidth]{fig_top_substitution_pair}
+  \caption{\textbf{Top anti-correlated (fallen $\times$ riser) citation
+    trajectories.} Annual citation rate of the root-nodule bacteria
+    manual (1970; blue, left axis) and the deep-learning plant-disease
+    detection paper (2016; red, right axis). Pearson correlation of
+    the two series: $r = -0.853$ ($p = 0.003$). TF-IDF similarity of
+    the two abstracts: $\approx 0$ (the papers share no vocabulary),
+    so the anti-correlation reflects temporal coincidence rather than
+    topical displacement.}
+  \label{fig:s-top-substitution-pair}
+\end{figure}

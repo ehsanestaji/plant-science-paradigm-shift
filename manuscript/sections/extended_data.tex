@@ -1,0 +1,159 @@
+% ============================================================
+%  Paper A — Extended Data Figures
+%  Figures moved from main text to fit Nature Plants' 6-display-item
+%  limit on Article submissions. Each figure keeps its original
+%  label (fig:FA2, fig:M3, etc.) so existing cross-references
+%  resolve unchanged. Numbering is ED1, ED2, ... via \renewcommand.
+% ============================================================
+
+\setcounter{figure}{0}
+\renewcommand{\figurename}{Extended Data Figure}
+\renewcommand{\thefigure}{\arabic{figure}}
+
+% --- Moved figures (in recommended reading order) ---
+% Captions will auto-prefix "Extended Data Figure N:"; cross-references
+% in the main text use the form "Extended Data Fig.~\ref{fig:XXX}"
+% which resolves to "Extended Data Fig. N" (no double-"ED").
+
+% FA2: Model organism decline and crop species ascent
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.72\textwidth]{FA2_model_organisms}
+  \caption{\textbf{Model organism decline and crop species ascent.}
+    Relative publication share (as percentage of annual plant science output)
+    for \textit{Arabidopsis thaliana} (red), rice (blue), wheat (green), and
+    maize (orange), 1990--2024.
+    Vertical dashed line marks 2012, the year of peak
+    \textit{Arabidopsis} relative share (see Discussion for the
+    qualitative-nexus interpretation; the logistic growth inflection
+    at 2006 is shown in Fig.~\ref{fig:FA1}).
+    Secondary $y$-axis (right) shows absolute annual publication counts for
+    \textit{Arabidopsis} to illustrate that relative decline precedes
+    absolute decline.}
+  \label{fig:FA2}
+\end{figure}
+
+% M2: Arabidopsis versus crops head-to-head share comparison
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.72\textwidth]{M2_arabidopsis_vs_crops}
+  \caption{\textbf{Arabidopsis versus crop species: head-to-head share
+    comparison.}
+    Direct comparison of \textit{Arabidopsis} (red) against the combined
+    rice + wheat + maize share (blue), normalised to organism-specific papers
+    only.
+    The crossover point marks the transition from model-organism to crop-centred
+    output majority.}
+  \label{fig:M2}
+\end{figure}
+
+% M3: Applied versus fundamental paradigm by organism
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.72\textwidth]{M3_paradigm_shift}
+  \caption{\textbf{Applied versus fundamental paradigm by organism.}
+    Stacked bar chart of paradigm classification for each organism category.
+    The field-wide applied share is 80\%; \textit{Arabidopsis} (95.6\%) is the
+    most applied organism.
+    Chi-square test: $\chi^2 = 12{,}361$, $df = 9$, $p \approx 0$.}
+  \label{fig:M3}
+\end{figure}
+
+% M8: CRISPR-Cas9 adoption curves by organism
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.72\textwidth]{M8_crispr_adoption}
+  \caption{\textbf{CRISPR-Cas9 adoption curves by organism.}
+    Annual CRISPR publication share for each organism category, 2012--2024.
+    \textit{Arabidopsis} (red), rice (blue), and wheat (green) lead adoption;
+    maize (orange) lags by approximately one year.
+    Fitted logistic S-curves are shown as solid lines.}
+  \label{fig:M8}
+\end{figure}
+
+% M4: Topic landscape — 30 macro-themes from BERTopic
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.52\textwidth]{M4_topic_landscape}
+  \caption{\textbf{Topic landscape of plant science (SPECTER2 + UMAP).}
+    UMAP projection of SPECTER2 embeddings for a sample of $n = 49{,}446$
+    classified papers, coloured by organism category
+    (\textit{Arabidopsis}, barley, cotton, maize, rice, soybean, tomato,
+    tobacco, potato, wheat, other crop, other model organism; see
+    legend). The 30 macro-themes obtained from BERTopic modelling of
+    the full 1{,}632 fine-grained topics are described in the main
+    text and visualised by their temporal trajectories in
+    Fig.~\ref{fig:M5}.}
+  \label{fig:M4}
+\end{figure}
+
+% M5: Topic evolution heatmap (1990–2024)
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.60\textwidth]{M5_topic_evolution_heatmap}
+  \caption{\textbf{Macro-theme growth/decline by decade (top 20 most
+    variable macro-themes).}
+    Heatmap of decadal growth rate for the 20 macro-themes with
+    largest share change across 1990s--2020s.
+    Cell colour gives the percentage-point change in publication
+    share per decade (red = gaining share, blue = losing share).
+    Row labels are the top BERTopic terms for each macro-theme
+    (space-limited raw tokens; human-interpretable theme names given
+    in main text). Across the 30 macro-themes (not all shown),
+    Shannon entropy of the distribution has declined from
+    1.82 bits (1990s mean) to 1.14 bits (2020s mean), indicating
+    concentration of the research agenda.}
+  \label{fig:M5}
+\end{figure}
+
+% M6: Organism-topic enrichment matrix
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.72\textwidth]{M6_organism_topic_enrichment}
+  \caption{\textbf{Organism-topic enrichment matrix.}
+    Log-odds enrichment of each organism category for each macro-theme,
+    relative to the field baseline.
+    Significant enrichments ($p < 0.01$ after Bonferroni correction) are
+    indicated by filled cells.}
+  \label{fig:M6}
+\end{figure}
+
+% M7: Semantic drift — cosine distance of organism centroids from Arabidopsis
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.72\textwidth]{M7_semantic_drift}
+  \caption{\textbf{Semantic drift: cosine distance of organism centroids
+    from \textit{Arabidopsis} (SPECTER2 embeddings).}
+    Lower values indicate greater conceptual similarity to
+    \textit{Arabidopsis}.
+    Cotton (olive) and rice (blue) show the strongest convergence over
+    2010--2024.
+    Shaded band: 95\% bootstrap confidence interval.}
+  \label{fig:M7}
+\end{figure}
+
+% FA5: Six intellectual epochs defined by concept marriages
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.60\textwidth]{FA5_concept_marriages}
+  \caption{\textbf{Six intellectual epochs defined by concept marriages.}
+    (\textbf{A}) Annual count of newly emerging concept marriages
+    (new keyword pairs whose co-occurrence rose above the
+    significance threshold) in the plant-science knowledge space,
+    1960--2024. Background shading distinguishes the six epochs
+    identified by hierarchical clustering of the concept
+    co-occurrence matrix: 1960--1974, 1975--1984, 1985--1994,
+    1995--2004, 2005--2014, 2015--2024.
+    (\textbf{B}) Total concept marriages per epoch, showing a monotonic
+    decline from 1{,}123 (1960--1974 cohort) to 163 (2015--2024
+    cohort), consistent with a maturing knowledge space in which
+    fewer genuinely novel keyword combinations emerge each year.
+    The 2015--2024 epoch is dominated by crop-genomics and
+    precision-breeding marriages (main text).}
+  \label{fig:FA5}
+\end{figure}
+
+% End of Extended Data; subsequent SI figures will continue the ED counter,
+% which is fine because SI figures use manually-labeled captions (see
+% supplementary.tex "Supplementary Figure S1..." headings that don't rely
+% on auto-numbering).

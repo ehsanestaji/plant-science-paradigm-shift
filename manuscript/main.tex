@@ -1,0 +1,163 @@
+\documentclass[11pt,a4paper]{article}
+
+% ── Packages ─────────────────────────────────────────────────────────
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\usepackage[numbers,sort&compress]{natbib}
+\usepackage{amsmath}
+\usepackage{xcolor}
+\usepackage{float}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{tabularx}
+\usepackage{multirow}
+\usepackage{setspace}
+\usepackage{lineno}
+
+% siunitx-lite: format numbers without the full siunitx package
+\newcommand{\num}[1]{\ensuremath{\mathrm{#1}}}
+
+\graphicspath{{fig/}}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue!60!black,
+    citecolor=green!50!black,
+    urlcolor=blue!70!black,
+}
+
+\onehalfspacing
+\linenumbers
+
+% ── Title ─────────────────────────────────────────────────────────────
+\title{%
+  \textbf{Plant Science is Reorganizing Around Climate-Relevant Crops:\\
+  Evidence from 4.9 Million Publications}
+}
+
+\author{%
+  Ehsan Estaji\textsuperscript{1},
+  Jian-Feng Mao\textsuperscript{1,*}
+  \\[0.5em]
+  \small \textsuperscript{1}Ume\aa\ Plant Science Centre (UPSC), Department of
+         Plant Physiology, Ume\aa\ University, Ume\aa, Sweden \\[0.3em]
+  \small \textsuperscript{*}Corresponding author: \texttt{jianfeng.mao@umu.se}
+  \\[0.2em]
+  \small ORCID: E.E.\ 0009-0005-0838-228X;\ \ J.-F.M.\ 0000-0001-9735-8516
+}
+
+\date{}
+
+\begin{document}
+\maketitle
+
+% ── Abstract ─────────────────────────────────────────────────────────
+\begin{abstract}
+Whether plant science is pivoting toward climate-resilient crops
+remains an open empirical question. Analysing \num{4.9} million
+publications (1900--2024) from OpenAlex and PubMed, we find that
+annual output over the modern era (1990--2024) follows a logistic
+trajectory ($K = 217{,}781$ papers/year, inflection 2006), ending
+exponential expansion. \textit{Arabidopsis thaliana}'s share has declined since
+2012 while rice, wheat, and maize have risen; 40 sleeping-beauty
+papers on minor crops awoke in 2019--2022; CRISPR reached mainstream
+adoption twice as fast as prior genomic tools. A persistent
+orphan-crop attention gap shows the realignment is incomplete. A
+temporal placebo against a 1970--1999 null window (permutation
+$p = 0.001$) confirms the shift is era-specific. Citation-flow
+analysis reframes the \textit{Arabidopsis} decline as consolidation:
+the crop-paper citation share to \textit{Arabidopsis} grew nine-fold
+(1995--2016) and the reverse-translation lag collapsed from 6.5 to
+2 years.
+\textit{Arabidopsis} has become crop science's foundational
+methodological substrate.
+\end{abstract}
+
+\textbf{Keywords:} plant science, paradigm shift, crop research,
+\textit{Arabidopsis}, CRISPR, sleeping beauty, food security, bibliometrics
+
+\clearpage
+
+% ── Main sections ─────────────────────────────────────────────────────
+\input{sections/main_text}
+
+% ── Online Methods ────────────────────────────────────────────────────
+\section*{Online Methods}
+\input{sections/methods}
+
+% ── Extended Data ─────────────────────────────────────────────────────
+\clearpage
+\section*{Extended Data}
+\input{sections/extended_data}
+
+% ── Data Availability ─────────────────────────────────────────────────
+\section*{Data Availability}
+The OpenAlex and PubMed bibliographic records used in this study are
+publicly available from \url{https://openalex.org} and
+\url{https://pubmed.ncbi.nlm.nih.gov}, respectively.
+The processed corpus (deduplicated DOI list, organism and paradigm
+classification labels, BERTopic topic assignments, and derived
+result tables) is archived at Zenodo:
+\url{https://doi.org/10.5281/zenodo.21199139}.
+FAO production statistics used for the research-attention gap analysis
+are available from \url{https://www.fao.org/faostat/}.
+
+% ── Code Availability ─────────────────────────────────────────────────
+\section*{Code Availability}
+All analysis code, SLURM batch scripts, and figure generation scripts
+are available at
+\url{https://github.com/ehsanestaji/plant-science-paradigm-shift}
+under the MIT licence.
+The GPU-accelerated embedding and classification pipeline requires
+PyTorch~2.7.1 and an NVIDIA A100 GPU; all other analysis scripts are
+CPU-only and can be run on a standard workstation with 64\,GB RAM.
+A reproducible environment specification (\texttt{requirements.txt} and
+\texttt{environment.yml}) is included in the repository root.
+
+% ── Author Contributions ──────────────────────────────────────────────
+\section*{Author Contributions}
+E.E.\ and J.-F.M.\ conceived the study. E.E.\ designed and performed all
+analyses and wrote the manuscript. J.-F.M.\ contributed critical revisions
+to the manuscript. All authors read and approved the final version.
+
+% ── Competing Interests ───────────────────────────────────────────────
+\section*{Competing Interests}
+The authors declare no competing interests.
+
+% ── Funding ───────────────────────────────────────────────────────────
+\section*{Funding}
+This work was partially supported by the Wallenberg Initiatives in Forest
+Research (WIFORCE), funded by the Knut and Alice Wallenberg Foundation.
+
+% ── Acknowledgments ───────────────────────────────────────────────────
+\section*{Acknowledgments}
+We thank OpenAlex, PubMed, and FAO for openly releasing the
+bibliographic and agricultural-production data on which this study
+depends. Computational resources for the GPU-accelerated embedding
+and classification pipeline were provided by HPC2N (Umeå) via
+project \texttt{hpc2n2025-278}; post-hoc robustness and insights
+analyses were run on local Apple Silicon workstations. We thank the
+\texttt{leidenalg}, \texttt{igraph}, \texttt{DuckDB}, \texttt{BERTopic},
+and \texttt{SPECTER2} open-source maintainers whose tools underpin
+the analyses reported here.
+
+% ── References ────────────────────────────────────────────────────────
+\bibliographystyle{naturemag}
+\bibliography{references}
+
+% ── Index of display items and supplementary materials ────────────────
+% (placed after the reference list, before the Supplementary Information)
+\clearpage
+\input{sections/item_lists}
+
+% ── Supplementary Information (placed at the end of the document) ──────
+\clearpage
+\appendix
+\section*{Supplementary Information}
+\input{sections/supplementary}
+
+\end{document}

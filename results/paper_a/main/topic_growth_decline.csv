@@ -1,0 +1,121 @@
+macro_theme_id,name,decade,paper_count,growth_rate,trend_label
+0,"dan, yang, rats, dengan, patients",1990s,68259,0.5598194130925508,stable
+0,"dan, yang, rats, dengan, patients",2000s,193010,1.6577680525164114,stable
+0,"dan, yang, rats, dengan, patients",2010s,413564,0.5456173871507045,stable
+0,"dan, yang, rats, dengan, patients",2020s,245445,-0.10857099456955151,stable
+1,"chromosome, chromosomes, rna, karyotype, 2n",1990s,10068,-0.2818965517241379,declining
+1,"chromosome, chromosomes, rna, karyotype, 2n",2000s,8942,0.054626532887402456,declining
+1,"chromosome, chromosomes, rna, karyotype, 2n",2010s,7059,-0.3054862842892768,declining
+1,"chromosome, chromosomes, rna, karyotype, 2n",2020s,2535,-0.19929453262786595,declining
+2,"inra, document, du, diffusion, centre",1990s,1247,0.31683168316831684,declining
+2,"inra, document, du, diffusion, centre",2000s,651,-0.8492063492063492,declining
+2,"inra, document, du, diffusion, centre",2010s,361,0.5555555555555556,declining
+2,"inra, document, du, diffusion, centre",2020s,349,0.0,declining
+3,"pp, vol, bulletin, du, journal",1990s,2271,-0.2076923076923077,declining
+3,"pp, vol, bulletin, du, journal",2000s,1174,-0.6331658291457286,declining
+3,"pp, vol, bulletin, du, journal",2010s,503,-0.48333333333333334,declining
+3,"pp, vol, bulletin, du, journal",2020s,106,-0.375,declining
+4,"dataset, datasets, restrictive terms, licensed restrictive, terms dataset",1990s,2277,0.5843373493975904,emerging
+4,"dataset, datasets, restrictive terms, licensed restrictive, terms dataset",2000s,2393,0.8084112149532711,emerging
+4,"dataset, datasets, restrictive terms, licensed restrictive, terms dataset",2010s,5601,1.1232876712328768,emerging
+4,"dataset, datasets, restrictive terms, licensed restrictive, terms dataset",2020s,28838,-0.43528922180607577,emerging
+5,"international rice, rice research, scientists, publication, rice based",1990s,1213,-0.6504854368932039,declining
+5,"international rice, rice research, scientists, publication, rice based",2000s,376,0.7727272727272727,declining
+5,"international rice, rice research, scientists, publication, rice based",2010s,57,0.5,declining
+5,"international rice, rice research, scientists, publication, rice based",2020s,30,-0.7058823529411765,declining
+6,"oxford, academic, google scholar, scholar, published 01",1990s,2732,-0.7110481586402266,declining
+6,"oxford, academic, google scholar, scholar, published 01",2000s,1353,0.68,declining
+6,"oxford, academic, google scholar, scholar, published 01",2010s,859,-0.3870967741935484,declining
+6,"oxford, academic, google scholar, scholar, published 01",2020s,637,-0.011111111111111112,declining
+7,"sup, image, sub, tn, cosub2sub",1990s,10,1.0,emerging
+7,"sup, image, sub, tn, cosub2sub",2000s,83,0.12,emerging
+7,"sup, image, sub, tn, cosub2sub",2010s,284,0.0,emerging
+7,"sup, image, sub, tn, cosub2sub",2020s,401,1.3414634146341464,emerging
+8,"university arizona, libraries, project, committee, documentation",1990s,124,-0.8125,emerging
+8,"university arizona, libraries, project, committee, documentation",2000s,40,3.0,emerging
+8,"university arizona, libraries, project, committee, documentation",2010s,192,0.0,emerging
+8,"university arizona, libraries, project, committee, documentation",2020s,9,-0.8571428571428571,emerging
+9,"cy, qu, thc, cao, cho",1990s,0,,emerging
+9,"cy, qu, thc, cao, cho",2000s,25,0.0,emerging
+9,"cy, qu, thc, cao, cho",2010s,78,13.0,emerging
+9,"cy, qu, thc, cao, cho",2020s,610,4.8,emerging
+10,"new species, described illustrated, illustrated, genus, sp nov",1990s,1071,-0.17391304347826086,stable
+10,"new species, described illustrated, illustrated, genus, sp nov",2000s,1722,0.5,stable
+10,"new species, described illustrated, illustrated, genus, sp nov",2010s,3220,0.192,stable
+10,"new species, described illustrated, illustrated, genus, sp nov",2020s,1612,0.045454545454545456,stable
+11,"mm long, mm, glabrous, long, hairs",1990s,47,0.75,stable
+11,"mm long, mm, glabrous, long, hairs",2000s,95,-0.5833333333333334,stable
+11,"mm long, mm, glabrous, long, hairs",2010s,70,-0.5,stable
+11,"mm long, mm, glabrous, long, hairs",2020s,12,-0.4,stable
+12,"rocks, shale, sandstone, limestone, fault",1990s,175,0.13333333333333333,stable
+12,"rocks, shale, sandstone, limestone, fault",2000s,173,-0.25,stable
+12,"rocks, shale, sandstone, limestone, fault",2010s,220,-0.5172413793103449,stable
+12,"rocks, shale, sandstone, limestone, fault",2020s,85,-0.48148148148148145,stable
+13,"greater equal, equal, geometry, 1980, false",1990s,0,,emerging
+13,"greater equal, equal, geometry, 1980, false",2000s,0,,emerging
+13,"greater equal, equal, geometry, 1980, false",2010s,0,,emerging
+13,"greater equal, equal, geometry, 1980, false",2020s,186,59.333333333333336,emerging
+14,"x0d, 100, fertilizers, russian, russia",1990s,132,0.75,emerging
+14,"x0d, 100, fertilizers, russian, russia",2000s,1169,5.1,emerging
+14,"x0d, 100, fertilizers, russian, russia",2010s,9897,4.906849315068493,emerging
+14,"x0d, 100, fertilizers, russian, russia",2020s,8775,-0.4649462365591398,emerging
+15,"hosting, web, provider, domain, free",1990s,67,0.4,stable
+15,"hosting, web, provider, domain, free",2000s,200,1.7647058823529411,stable
+15,"hosting, web, provider, domain, free",2010s,133,-0.5,stable
+15,"hosting, web, provider, domain, free",2020s,0,,stable
+16,"13n, ee, taxa, dna dna, dahliae",1990s,14,-0.25,stable
+16,"13n, ee, taxa, dna dna, dahliae",2000s,376,98.66666666666667,stable
+16,"13n, ee, taxa, dna dna, dahliae",2010s,301,0.68,stable
+16,"13n, ee, taxa, dna dna, dahliae",2020s,131,-0.3333333333333333,stable
+17,"references, mm long, introduction, glumes, results discussion",1990s,18,0.0,stable
+17,"references, mm long, introduction, glumes, results discussion",2000s,107,1.0909090909090908,stable
+17,"references, mm long, introduction, glumes, results discussion",2010s,213,-0.6153846153846154,stable
+17,"references, mm long, introduction, glumes, results discussion",2020s,10,-0.6666666666666666,stable
+18,"oder, mit, oft, bis, und",1990s,0,,stable
+18,"oder, mit, oft, bis, und",2000s,0,,stable
+18,"oder, mit, oft, bis, und",2010s,5,-0.5,stable
+18,"oder, mit, oft, bis, und",2020s,1,,stable
+19,"surgery, sign, forum, archives, neck",1990s,24,1.0,stable
+19,"surgery, sign, forum, archives, neck",2000s,34,1.0,stable
+19,"surgery, sign, forum, archives, neck",2010s,47,-0.8,stable
+19,"surgery, sign, forum, archives, neck",2020s,16,-0.8571428571428571,stable
+20,"species established, 1964 iucn, evolved worlds, worlds comprehensive, established 1964",1990s,2767,0.0,emerging
+20,"species established, 1964 iucn, evolved worlds, worlds comprehensive, established 1964",2000s,8900,12.787671232876713,emerging
+20,"species established, 1964 iucn, evolved worlds, worlds comprehensive, established 1964",2010s,33595,0.9010462074978204,emerging
+20,"species established, 1964 iucn, evolved worlds, worlds comprehensive, established 1964",2020s,12094,-0.932995986738789,emerging
+21,"theory, century, expedition, church, religious",1990s,808,2.2564102564102564,stable
+21,"theory, century, expedition, church, religious",2000s,879,-0.12264150943396226,stable
+21,"theory, century, expedition, church, religious",2010s,1283,0.05555555555555555,stable
+21,"theory, century, expedition, church, religious",2020s,626,-0.2631578947368421,stable
+22,"mr, miles, county, specimens, writer",1990s,65,-0.75,declining
+22,"mr, miles, county, specimens, writer",2000s,32,8.0,declining
+22,"mr, miles, county, specimens, writer",2010s,27,-0.8571428571428571,declining
+22,"mr, miles, county, specimens, writer",2020s,0,,declining
+23,"kim, lee, choi, korean, sci",1990s,0,,emerging
+23,"kim, lee, choi, korean, sci",2000s,2,0.0,emerging
+23,"kim, lee, choi, korean, sci",2010s,103,24.0,emerging
+23,"kim, lee, choi, korean, sci",2020s,84,0.11764705882352941,emerging
+24,"11, br, 12, mmoll, 13",1990s,2527,0.36099585062240663,stable
+24,"11, br, 12, mmoll, 13",2000s,8874,2.7643835616438355,stable
+24,"11, br, 12, mmoll, 13",2010s,13742,-0.5104091888011486,stable
+24,"11, br, 12, mmoll, 13",2020s,2714,-0.4573082489146165,stable
+25,"national academy, academy sciences, academy, sciences, biological physical",1990s,28,0.0,stable
+25,"national academy, academy sciences, academy, sciences, biological physical",2000s,59,0.6,stable
+25,"national academy, academy sciences, academy, sciences, biological physical",2010s,128,0.6666666666666666,stable
+25,"national academy, academy sciences, academy, sciences, biological physical",2020s,24,0.7142857142857143,stable
+26,"ex, amp, dc, kunth, willd",1990s,28,-0.5,emerging
+26,"ex, amp, dc, kunth, willd",2000s,70,2.25,emerging
+26,"ex, amp, dc, kunth, willd",2010s,64,1.875,emerging
+26,"ex, amp, dc, kunth, willd",2020s,1083,-0.6813186813186813,emerging
+27,"information given, abstract new, distribution map, geographical distribution, america",1990s,7,1.0,stable
+27,"information given, abstract new, distribution map, geographical distribution, america",2000s,929,24.0,stable
+27,"information given, abstract new, distribution map, geographical distribution, america",2010s,324,0.6666666666666666,stable
+27,"information given, abstract new, distribution map, geographical distribution, america",2020s,174,-0.6666666666666666,stable
+28,"ofthe, inthe, ina, synthesis, ethylene",1990s,176,-0.9512195121951219,declining
+28,"ofthe, inthe, ina, synthesis, ethylene",2000s,28,7.0,declining
+28,"ofthe, inthe, ina, synthesis, ethylene",2010s,26,-0.25,declining
+28,"ofthe, inthe, ina, synthesis, ethylene",2020s,2,0.0,declining
+29,"kan, om, van, op, te",1990s,763,0.14102564102564102,stable
+29,"kan, om, van, op, te",2000s,3102,4.121212121212121,stable
+29,"kan, om, van, op, te",2010s,3587,-0.4314516129032258,stable
+29,"kan, om, van, op, te",2020s,477,-0.8333333333333334,stable

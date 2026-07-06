@@ -1,0 +1,23 @@
+# Storage budget and alert thresholds
+# All sizes in GB
+
+project_root: /proj/nobackup/hpc2n2025-278/academic-works/papers/plant-science-metascience
+total_available: 538  # GB free at project start
+
+alerts:
+  warning_threshold: 100  # GB free remaining -> log warning
+  critical_threshold: 50  # GB free remaining -> hard stop
+
+budget:
+  duckdb_metadata: 60
+  fulltext_compressed: 80
+  embeddings: 8
+  networks: 5
+  topic_models: 5
+  results: 10
+  venv: 8
+  temporary_peak: 30  # max temp storage during download/processing
+
+monitoring:
+  check_interval: "every_slurm_job"  # run at start of each job
+  log_file: data/metadata/storage_log.jsonl

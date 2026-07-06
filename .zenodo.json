@@ -1,0 +1,30 @@
+{
+  "title": "Plant Science is Reorganizing Around Climate-Relevant Crops: Evidence from 4.9 Million Publications",
+  "description": "Code, manuscript, and derived data for a bibliometric analysis of ~4.9 million plant-science publications (1900-2024), showing a structural reorganization of the field away from model-organism-centred discovery toward crop-centred, climate-relevant research. Large derived datasets (the knowledge-graph database and processed corpus) are archived in a companion Zenodo data record; see DATA.md.",
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "MIT",
+  "creators": [
+    {
+      "name": "Estaji, Ehsan",
+      "affiliation": "Umea Plant Science Centre (UPSC), Department of Plant Physiology, Umea University",
+      "orcid": "0009-0005-0838-228X"
+    },
+    {
+      "name": "Mao, Jian-Feng",
+      "affiliation": "Umea Plant Science Centre (UPSC), Department of Plant Physiology, Umea University",
+      "orcid": "0000-0001-9735-8516"
+    }
+  ],
+  "keywords": [
+    "bibliometrics",
+    "metascience",
+    "science of science",
+    "plant science",
+    "paradigm shift",
+    "crop research",
+    "Arabidopsis",
+    "CRISPR",
+    "sleeping beauties"
+  ]
+}

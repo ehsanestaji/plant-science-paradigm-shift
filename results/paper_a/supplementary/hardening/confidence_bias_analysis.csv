@@ -1,0 +1,4 @@
+dimension,confidence_group,statistic,p_value,interpretation
+organism_label,0.7_vs_1.0,chi2=537346.00,0.0,biased
+year_distribution,0.7_vs_1.0,ks=0.0230,6.699019100409908e-12,biased
+abstract_length,0.7_vs_1.0,ks=0.2213,0.0,biased

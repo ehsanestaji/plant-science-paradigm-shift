@@ -1,0 +1,213 @@
+% ============================================================
+%  Paper A — Methods
+%  Full methodological detail is provided in the companion
+%  Paper C (Estaji, in preparation). This section summarises
+%  the approaches used for the six analyses reported here.
+% ============================================================
+
+\paragraph{Data sources and corpus construction.}
+The corpus comprises \num{4.9} million plant science publications indexed in
+OpenAlex~\cite{priem2022openalex} and PubMed.
+OpenAlex records span 1900--2024; PubMed records span 1990--2024.
+Records were retrieved using a controlled vocabulary of plant-science
+subject tags (OpenAlex concept hierarchy, level 1--2) combined with
+PubMed MeSH terms (Plant Physiology, Plant Biology, Botany, Agronomy,
+and 47 related headings).
+Duplicate records were resolved by DOI and then by title--author--year
+triple matching, and publication years were capped at 2024 with pre-1900
+records removed.
+The final deduplicated corpus contains 4,912,447 records spanning
+1900--2024, each with at least one author affiliation and abstract text.
+Field-growth and organism-share analyses use the 1990--2024 modern window
+($n \approx 3.98$ million), for which coverage from both sources is dense;
+the historical analyses (temporal placebo, concept-marriage epochs, and the
+orphan-crop attention gap) draw on the full 1900--2024 back-catalogue.
+Full methodological detail, including query strings, deduplication code,
+and coverage assessment, is provided in the companion data-methods paper
+(Paper~C, Estaji, in preparation).
+
+\paragraph{Growth modelling.}
+Annual publication counts were fitted with both exponential
+($y = a e^{bt}$) and logistic
+($y = K / (1 + e^{-r(t - t_0)})$) growth models using nonlinear least-squares
+optimisation (SciPy \texttt{curve\_fit}, Levenberg--Marquardt algorithm).
+Model comparison used Akaike's Information Criterion corrected for finite
+sample size (AIC$_c$).
+Confidence intervals on fitted parameters were obtained from the
+covariance matrix of the Levenberg--Marquardt solution.
+
+\paragraph{Sleeping beauty identification.}
+We computed the sleeping-beauty index $B$ as defined by Ke et al.~\cite{ke2015sleeping}:
+\[
+  B = \sum_{t=0}^{t_a} \left( \frac{c_{t_a}}{t_a} \cdot t - c_t \right),
+\]
+where $c_t$ is the citation count in year $t$ after publication and $t_a$ is
+the awakening year, defined as the year in which the three-year forward
+citation rate first exceeds ten times the mean pre-awakening citation rate.
+Papers were required to have at least ten years of citation history and at
+least 50 total citations by the end of the corpus window.
+Organism assignment used title and abstract keyword matching against a
+curated species lexicon of 847 plant taxa.
+Awakening year cluster significance was assessed by a permutation test
+in which awakening years were randomly reassigned 100,000 times within the
+observed paper cohort, and the probability of observing 35 or more awakenings
+in any four-year window was computed from the permuted null distribution.
+
+\paragraph{Method diffusion modelling.}
+Methodological categories were defined by Boolean keyword queries on title,
+abstract, and author-keyword fields (full query strings in Supplementary
+Table~\ref{tab:S3}).
+Each method's annual publication share was fitted with a logistic
+S-curve, and the time from introduction year to the year of crossing 5\%
+share was extracted as the diffusion speed metric.
+Machine learning share was modelled separately with an exponential growth
+function because the logistic model did not converge on a plausible carrying
+capacity within the observation window.
+Reported growth rates are the fitted exponential rate constant.
+
+\paragraph{Concept marriage detection.}
+Author keywords and MeSH terms were extracted from all records and
+normalised to a controlled vocabulary using exact-match lookup against
+the AGROVOC thesaurus~\cite{caracciolo2013} supplemented by manual curation of
+the 500 most frequent terms.
+For each pair of concept terms, we computed annual Jaccard co-occurrence
+similarity:
+\[
+  J_{ij}(y) = \frac{|P_i(y) \cap P_j(y)|}{|P_i(y) \cup P_j(y)|},
+\]
+where $P_i(y)$ is the set of papers containing concept $i$ in year $y$.
+Concept marriages were defined as pairs whose five-year rolling $J_{ij}$
+crossed a threshold of 0.05 for the first time (threshold chosen at the
+85th percentile of the empirical Jaccard distribution).
+Epoch boundaries were identified by Ward linkage hierarchical clustering
+applied to the full $J$ matrix averaged over five-year windows, with the
+number of clusters (six) selected by the silhouette criterion.
+
+\paragraph{Semantic embedding (SPECTER2).}
+SPECTER2~\cite{singh2022specter2} embeddings were computed for all 2.77 million
+abstracts with organism classification using a Kebnekaise A100 GPU node
+(gpu\_zen3 partition, PyTorch 2.7.1).
+Abstracts were tokenised with the SPECTER2 tokeniser and encoded in batches
+of 256 on a single A100-80\,GB GPU; the resulting 768-dimensional vectors
+were written to HDF5 for downstream use.
+Cosine distances between organism-level centroid embeddings were computed
+in rolling five-year windows to track semantic drift.
+
+\paragraph{Zero-shot organism classification.}
+Papers were assigned to organism categories (arabidopsis, rice, wheat, maize,
+soybean, tomato, barley, cotton, potato, tobacco, other\_crop,
+other\_model\_organism, non\_specific) using a two-stage pipeline.
+First, a fast keyword-based filter matched species names and synonyms from a
+curated lexicon of 847 plant taxa against title and abstract.
+Second, papers not resolved by keyword matching were passed through a
+zero-shot classification head fine-tuned on top of SPECTER2 embeddings,
+trained with 13 organism labels.
+Organism confidence scores take one of two values. A score of 1.0 denotes papers where
+a unique species name from the curated 847-taxon lexicon was matched in
+the title or abstract (unambiguous keyword hit), and 0.7 denotes papers where
+two or more species names matched (multi-match ambiguity resolved by
+selecting the most frequently mentioned taxon).
+Papers with confidence~0.7 constitute 4.6\% of the classified corpus.
+A bias analysis shows a significant difference in organism-label
+distribution between confidence~0.7 and confidence~1.0 papers
+($\chi^2 = 537{,}346$, $p < 0.001$), though temporal coverage shows only
+minimal divergence (KS\,=\,0.023, $p < 0.001$).
+The confidence~0.7 papers represent genuine multi-species mentions and
+are retained to avoid systematic exclusion of interdisciplinary research.
+The 2.77 million classified records used in organism-level analyses represent
+56\% of the full 4.9-million-paper corpus; the remainder lack abstracts or
+were excluded by quality filters described in the data paper (Paper~C).
+
+\paragraph{BERTopic modelling.}
+BERTopic~\cite{grootendorst2022bertopic} was applied to the SPECTER2 embeddings to
+identify fine-grained topics.
+HDBSCAN ($\mathtt{min\_cluster\_size} = 50$) was used for initial clustering,
+yielding 1,632 topics after outlier removal.
+Of the 2,770,088 classified papers, 1,491,147 (53.9\%) received a topic
+assignment of $-1$ (outlier) by HDBSCAN and were excluded from topic-level
+analyses; the remaining 1,278,941 papers (46.1\%) carry a valid topic
+assignment.
+The high outlier rate reflects the semantic breadth of a field spanning
+molecular genetics, agronomy, ecology, and food science; HDBSCAN's
+conservative density requirements prefer precision over recall.
+Outlier papers are retained in all non-topic analyses (organism share,
+paradigm, disruption index, semantic drift).
+Inspection of the outlier pool shows no significant deviation in organism
+distribution ($\chi^2 = 11.4$, $df = 12$, $p = 0.51$) or decade composition
+($\chi^2 = 3.2$, $df = 3$, $p = 0.36$) from the clustered papers, indicating
+that the exclusion is approximately random with respect to the variables
+studied.
+Topics were aggregated into 30 macro-themes by hierarchical merging using
+Ward linkage on the topic centroid distances, with the number of macro-themes
+selected by the silhouette criterion.
+Topic trend classification (emerging / stable / declining) was determined by
+fitting a linear trend to the annual publication share of each macro-theme
+over 2015--2024 and applying threshold criteria ($|\hat{\beta}| > 0.003$
+per year, $p < 0.05$, Bonferroni-corrected).
+Shannon entropy of the macro-theme distribution was computed annually as
+$H = -\sum_k p_k \log_2 p_k$ where $p_k$ is the publication share of
+macro-theme $k$ in year $t$.
+Bonferroni correction is applied to: (1)~the $1{,}632$ pairwise topic
+trend tests (threshold $\alpha / 1{,}632$), (2)~the Dunn pairwise
+organism CD comparisons (45 pairs, threshold $\alpha / 45$), and
+(3)~the organism--topic enrichment matrix ($13 \times 30 = 390$ cells,
+threshold $\alpha / 390$).
+Remaining tests (growth model comparison, sleeping-beauty permutation,
+chi-square paradigm $\times$ organism, and regression-based attention gap)
+are single or non-multiplied tests and are reported at $\alpha = 0.05$
+without correction.
+
+\paragraph{Paradigm classification.}
+Each paper was classified as applied or fundamental using a keyword
+taxonomy applied to title and abstract.
+Applied papers include those mentioning yield, improvement, breeding,
+agronomy, food security, crop production, or resistance/tolerance to
+biotic/abiotic stress in a clearly translational framing.
+Fundamental papers include those focused on mechanism elucidation,
+protein structure, gene regulation, or developmental biology without
+agronomic targets.
+The independence of paradigm and organism category was assessed with a
+Pearson chi-square test on the $13 \times 2$ contingency table.
+
+\paragraph{CD disruption index by organism.}
+The CD disruption index~\cite{funk2017disruption} was computed at decade resolution
+for each organism group using forward and backward citation windows from
+OpenAlex.
+$\mathrm{CD} = (n_i - n_j) / (n_i + n_j + n_k)$, where $n_i$ is the
+number of citing papers that cite the focal paper but not its references,
+$n_j$ is the number that cite both, and $n_k$ is the number that cite
+only references.
+Organism-level differences in mean CD were assessed with the
+Kruskal--Wallis test; pairwise comparisons used the Dunn test with
+Bonferroni correction.
+
+\paragraph{Self-citation and collaboration rates.}
+Self-citation rate per organism was computed as the fraction of within-paper
+citation pairs where at least one author of the citing paper is also an
+author of the cited paper, using author-identifier matching from OpenAlex.
+International collaboration rate was the fraction of papers with at least
+two author affiliations in different countries, computed over 2020--2024.
+
+\paragraph{Research attention gap.}
+Economic importance scores were constructed from three FAO~\cite{fao2023} metrics:
+gross production value (USD, five-year average 2019--2023), harvested area
+(hectares), and number of countries in which the crop is a dietary staple
+(defined as $\geq 5\%$ of national caloric supply).
+All three metrics were log-transformed and standardised before combination
+as an unweighted mean.
+Publication counts were computed over 2020--2024 to match the economic
+window.
+The research attention gap is the studentised residual from an ordinary
+least-squares regression of log publication count on log economic importance
+score, fit across 120 species with complete data.
+Species with $|z| > 2.0$ were classified as significantly over- or
+under-studied.
+
+\paragraph{Use of large language models.}
+AI coding and writing assistants (Anthropic Claude and OpenAI models) were used
+to support analysis-pipeline development, code review, figure and
+supplementary-material organisation, and manuscript editing. The human authors
+designed the study, verified all analyses, statistics, and figures, and take
+full responsibility for the content and scientific claims. Large language models
+do not satisfy authorship criteria, are not authors, and generated none of the
+underlying data or results.

@@ -1,0 +1,20 @@
+{
+  "placebo": {
+    "window": "1970-1999",
+    "effect_size": -0.0002261547414619918,
+    "ci_low": -0.0003729705353413653,
+    "ci_high": -9.337557252882268e-05,
+    "n_years": 30
+  },
+  "treatment": {
+    "window": "2000-2024",
+    "effect_size": 0.0004460041452004518,
+    "ci_low": 0.00027215449984052556,
+    "ci_high": 0.0006180927080591109,
+    "n_years": 25
+  },
+  "permutation_pvalue": 0.000999000999000999,
+  "n_bootstrap": 1000,
+  "n_permutations": 1000,
+  "smoke": false
+}

@@ -1,0 +1,391 @@
+organism,macro_theme_id,macro_theme_name,count,enrichment_log2
+arabidopsis,16,"13n, ee, taxa, dna dna, dahliae",19,0.3842264265351699
+arabidopsis,25,"national academy, academy sciences, academy, sciences, biological physical",10,0.2729703527806438
+arabidopsis,0,"dan, yang, rats, dengan, patients",20493,0.23442042595476673
+arabidopsis,1,"chromosome, chromosomes, rna, karyotype, 2n",844,0.13370434388211744
+arabidopsis,24,"11, br, 12, mmoll, 13",546,0.014083179175452983
+arabidopsis,3,"pp, vol, bulletin, du, journal",188,-0.050968105692204106
+arabidopsis,26,"ex, amp, dc, kunth, willd",22,-0.07124450137685404
+arabidopsis,28,"ofthe, inthe, ina, synthesis, ethylene",9,-0.17075590531424767
+arabidopsis,7,"sup, image, sub, tn, cosub2sub",11,-0.32221525238863286
+arabidopsis,23,"kim, lee, choi, korean, sci",2,-0.7255037929883963
+arabidopsis,2,"inra, document, du, diffusion, centre",16,-1.7053259110507657
+arabidopsis,27,"information given, abstract new, distribution map, geographical distribution, america",5,-2.375636156334592
+arabidopsis,14,"x0d, 100, fertilizers, russian, russia",64,-2.457810325713431
+arabidopsis,9,"cy, qu, thc, cao, cho",2,-2.6410196352112116
+arabidopsis,29,"kan, om, van, op, te",22,-2.804820534222788
+arabidopsis,10,"new species, described illustrated, illustrated, genus, sp nov",22,-3.090231173770804
+arabidopsis,6,"oxford, academic, google scholar, scholar, published 01",34,-3.736184465535195
+arabidopsis,4,"dataset, datasets, restrictive terms, licensed restrictive, terms dataset",39,-4.0
+arabidopsis,5,"international rice, rice research, scientists, publication, rice based",0,-4.0
+arabidopsis,8,"university arizona, libraries, project, committee, documentation",0,-4.0
+arabidopsis,11,"mm long, mm, glabrous, long, hairs",0,-4.0
+arabidopsis,12,"rocks, shale, sandstone, limestone, fault",0,-4.0
+arabidopsis,13,"greater equal, equal, geometry, 1980, false",0,-4.0
+arabidopsis,15,"hosting, web, provider, domain, free",0,-4.0
+arabidopsis,17,"references, mm long, introduction, glumes, results discussion",0,-4.0
+arabidopsis,18,"oder, mit, oft, bis, und",0,-4.0
+arabidopsis,19,"surgery, sign, forum, archives, neck",0,-4.0
+arabidopsis,20,"species established, 1964 iucn, evolved worlds, worlds comprehensive, established 1964",0,-4.0
+arabidopsis,21,"theory, century, expedition, church, religious",1,-4.0
+arabidopsis,22,"mr, miles, county, specimens, writer",1,-4.0
+barley,17,"references, mm long, introduction, glumes, results discussion",10,1.8968094951975423
+barley,28,"ofthe, inthe, ina, synthesis, ethylene",12,1.7103448176052984
+barley,1,"chromosome, chromosomes, rna, karyotype, 2n",627,1.170990011617674
+barley,14,"x0d, 100, fertilizers, russian, russia",260,1.0306207109557262
+barley,23,"kim, lee, choi, korean, sci",2,0.7405594306523062
+barley,0,"dan, yang, rats, dengan, patients",6692,0.08586180205488705
+barley,22,"mr, miles, county, specimens, writer",9,0.031857688704821495
+barley,6,"oxford, academic, google scholar, scholar, published 01",166,0.017455348202093296
+barley,7,"sup, image, sub, tn, cosub2sub",5,0.006344447502134818
+barley,3,"pp, vol, bulletin, du, journal",55,-0.3581340202044792
+barley,24,"11, br, 12, mmoll, 13",151,-0.3742059987786183
+barley,27,"information given, abstract new, distribution map, geographical distribution, america",7,-0.42414610552364745
+barley,26,"ex, amp, dc, kunth, willd",6,-0.4796503956522926
+barley,10,"new species, described illustrated, illustrated, genus, sp nov",46,-0.5600376127103858
+barley,16,"13n, ee, taxa, dna dna, dahliae",2,-1.397637863267713
+barley,25,"national academy, academy sciences, academy, sciences, biological physical",1,-1.5828945184660161
+barley,2,"inra, document, du, diffusion, centre",6,-1.6543001866889073
+barley,8,"university arizona, libraries, project, committee, documentation",1,-2.076576512197883
+barley,21,"theory, century, expedition, church, religious",8,-2.986640720814953
+barley,29,"kan, om, van, op, te",7,-2.9908340071617787
+barley,5,"international rice, rice research, scientists, publication, rice based",3,-3.0146107588914903
+barley,4,"dataset, datasets, restrictive terms, licensed restrictive, terms dataset",13,-4.0
+barley,9,"cy, qu, thc, cao, cho",0,-4.0
+barley,11,"mm long, mm, glabrous, long, hairs",0,-4.0
+barley,12,"rocks, shale, sandstone, limestone, fault",0,-4.0
+barley,13,"greater equal, equal, geometry, 1980, false",0,-4.0
+barley,15,"hosting, web, provider, domain, free",0,-4.0
+barley,18,"oder, mit, oft, bis, und",0,-4.0
+barley,19,"surgery, sign, forum, archives, neck",0,-4.0
+barley,20,"species established, 1964 iucn, evolved worlds, worlds comprehensive, established 1964",1,-4.0
+cotton,8,"university arizona, libraries, project, committee, documentation",28,2.4329467414559547
+cotton,26,"ex, amp, dc, kunth, willd",30,1.5444460308313033
+cotton,28,"ofthe, inthe, ina, synthesis, ethylene",11,1.2869822671176734
+cotton,1,"chromosome, chromosomes, rna, karyotype, 2n",752,1.1354255620895057
+cotton,6,"oxford, academic, google scholar, scholar, published 01",413,1.0345822198708474
+cotton,27,"information given, abstract new, distribution map, geographical distribution, america",22,0.9300989226522793
+cotton,22,"mr, miles, county, specimens, writer",18,0.7340260203010552
+cotton,16,"13n, ee, taxa, dna dna, dahliae",9,0.4744554697708327
+cotton,7,"sup, image, sub, tn, cosub2sub",7,0.19393960626861034
+cotton,0,"dan, yang, rats, dengan, patients",7999,0.04541234012274964
+cotton,24,"11, br, 12, mmoll, 13",212,-0.18252195194426432
+cotton,10,"new species, described illustrated, illustrated, genus, sp nov",66,-0.33703711781271173
+cotton,3,"pp, vol, bulletin, du, journal",57,-0.6044353879681638
+cotton,19,"surgery, sign, forum, archives, neck",1,-0.9375443188696274
+cotton,21,"theory, century, expedition, church, religious",36,-1.114547387776407
+cotton,14,"x0d, 100, fertilizers, russian, russia",69,-1.1810543136983258
+cotton,12,"rocks, shale, sandstone, limestone, fault",4,-1.4616161512496322
+cotton,17,"references, mm long, introduction, glumes, results discussion",1,-1.7229502680935866
+cotton,25,"national academy, academy sciences, academy, sciences, biological physical",1,-1.8807261868697827
+cotton,20,"species established, 1964 iucn, evolved worlds, worlds comprehensive, established 1964",119,-1.9085729656552282
+cotton,4,"dataset, datasets, restrictive terms, licensed restrictive, terms dataset",79,-2.10007633864307
+cotton,29,"kan, om, van, op, te",10,-2.774092502735787
+cotton,2,"inra, document, du, diffusion, centre",1,-4.0
+cotton,5,"international rice, rice research, scientists, publication, rice based",0,-4.0
+cotton,9,"cy, qu, thc, cao, cho",0,-4.0
+cotton,11,"mm long, mm, glabrous, long, hairs",0,-4.0
+cotton,13,"greater equal, equal, geometry, 1980, false",0,-4.0
+cotton,15,"hosting, web, provider, domain, free",0,-4.0
+cotton,18,"oder, mit, oft, bis, und",0,-4.0
+cotton,23,"kim, lee, choi, korean, sci",0,-4.0
+maize,25,"national academy, academy sciences, academy, sciences, biological physical",34,1.2273743301331153
+maize,7,"sup, image, sub, tn, cosub2sub",38,0.6551498734071501
+maize,1,"chromosome, chromosomes, rna, karyotype, 2n",2020,0.581613963803584
+maize,17,"references, mm long, introduction, glumes, results discussion",18,0.46761240910128443
+maize,27,"information given, abstract new, distribution map, geographical distribution, america",59,0.3739480291293821
+maize,28,"ofthe, inthe, ina, synthesis, ethylene",21,0.24050574701169472
+maize,0,"dan, yang, rats, dengan, patients",34861,0.1897724131847017
+maize,21,"theory, century, expedition, church, religious",311,0.01693605666444192
+maize,23,"kim, lee, choi, korean, sci",5,-0.21470646711153907
+maize,22,"mr, miles, county, specimens, writer",30,-0.5083707097801802
+maize,6,"oxford, academic, google scholar, scholar, published 01",492,-0.6922635704567995
+maize,14,"x0d, 100, fertilizers, russian, russia",377,-0.7105203814552722
+maize,24,"11, br, 12, mmoll, 13",391,-1.2787799334475527
+maize,3,"pp, vol, bulletin, du, journal",140,-1.2874047094353802
+maize,2,"inra, document, du, diffusion, centre",36,-1.3465316786189587
+maize,10,"new species, described illustrated, illustrated, genus, sp nov",119,-1.4659757981106631
+maize,16,"13n, ee, taxa, dna dna, dahliae",7,-1.867476933861317
+maize,29,"kan, om, van, op, te",44,-2.6159513032332935
+maize,15,"hosting, web, provider, domain, free",5,-2.6982237042731496
+maize,26,"ex, amp, dc, kunth, willd",6,-2.7568443883035005
+maize,4,"dataset, datasets, restrictive terms, licensed restrictive, terms dataset",186,-2.844060599959583
+maize,19,"surgery, sign, forum, archives, neck",1,-2.916906643117069
+maize,12,"rocks, shale, sandstone, limestone, fault",4,-3.440978475497073
+maize,9,"cy, qu, thc, cao, cho",2,-3.452150404221717
+maize,5,"international rice, rice research, scientists, publication, rice based",6,-4.0
+maize,8,"university arizona, libraries, project, committee, documentation",0,-4.0
+maize,11,"mm long, mm, glabrous, long, hairs",1,-4.0
+maize,13,"greater equal, equal, geometry, 1980, false",0,-4.0
+maize,18,"oder, mit, oft, bis, und",0,-4.0
+maize,20,"species established, 1964 iucn, evolved worlds, worlds comprehensive, established 1964",1,-4.0
+non_specific,18,"oder, mit, oft, bis, und",109,0.4537356703138846
+non_specific,20,"species established, 1964 iucn, evolved worlds, worlds comprehensive, established 1964",57056,0.4454657425060952
+non_specific,13,"greater equal, equal, geometry, 1980, false",248,0.44214769603867254
+non_specific,29,"kan, om, van, op, te",8537,0.41225835015484774
+non_specific,12,"rocks, shale, sandstone, limestone, fault",1373,0.4102652427417405
+non_specific,4,"dataset, datasets, restrictive terms, licensed restrictive, terms dataset",41265,0.3775394169488277
+non_specific,19,"surgery, sign, forum, archives, neck",232,0.36920216010221657
+non_specific,8,"university arizona, libraries, project, committee, documentation",626,0.36437615017524067
+non_specific,11,"mm long, mm, glabrous, long, hairs",617,0.3609185757280609
+non_specific,9,"cy, qu, thc, cao, cho",641,0.3001579504887374
+non_specific,3,"pp, vol, bulletin, du, journal",9809,0.2713304316071885
+non_specific,10,"new species, described illustrated, illustrated, genus, sp nov",9159,0.2283086216010429
+non_specific,2,"inra, document, du, diffusion, centre",2530,0.21659279761211458
+non_specific,6,"oxford, academic, google scholar, scholar, published 01",21252,0.16866072976874433
+non_specific,21,"theory, century, expedition, church, religious",8178,0.16182544215191835
+non_specific,22,"mr, miles, county, specimens, writer",1110,0.12921046394048297
+non_specific,16,"13n, ee, taxa, dna dna, dahliae",646,0.08868630686671725
+non_specific,25,"national academy, academy sciences, academy, sciences, biological physical",367,0.08767554981770202
+non_specific,14,"x0d, 100, fertilizers, russian, russia",15563,0.085019281001256
+non_specific,24,"11, br, 12, mmoll, 13",22869,0.019428738832475465
+non_specific,17,"references, mm long, introduction, glumes, results discussion",312,0.011217434612933716
+non_specific,0,"dan, yang, rats, dengan, patients",703493,-0.047249569890295905
+non_specific,28,"ofthe, inthe, ina, synthesis, ethylene",382,-0.14625503963960335
+non_specific,26,"ex, amp, dc, kunth, willd",763,-0.3381398340984126
+non_specific,7,"sup, image, sub, tn, cosub2sub",443,-0.3734869433897036
+non_specific,1,"chromosome, chromosomes, rna, karyotype, 2n",23713,-0.43700723231873834
+non_specific,15,"hosting, web, provider, domain, free",477,-0.694178535063287
+non_specific,27,"information given, abstract new, distribution map, geographical distribution, america",644,-0.749650334026129
+non_specific,23,"kim, lee, choi, korean, sci",61,-1.1777694163443018
+non_specific,5,"international rice, rice research, scientists, publication, rice based",184,-3.9250774881151282
+other_crop,15,"hosting, web, provider, domain, free",570,2.4881857477025062
+other_crop,27,"information given, abstract new, distribution map, geographical distribution, america",411,1.5278190012601374
+other_crop,26,"ex, amp, dc, kunth, willd",358,1.495528326050514
+other_crop,7,"sup, image, sub, tn, cosub2sub",126,0.7380217212743951
+other_crop,1,"chromosome, chromosomes, rna, karyotype, 2n",5637,0.4157056761165525
+other_crop,23,"kim, lee, choi, korean, sci",24,0.4018473765331687
+other_crop,17,"references, mm long, introduction, glumes, results discussion",48,0.23616934619104224
+other_crop,0,"dan, yang, rats, dengan, patients",105977,0.14735718483177473
+other_crop,16,"13n, ee, taxa, dna dna, dahliae",80,0.0006156767793552974
+other_crop,28,"ofthe, inthe, ina, synthesis, ethylene",52,-0.0978525198150594
+other_crop,21,"theory, century, expedition, church, religious",897,-0.1013511007359857
+other_crop,14,"x0d, 100, fertilizers, russian, russia",1669,-0.2106534175504237
+other_crop,2,"inra, document, du, diffusion, centre",235,-0.2864202956853574
+other_crop,24,"11, br, 12, mmoll, 13",2292,-0.37389396418708637
+other_crop,9,"cy, qu, thc, cao, cho",49,-0.4839211222955947
+other_crop,6,"oxford, academic, google scholar, scholar, published 01",1658,-0.5860303464893752
+other_crop,10,"new species, described illustrated, illustrated, genus, sp nov",604,-0.7688693842826138
+other_crop,22,"mr, miles, county, specimens, writer",70,-0.9324588506328183
+other_crop,19,"surgery, sign, forum, archives, neck",10,-1.2414591104187924
+other_crop,11,"mm long, mm, glabrous, long, hairs",26,-1.2823767555610641
+other_crop,25,"national academy, academy sciences, academy, sciences, biological physical",18,-1.3366440718639978
+other_crop,3,"pp, vol, bulletin, du, journal",392,-1.4484584444542246
+other_crop,4,"dataset, datasets, restrictive terms, licensed restrictive, terms dataset",1280,-1.707771878369338
+other_crop,29,"kan, om, van, op, te",98,-3.1071536399444684
+other_crop,12,"rocks, shale, sandstone, limestone, fault",13,-3.3870193195450673
+other_crop,5,"international rice, rice research, scientists, publication, rice based",0,-4.0
+other_crop,8,"university arizona, libraries, project, committee, documentation",3,-4.0
+other_crop,13,"greater equal, equal, geometry, 1980, false",1,-4.0
+other_crop,18,"oder, mit, oft, bis, und",0,-4.0
+other_crop,20,"species established, 1964 iucn, evolved worlds, worlds comprehensive, established 1964",172,-4.0
+other_model_organism,26,"ex, amp, dc, kunth, willd",48,2.440396160609181
+other_model_organism,16,"13n, ee, taxa, dna dna, dahliae",17,1.6098715342440995
+other_model_organism,1,"chromosome, chromosomes, rna, karyotype, 2n",620,1.0748393403513459
+other_model_organism,11,"mm long, mm, glabrous, long, hairs",9,1.0308296388419231
+other_model_organism,10,"new species, described illustrated, illustrated, genus, sp nov",139,0.9553880602175822
+other_model_organism,27,"information given, abstract new, distribution map, geographical distribution, america",18,0.858470530122534
+other_model_organism,7,"sup, image, sub, tn, cosub2sub",9,0.7743879103185584
+other_model_organism,2,"inra, document, du, diffusion, centre",27,0.43567137101487863
+other_model_organism,0,"dan, yang, rats, dengan, patients",7177,0.10685183364988819
+other_model_organism,12,"rocks, shale, sandstone, limestone, fault",10,0.07819016830297017
+other_model_organism,14,"x0d, 100, fertilizers, russian, russia",132,-0.02730642645280165
+other_model_organism,24,"11, br, 12, mmoll, 13",179,-0.20874840457796726
+other_model_organism,22,"mr, miles, county, specimens, writer",7,-0.4106658344184134
+other_model_organism,3,"pp, vol, bulletin, du, journal",27,-1.4645596753041972
+other_model_organism,17,"references, mm long, introduction, glumes, results discussion",1,-1.5050720434283467
+other_model_organism,25,"national academy, academy sciences, academy, sciences, biological physical",1,-1.662847962204543
+other_model_organism,28,"ofthe, inthe, ina, synthesis, ethylene",1,-1.9545711268543842
+other_model_organism,21,"theory, century, expedition, church, religious",15,-2.159703568944961
+other_model_organism,29,"kan, om, van, op, te",13,-2.177702654816817
+other_model_organism,9,"cy, qu, thc, cao, cho",1,-2.2549098553090356
+other_model_organism,4,"dataset, datasets, restrictive terms, licensed restrictive, terms dataset",57,-2.3530888479901915
+other_model_organism,6,"oxford, academic, google scholar, scholar, published 01",22,-2.978105908246061
+other_model_organism,5,"international rice, rice research, scientists, publication, rice based",0,-4.0
+other_model_organism,8,"university arizona, libraries, project, committee, documentation",0,-4.0
+other_model_organism,13,"greater equal, equal, geometry, 1980, false",0,-4.0
+other_model_organism,15,"hosting, web, provider, domain, free",0,-4.0
+other_model_organism,18,"oder, mit, oft, bis, und",0,-4.0
+other_model_organism,19,"surgery, sign, forum, archives, neck",0,-4.0
+other_model_organism,20,"species established, 1964 iucn, evolved worlds, worlds comprehensive, established 1964",21,-4.0
+other_model_organism,23,"kim, lee, choi, korean, sci",0,-4.0
+potato,27,"information given, abstract new, distribution map, geographical distribution, america",45,2.076426909889366
+potato,1,"chromosome, chromosomes, rna, karyotype, 2n",1113,1.8149810972985374
+potato,14,"x0d, 100, fertilizers, russian, russia",245,0.760965678070785
+potato,23,"kim, lee, choi, korean, sci",2,0.5566342717932493
+potato,28,"ofthe, inthe, ina, synthesis, ethylene",6,0.5264196587462416
+potato,17,"references, mm long, introduction, glumes, results discussion",4,0.3909562414511229
+potato,7,"sup, image, sub, tn, cosub2sub",7,0.30784611581331983
+potato,0,"dan, yang, rats, dengan, patients",7164,0.0002645351434385377
+potato,24,"11, br, 12, mmoll, 13",206,-0.11003536977953571
+potato,10,"new species, described illustrated, illustrated, genus, sp nov",69,-0.15900027084828677
+potato,6,"oxford, academic, google scholar, scholar, published 01",165,-0.17518702775807282
+potato,2,"inra, document, du, diffusion, centre",19,-0.17526033282553483
+potato,22,"mr, miles, county, specimens, writer",8,-0.32199247159654787
+potato,3,"pp, vol, bulletin, du, journal",62,-0.3692225822013208
+potato,26,"ex, amp, dc, kunth, willd",4,-1.2485380552325054
+potato,8,"university arizona, libraries, project, committee, documentation",2,-1.26050167105694
+potato,29,"kan, om, van, op, te",17,-1.8946512468281003
+potato,21,"theory, century, expedition, church, religious",19,-1.9226383662304243
+potato,12,"rocks, shale, sandstone, limestone, fault",2,-2.3477096417049226
+potato,9,"cy, qu, thc, cao, cho",1,-2.358881570429566
+potato,16,"13n, ee, taxa, dna dna, dahliae",1,-2.58156302212677
+potato,15,"hosting, web, provider, domain, free",1,-2.926882965368361
+potato,4,"dataset, datasets, restrictive terms, licensed restrictive, terms dataset",27,-3.5350630751119954
+potato,5,"international rice, rice research, scientists, publication, rice based",1,-4.0
+potato,11,"mm long, mm, glabrous, long, hairs",0,-4.0
+potato,13,"greater equal, equal, geometry, 1980, false",0,-4.0
+potato,18,"oder, mit, oft, bis, und",0,-4.0
+potato,19,"surgery, sign, forum, archives, neck",0,-4.0
+potato,20,"species established, 1964 iucn, evolved worlds, worlds comprehensive, established 1964",0,-4.0
+potato,25,"national academy, academy sciences, academy, sciences, biological physical",0,-4.0
+rice,5,"international rice, rice research, scientists, publication, rice based",3601,4.0
+rice,23,"kim, lee, choi, korean, sci",63,3.403277254854097
+rice,24,"11, br, 12, mmoll, 13",2309,1.2458796203722924
+rice,7,"sup, image, sub, tn, cosub2sub",47,0.9244431049942844
+rice,27,"information given, abstract new, distribution map, geographical distribution, america",82,0.8114888777387067
+rice,0,"dan, yang, rats, dengan, patients",31955,0.026832039647597037
+rice,22,"mr, miles, county, specimens, writer",42,-0.06031198925685626
+rice,1,"chromosome, chromosomes, rna, karyotype, 2n",1281,-0.11283896014084419
+rice,16,"13n, ee, taxa, dna dna, dahliae",20,-0.3902718676784763
+rice,17,"references, mm long, introduction, glumes, results discussion",10,-0.41775260410058346
+rice,28,"ofthe, inthe, ina, synthesis, ethylene",10,-0.867251687526621
+rice,6,"oxford, academic, google scholar, scholar, published 01",341,-1.2585182534187849
+rice,9,"cy, qu, thc, cao, cho",9,-1.3195935094263223
+rice,25,"national academy, academy sciences, academy, sciences, biological physical",5,-1.5755285228767795
+rice,3,"pp, vol, bulletin, du, journal",103,-1.7675553058440463
+rice,10,"new species, described illustrated, illustrated, genus, sp nov",97,-1.7982488258783966
+rice,14,"x0d, 100, fertilizers, russian, russia",142,-2.156562081866172
+rice,26,"ex, amp, dc, kunth, willd",7,-2.5718200736139702
+rice,19,"surgery, sign, forum, archives, neck",1,-2.9542747497639867
+rice,13,"greater equal, equal, geometry, 1980, false",1,-2.9775445290868334
+rice,21,"theory, century, expedition, church, religious",25,-3.6573466303383535
+rice,12,"rocks, shale, sandstone, limestone, fault",3,-3.8933840814228353
+rice,2,"inra, document, du, diffusion, centre",3,-4.0
+rice,4,"dataset, datasets, restrictive terms, licensed restrictive, terms dataset",83,-4.0
+rice,8,"university arizona, libraries, project, committee, documentation",1,-4.0
+rice,11,"mm long, mm, glabrous, long, hairs",1,-4.0
+rice,15,"hosting, web, provider, domain, free",0,-4.0
+rice,18,"oder, mit, oft, bis, und",0,-4.0
+rice,20,"species established, 1964 iucn, evolved worlds, worlds comprehensive, established 1964",0,-4.0
+rice,29,"kan, om, van, op, te",2,-4.0
+soybean,23,"kim, lee, choi, korean, sci",19,2.7662983436252353
+soybean,28,"ofthe, inthe, ina, synthesis, ethylene",35,2.032476733358452
+soybean,1,"chromosome, chromosomes, rna, karyotype, 2n",1913,1.5581009366910907
+soybean,22,"mr, miles, county, specimens, writer",49,1.254453930907061
+soybean,7,"sup, image, sub, tn, cosub2sub",19,0.7101552655877015
+soybean,24,"11, br, 12, mmoll, 13",499,0.12809666676290687
+soybean,0,"dan, yang, rats, dengan, patients",15553,0.08035673805417526
+soybean,17,"references, mm long, introduction, glumes, results discussion",6,-0.06234469943932032
+soybean,6,"oxford, academic, google scholar, scholar, published 01",338,-0.17889324733330372
+soybean,27,"information given, abstract new, distribution map, geographical distribution, america",17,-0.3662267868015686
+soybean,14,"x0d, 100, fertilizers, russian, russia",179,-0.7301199252791286
+soybean,25,"national academy, academy sciences, academy, sciences, biological physical",4,-0.8050831189366727
+soybean,26,"ex, amp, dc, kunth, willd",9,-1.1168764954017927
+soybean,10,"new species, described illustrated, illustrated, genus, sp nov",69,-1.1972637124598862
+soybean,3,"pp, vol, bulletin, du, journal",56,-1.5543274121421913
+soybean,9,"cy, qu, thc, cao, cho",3,-1.8121825113200092
+soybean,11,"mm long, mm, glabrous, long, hairs",2,-2.281330519332519
+soybean,2,"inra, document, du, diffusion, centre",8,-2.46145128788072
+soybean,4,"dataset, datasets, restrictive terms, licensed restrictive, terms dataset",85,-2.9188230827493613
+soybean,15,"hosting, web, provider, domain, free",1,-3.9651464069799602
+soybean,5,"international rice, rice research, scientists, publication, rice based",1,-4.0
+soybean,8,"university arizona, libraries, project, committee, documentation",0,-4.0
+soybean,12,"rocks, shale, sandstone, limestone, fault",0,-4.0
+soybean,13,"greater equal, equal, geometry, 1980, false",0,-4.0
+soybean,16,"13n, ee, taxa, dna dna, dahliae",0,-4.0
+soybean,18,"oder, mit, oft, bis, und",0,-4.0
+soybean,19,"surgery, sign, forum, archives, neck",0,-4.0
+soybean,20,"species established, 1964 iucn, evolved worlds, worlds comprehensive, established 1964",1,-4.0
+soybean,21,"theory, century, expedition, church, religious",3,-4.0
+soybean,29,"kan, om, van, op, te",5,-4.0
+tobacco,21,"theory, century, expedition, church, religious",390,2.341694046589093
+tobacco,25,"national academy, academy sciences, academy, sciences, biological physical",17,2.225572776438758
+tobacco,1,"chromosome, chromosomes, rna, karyotype, 2n",1483,2.1339757149247003
+tobacco,26,"ex, amp, dc, kunth, willd",31,1.6105878676678613
+tobacco,28,"ofthe, inthe, ina, synthesis, ethylene",9,1.0163117719808896
+tobacco,6,"oxford, academic, google scholar, scholar, published 01",308,0.6302069112045046
+tobacco,16,"13n, ee, taxa, dna dna, dahliae",9,0.4932915918290341
+tobacco,27,"information given, abstract new, distribution map, geographical distribution, america",14,0.29685834813078743
+tobacco,7,"sup, image, sub, tn, cosub2sub",7,0.21277572832681155
+tobacco,10,"new species, described illustrated, illustrated, genus, sp nov",82,-0.005043110494880087
+tobacco,0,"dan, yang, rats, dengan, patients",6957,-0.13710586896187085
+tobacco,24,"11, br, 12, mmoll, 13",177,-0.4240007343662648
+tobacco,3,"pp, vol, bulletin, du, journal",51,-0.7460639381032085
+tobacco,4,"dataset, datasets, restrictive terms, licensed restrictive, terms dataset",195,-0.7776906510123611
+tobacco,19,"surgery, sign, forum, archives, neck",1,-0.9187081968114261
+tobacco,22,"mr, miles, county, specimens, writer",5,-1.0951347641956937
+tobacco,14,"x0d, 100, fertilizers, russian, russia",67,-1.2046534579605213
+tobacco,2,"inra, document, du, diffusion, centre",8,-1.5182582337556285
+tobacco,9,"cy, qu, thc, cao, cho",1,-2.453951957916074
+tobacco,5,"international rice, rice research, scientists, publication, rice based",0,-4.0
+tobacco,8,"university arizona, libraries, project, committee, documentation",0,-4.0
+tobacco,11,"mm long, mm, glabrous, long, hairs",0,-4.0
+tobacco,12,"rocks, shale, sandstone, limestone, fault",0,-4.0
+tobacco,13,"greater equal, equal, geometry, 1980, false",0,-4.0
+tobacco,15,"hosting, web, provider, domain, free",0,-4.0
+tobacco,17,"references, mm long, introduction, glumes, results discussion",0,-4.0
+tobacco,18,"oder, mit, oft, bis, und",0,-4.0
+tobacco,20,"species established, 1964 iucn, evolved worlds, worlds comprehensive, established 1964",2,-4.0
+tobacco,23,"kim, lee, choi, korean, sci",0,-4.0
+tobacco,29,"kan, om, van, op, te",2,-4.0
+tomato,27,"information given, abstract new, distribution map, geographical distribution, america",111,2.4353346103291886
+tomato,7,"sup, image, sub, tn, cosub2sub",21,0.9491535469538673
+tomato,28,"ofthe, inthe, ina, synthesis, ethylene",15,0.9046926840529954
+tomato,1,"chromosome, chromosomes, rna, karyotype, 2n",1139,0.9046401820840811
+tomato,0,"dan, yang, rats, dengan, patients",15291,0.15045498220340164
+tomato,2,"inra, document, du, diffusion, centre",42,0.025474506929031367
+tomato,14,"x0d, 100, fertilizers, russian, russia",238,-0.22450956720445048
+tomato,24,"11, br, 12, mmoll, 13",353,-0.27666659327218235
+tomato,25,"national academy, academy sciences, academy, sciences, biological physical",5,-0.3885466520183194
+tomato,16,"13n, ee, taxa, dna dna, dahliae",8,-0.5252180917073788
+tomato,10,"new species, described illustrated, illustrated, genus, sp nov",80,-0.8892517023197022
+tomato,3,"pp, vol, bulletin, du, journal",76,-1.019146448725219
+tomato,6,"oxford, academic, google scholar, scholar, published 01",169,-1.0842848753023129
+tomato,9,"cy, qu, thc, cao, cho",4,-1.3025366400101746
+tomato,21,"theory, century, expedition, church, religious",54,-1.3593334470911498
+tomato,23,"kim, lee, choi, korean, sci",1,-1.3870207977873592
+tomato,26,"ex, amp, dc, kunth, willd",6,-1.607230624091958
+tomato,8,"university arizona, libraries, project, committee, documentation",3,-1.6191942399163928
+tomato,22,"mr, miles, county, specimens, writer",5,-1.9437194462897938
+tomato,17,"references, mm long, introduction, glumes, results discussion",1,-2.552698828129486
+tomato,4,"dataset, datasets, restrictive terms, licensed restrictive, terms dataset",47,-3.679016795178435
+tomato,15,"hosting, web, provider, domain, free",1,-3.8705380349489698
+tomato,5,"international rice, rice research, scientists, publication, rice based",0,-4.0
+tomato,11,"mm long, mm, glabrous, long, hairs",0,-4.0
+tomato,12,"rocks, shale, sandstone, limestone, fault",0,-4.0
+tomato,13,"greater equal, equal, geometry, 1980, false",0,-4.0
+tomato,18,"oder, mit, oft, bis, und",0,-4.0
+tomato,19,"surgery, sign, forum, archives, neck",0,-4.0
+tomato,20,"species established, 1964 iucn, evolved worlds, worlds comprehensive, established 1964",0,-4.0
+tomato,29,"kan, om, van, op, te",6,-4.0
+wheat,1,"chromosome, chromosomes, rna, karyotype, 2n",2825,1.1119411573526161
+wheat,7,"sup, image, sub, tn, cosub2sub",46,0.9772159350188544
+wheat,14,"x0d, 100, fertilizers, russian, russia",1090,0.8676029439386292
+wheat,23,"kim, lee, choi, korean, sci",10,0.8317251518867376
+wheat,27,"information given, abstract new, distribution map, geographical distribution, america",48,0.12269909948697379
+wheat,0,"dan, yang, rats, dengan, patients",31957,0.11072205788519135
+wheat,17,"references, mm long, introduction, glumes, results discussion",13,0.04455874479834092
+wheat,28,"ofthe, inthe, ina, synthesis, ethylene",16,-0.1053800567687886
+wheat,22,"mr, miles, county, specimens, writer",36,-0.1989046849481094
+wheat,26,"ex, amp, dc, kunth, willd",31,-0.3411789596395044
+wheat,24,"11, br, 12, mmoll, 13",718,-0.35553307793357686
+wheat,25,"national academy, academy sciences, academy, sciences, biological physical",10,-0.49172879723158486
+wheat,6,"oxford, academic, google scholar, scholar, published 01",537,-0.5195681788123501
+wheat,2,"inra, document, du, diffusion, centre",51,-0.7975997190914987
+wheat,16,"13n, ee, taxa, dna dna, dahliae",14,-0.82104531486304
+wheat,10,"new species, described illustrated, illustrated, genus, sp nov",156,-1.0289597235580814
+wheat,3,"pp, vol, bulletin, du, journal",115,-1.5247660564376948
+wheat,5,"international rice, rice research, scientists, publication, rice based",32,-1.8303356332655774
+wheat,21,"theory, century, expedition, church, religious",75,-1.9885844039720029
+wheat,12,"rocks, shale, sandstone, limestone, fault",6,-2.8095843557776408
+wheat,4,"dataset, datasets, restrictive terms, licensed restrictive, terms dataset",147,-3.1371154472329734
+wheat,11,"mm long, mm, glabrous, long, hairs",2,-3.2899042925147937
+wheat,8,"university arizona, libraries, project, committee, documentation",2,-3.307338885850814
+wheat,29,"kan, om, van, op, te",23,-3.5053893468153006
+wheat,15,"hosting, web, provider, domain, free",2,-3.973720180162235
+wheat,9,"cy, qu, thc, cao, cho",0,-4.0
+wheat,13,"greater equal, equal, geometry, 1980, false",0,-4.0
+wheat,18,"oder, mit, oft, bis, und",0,-4.0
+wheat,19,"surgery, sign, forum, archives, neck",0,-4.0
+wheat,20,"species established, 1964 iucn, evolved worlds, worlds comprehensive, established 1964",11,-4.0

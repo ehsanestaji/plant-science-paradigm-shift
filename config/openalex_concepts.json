@@ -1,0 +1,39 @@
+{
+  "_description": "OpenAlex concept IDs for plant science filtering. Accept works with ANY of these concepts at score >= min_score.",
+  "min_score": 0.3,
+  "concepts": {
+    "level_0": {
+      "C86803240": "Biology"
+    },
+    "level_1_primary": {
+      "C142362112": "Botany",
+      "C143998085": "Agronomy",
+      "C74650414": "Ecology",
+      "C127413603": "Horticulture",
+      "C78458016": "Forestry"
+    },
+    "level_2_specific": {
+      "C18903297": "Plant science",
+      "C2908647359": "Plant biology",
+      "C185592680": "Plant pathology",
+      "C502942594": "Weed science",
+      "C75630572": "Plant breeding",
+      "C39432304": "Plant physiology",
+      "C159110408": "Molecular biology",
+      "C54355233": "Genomics",
+      "C70721500": "Bioinformatics",
+      "C86271560": "Biotechnology"
+    },
+    "level_3_narrow": {
+      "C178790620": "Arabidopsis",
+      "C2776078223": "Crop science",
+      "C2778793275": "Plant genetics",
+      "C2779717106": "Plant cell biology",
+      "C2779894888": "Plant taxonomy",
+      "C2908647359": "Photosynthesis",
+      "C118552586": "Gene expression"
+    }
+  },
+  "require_biology_parent": true,
+  "_note": "Set require_biology_parent=true to require level_0 Biology concept alongside level_2+ matches. This reduces false positives from general genomics/bioinformatics papers."
+}

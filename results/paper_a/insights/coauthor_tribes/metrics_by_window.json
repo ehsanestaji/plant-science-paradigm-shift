@@ -1,0 +1,77 @@
+{
+  "windows": [
+    "1990-1994",
+    "1995-1999",
+    "2000-2004",
+    "2005-2009",
+    "2010-2014",
+    "2015-2019",
+    "2020-2024"
+  ],
+  "modularity": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "modularity_null": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "inter_community_edge_frac": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "paradigm_alignment": [
+    0.007573991298310035,
+    0.00929623315065186,
+    0.031833422000111425,
+    0.03200150949528296,
+    0.03592609889889182,
+    0.03062349092163283,
+    0.024408627439854603
+  ],
+  "bridge_edge_count": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "clustering_coef": [
+    0.07015274543953802,
+    0.08164622010610172,
+    0.03382233166911712,
+    0.003115837278668755,
+    0.0034116260006901633,
+    0.005384301920383171,
+    0.006287131290507783
+  ],
+  "assortativity": [
+    0.8492770167655913,
+    0.8294584126815905,
+    0.8717049030998133,
+    0.8235092726853519,
+    0.8333170189032324,
+    0.8546017479413625,
+    0.8378416927222199
+  ],
+  "smoke": false,
+  "fallback": true,
+  "fallback_reason": "DuckDB coauthor self-join too slow (>15 min/window). Replaced by sampled (10%) edges + clustering_coef and assortativity (no Leiden)."
+}

@@ -1,0 +1,26 @@
+fallen_id,fallen_title,riser_id,riser_title,similarity,pearson_r,pearson_p,above_threshold
+W2066394966,A TWO‐STAGE TECHNIQUE FOR THE <i>IN VITRO</i> DIGESTION OF FORAGE CROPS,W2473156356,Using Deep Learning for Image-Based Plant Disease Detection,0.023846199222946486,0.6474919726510134,0.05937712874377301,True
+W2066394966,A TWO‐STAGE TECHNIQUE FOR THE <i>IN VITRO</i> DIGESTION OF FORAGE CROPS,W2527891094,Abiotic Stress Signaling and Responses in Plants,0.0,0.7306872571833498,0.025345388278405417,True
+W2066394966,A TWO‐STAGE TECHNIQUE FOR THE <i>IN VITRO</i> DIGESTION OF FORAGE CROPS,W2789255992,Deep learning models for plant disease detection and diagnosis,0.0,0.10918487887023054,0.7968995704560552,True
+W2066394966,A TWO‐STAGE TECHNIQUE FOR THE <i>IN VITRO</i> DIGESTION OF FORAGE CROPS,W2886785109,Shifting the limits in wheat research and breeding using a fully annotated refer,0.008681978170422617,0.03442161582227024,0.9299460608523378,True
+W2066394966,A TWO‐STAGE TECHNIQUE FOR THE <i>IN VITRO</i> DIGESTION OF FORAGE CROPS,W2790979755,Deep learning in agriculture: A survey,0.0,0.711905006152326,0.07273618489969104,True
+W2006807779,A plant DNA minipreparation: Version II,W2473156356,Using Deep Learning for Image-Based Plant Disease Detection,0.0,-0.46599107668723183,0.206131899821704,True
+W2006807779,A plant DNA minipreparation: Version II,W2527891094,Abiotic Stress Signaling and Responses in Plants,0.0,-0.279940057464228,0.46565272085949316,True
+W2006807779,A plant DNA minipreparation: Version II,W2789255992,Deep learning models for plant disease detection and diagnosis,0.0,-0.4868465743419629,0.22114656352788747,True
+W2006807779,A plant DNA minipreparation: Version II,W2886785109,Shifting the limits in wheat research and breeding using a fully annotated refer,0.0,-0.4753966241257937,0.19588751893776407,True
+W2006807779,A plant DNA minipreparation: Version II,W2790979755,Deep learning in agriculture: A survey,0.0,-0.2739197085206714,0.5522270306979543,True
+W2164366449,The estimation of protein degradability in the rumen from incubation measurement,W2473156356,Using Deep Learning for Image-Based Plant Disease Detection,0.004064397808060387,0.49705278767981165,0.17340981726804447,True
+W2164366449,The estimation of protein degradability in the rumen from incubation measurement,W2527891094,Abiotic Stress Signaling and Responses in Plants,0.0,0.6797711582957631,0.04396499254384713,True
+W2164366449,The estimation of protein degradability in the rumen from incubation measurement,W2789255992,Deep learning models for plant disease detection and diagnosis,0.0,0.059538308075708826,0.8886292068027011,True
+W2164366449,The estimation of protein degradability in the rumen from incubation measurement,W2886785109,Shifting the limits in wheat research and breeding using a fully annotated refer,0.008878650903378724,0.24054828644342996,0.5329775987837463,True
+W2164366449,The estimation of protein degradability in the rumen from incubation measurement,W2790979755,Deep learning in agriculture: A survey,0.0,0.37745808522197294,0.403862762691596,True
+W1577441875,The Water-Culture Method for Growing Plants Without Soil,W2473156356,Using Deep Learning for Image-Based Plant Disease Detection,0.0,-0.7117440864098645,0.031502743850947396,True
+W1577441875,The Water-Culture Method for Growing Plants Without Soil,W2527891094,Abiotic Stress Signaling and Responses in Plants,0.0,-0.5490081856361412,0.1257993477678382,True
+W1577441875,The Water-Culture Method for Growing Plants Without Soil,W2789255992,Deep learning models for plant disease detection and diagnosis,0.0,-0.5209649133129041,0.18554060061535368,True
+W1577441875,The Water-Culture Method for Growing Plants Without Soil,W2886785109,Shifting the limits in wheat research and breeding using a fully annotated refer,0.0,-0.24294073975492442,0.528784909743331,True
+W1577441875,The Water-Culture Method for Growing Plants Without Soil,W2790979755,Deep learning in agriculture: A survey,0.0,-0.49060542379418015,0.26362590668275304,True
+W1974119162,A manual for the practical study of root-nodule bacteria,W2473156356,Using Deep Learning for Image-Based Plant Disease Detection,0.0,-0.8528494505185427,0.003474399240718463,True
+W1974119162,A manual for the practical study of root-nodule bacteria,W2527891094,Abiotic Stress Signaling and Responses in Plants,0.0,-0.725695284729837,0.026883372053920683,True
+W1974119162,A manual for the practical study of root-nodule bacteria,W2789255992,Deep learning models for plant disease detection and diagnosis,0.0,-0.8045200038847353,0.016043597101632247,True
+W1974119162,A manual for the practical study of root-nodule bacteria,W2886785109,Shifting the limits in wheat research and breeding using a fully annotated refer,0.0,-0.4659116257954216,0.20621967663790902,True
+W1974119162,A manual for the practical study of root-nodule bacteria,W2790979755,Deep learning in agriculture: A survey,0.0,-0.6066636774985659,0.14863955699206113,True

@@ -1,0 +1,136 @@
+metric,value,organism,note
+total_papers_all_time,64530,arabidopsis,
+total_papers_2020_2024,16087,arabidopsis,years 2020-2024
+share_pct_latest_year,2.163,arabidopsis,share_pct in 2024
+cagr_2010s,0.037591,arabidopsis,
+cagr_2020s,-0.064124,arabidopsis,
+applied_share_2020s,0.955803,arabidopsis,"applied / (fundamental + applied), 2020-2024"
+mean_disruption_index,-0.001404,arabidopsis,weighted mean CD index across decades
+mean_team_size_latest5,7.0176,arabidopsis,"mean of mean_team_size, 2020-2024"
+intl_collab_rate_latest5,0.2313,arabidopsis,"mean of intl_collab_rate, 2020-2024"
+total_papers_all_time,99616,rice,
+total_papers_2020_2024,29282,rice,years 2020-2024
+share_pct_latest_year,4.8432,rice,share_pct in 2024
+cagr_2010s,0.048979,rice,
+cagr_2020s,0.007406,rice,
+applied_share_2020s,0.858445,rice,"applied / (fundamental + applied), 2020-2024"
+mean_disruption_index,0.046893,rice,weighted mean CD index across decades
+mean_team_size_latest5,5.9477,rice,"mean of mean_team_size, 2020-2024"
+intl_collab_rate_latest5,0.1382,rice,"mean of intl_collab_rate, 2020-2024"
+total_papers_all_time,95817,wheat,
+total_papers_2020_2024,26783,wheat,years 2020-2024
+share_pct_latest_year,4.0215,wheat,share_pct in 2024
+cagr_2010s,0.046597,wheat,
+cagr_2020s,-0.023938,wheat,
+applied_share_2020s,0.839226,wheat,"applied / (fundamental + applied), 2020-2024"
+mean_disruption_index,0.084438,wheat,weighted mean CD index across decades
+mean_team_size_latest5,5.7167,wheat,"mean of mean_team_size, 2020-2024"
+intl_collab_rate_latest5,0.152,wheat,"mean of intl_collab_rate, 2020-2024"
+total_papers_all_time,87765,maize,
+total_papers_2020_2024,23229,maize,years 2020-2024
+share_pct_latest_year,3.7554,maize,share_pct in 2024
+cagr_2010s,0.046483,maize,
+cagr_2020s,-0.011881,maize,
+applied_share_2020s,0.781695,maize,"applied / (fundamental + applied), 2020-2024"
+mean_disruption_index,0.094744,maize,weighted mean CD index across decades
+mean_team_size_latest5,5.4898,maize,"mean of mean_team_size, 2020-2024"
+intl_collab_rate_latest5,0.1312,maize,"mean of intl_collab_rate, 2020-2024"
+total_papers_all_time,43930,soybean,
+total_papers_2020_2024,11615,soybean,years 2020-2024
+share_pct_latest_year,1.774,soybean,share_pct in 2024
+cagr_2010s,0.043477,soybean,
+cagr_2020s,-0.017411,soybean,
+applied_share_2020s,0.82161,soybean,"applied / (fundamental + applied), 2020-2024"
+mean_disruption_index,0.10155,soybean,weighted mean CD index across decades
+mean_team_size_latest5,5.6019,soybean,"mean of mean_team_size, 2020-2024"
+intl_collab_rate_latest5,0.113,soybean,"mean of intl_collab_rate, 2020-2024"
+total_papers_all_time,45326,tomato,
+total_papers_2020_2024,13803,tomato,years 2020-2024
+share_pct_latest_year,2.2396,tomato,share_pct in 2024
+cagr_2010s,0.056244,tomato,
+cagr_2020s,0.021262,tomato,
+applied_share_2020s,0.901543,tomato,"applied / (fundamental + applied), 2020-2024"
+mean_disruption_index,0.033031,tomato,weighted mean CD index across decades
+mean_team_size_latest5,5.4252,tomato,"mean of mean_team_size, 2020-2024"
+intl_collab_rate_latest5,0.1519,tomato,"mean of intl_collab_rate, 2020-2024"
+total_papers_all_time,17675,barley,
+total_papers_2020_2024,4256,barley,years 2020-2024
+share_pct_latest_year,0.6378,barley,share_pct in 2024
+cagr_2010s,0.053719,barley,
+cagr_2020s,-0.01704,barley,
+applied_share_2020s,0.829887,barley,"applied / (fundamental + applied), 2020-2024"
+mean_disruption_index,0.076116,barley,weighted mean CD index across decades
+mean_team_size_latest5,5.2816,barley,"mean of mean_team_size, 2020-2024"
+intl_collab_rate_latest5,0.1612,barley,"mean of intl_collab_rate, 2020-2024"
+total_papers_all_time,24397,cotton,
+total_papers_2020_2024,6293,cotton,years 2020-2024
+share_pct_latest_year,1.0079,cotton,share_pct in 2024
+cagr_2010s,0.022694,cotton,
+cagr_2020s,-0.006305,cotton,
+applied_share_2020s,0.839504,cotton,"applied / (fundamental + applied), 2020-2024"
+mean_disruption_index,0.099313,cotton,weighted mean CD index across decades
+mean_team_size_latest5,6.3487,cotton,"mean of mean_team_size, 2020-2024"
+intl_collab_rate_latest5,0.1253,cotton,"mean of intl_collab_rate, 2020-2024"
+total_papers_all_time,23045,potato,
+total_papers_2020_2024,5949,potato,years 2020-2024
+share_pct_latest_year,0.8765,potato,share_pct in 2024
+cagr_2010s,0.03637,potato,
+cagr_2020s,-0.025713,potato,
+applied_share_2020s,0.905194,potato,"applied / (fundamental + applied), 2020-2024"
+mean_disruption_index,0.055107,potato,weighted mean CD index across decades
+mean_team_size_latest5,5.2936,potato,"mean of mean_team_size, 2020-2024"
+intl_collab_rate_latest5,0.1519,potato,"mean of intl_collab_rate, 2020-2024"
+total_papers_all_time,22027,tobacco,
+total_papers_2020_2024,3653,tobacco,years 2020-2024
+share_pct_latest_year,0.6112,tobacco,share_pct in 2024
+cagr_2010s,-0.035377,tobacco,
+cagr_2020s,0.036755,tobacco,
+applied_share_2020s,0.889132,tobacco,"applied / (fundamental + applied), 2020-2024"
+mean_disruption_index,0.029369,tobacco,weighted mean CD index across decades
+mean_team_size_latest5,6.2915,tobacco,"mean of mean_team_size, 2020-2024"
+intl_collab_rate_latest5,0.1158,tobacco,"mean of intl_collab_rate, 2020-2024"
+total_papers_all_time,295540,other_crop,
+total_papers_2020_2024,86156,other_crop,years 2020-2024
+share_pct_latest_year,13.8918,other_crop,share_pct in 2024
+cagr_2010s,0.054961,other_crop,
+cagr_2020s,-0.001795,other_crop,
+applied_share_2020s,0.831236,other_crop,"applied / (fundamental + applied), 2020-2024"
+mean_disruption_index,0.094429,other_crop,weighted mean CD index across decades
+mean_team_size_latest5,5.153,other_crop,"mean of mean_team_size, 2020-2024"
+intl_collab_rate_latest5,0.1222,other_crop,"mean of intl_collab_rate, 2020-2024"
+total_papers_all_time,22816,other_model_organism,
+total_papers_2020_2024,5156,other_model_organism,years 2020-2024
+share_pct_latest_year,0.7395,other_model_organism,share_pct in 2024
+cagr_2010s,0.048789,other_model_organism,
+cagr_2020s,-0.03965,other_model_organism,
+applied_share_2020s,0.778704,other_model_organism,"applied / (fundamental + applied), 2020-2024"
+mean_disruption_index,0.00989,other_model_organism,weighted mean CD index across decades
+mean_team_size_latest5,5.8786,other_model_organism,"mean of mean_team_size, 2020-2024"
+intl_collab_rate_latest5,0.1617,other_model_organism,"mean of intl_collab_rate, 2020-2024"
+total_papers_all_time,1623906,non_specific,
+total_papers_2020_2024,446019,non_specific,years 2020-2024
+share_pct_latest_year,63.4387,non_specific,share_pct in 2024
+cagr_2010s,0.049444,non_specific,
+cagr_2020s,-0.029826,non_specific,
+applied_share_2020s,0.795408,non_specific,"applied / (fundamental + applied), 2020-2024"
+mean_disruption_index,0.106673,non_specific,weighted mean CD index across decades
+mean_team_size_latest5,4.5146,non_specific,"mean of mean_team_size, 2020-2024"
+intl_collab_rate_latest5,0.0975,non_specific,"mean of intl_collab_rate, 2020-2024"
+total_papers_field,2466390,,sum across all organisms and years
+n_macro_themes,30,,"macro themes, excluding outlier cluster -1"
+n_themes_emerging_2020s,9,,count of macro-themes with that trend in 2020s
+n_themes_stable_2020s,14,,count of macro-themes with that trend in 2020s
+n_themes_declining_2020s,7,,count of macro-themes with that trend in 2020s
+shannon_entropy_1990s_mean,1.743346,,mean Shannon entropy 1990-1999
+shannon_entropy_2020s_mean,1.141822,,mean Shannon entropy 2020-2024
+shannon_entropy_delta,-0.601523,,2020s mean minus 1990s mean
+most_convergent_organism,tobacco,,smallest distance_to_arabidopsis in window 2020-2024
+most_convergent_distance,0.016462,,distance for tobacco
+most_divergent_organism,non_specific,,largest distance_to_arabidopsis in window 2020-2024
+most_divergent_distance,0.047396,,distance for non_specific
+chi2_paradigm_x_organism,12361.004,,"chi-square, paradigm × organism contingency, dof=9"
+chi2_paradigm_x_organism_p,0.0,,p-value
+chi2_paradigm_x_organism_dof,9,,degrees of freedom
+kruskal_wallis_disruption_H,12.916,,"Kruskal-Wallis H, mean_cd across organisms (decade-level)"
+kruskal_wallis_disruption_p,0.166442,,p-value
+kruskal_wallis_disruption_n_groups,10,,number of organism groups tested

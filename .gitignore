@@ -1,0 +1,36 @@
+# Data (harvested/processed; see DATA.md — archived on Zenodo, not in git)
+data/
+*.duckdb
+*.parquet
+*.jsonl.gz
+*.h5
+*.hdf5
+*.npy
+
+# Secrets
+config/api_keys.env
+*.env
+!*.env.template
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv*/
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.toc
+*.blg
+*.bbl
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+
+# OS
+.DS_Store

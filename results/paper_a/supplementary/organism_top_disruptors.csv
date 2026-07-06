@@ -1,0 +1,651 @@
+work_id,organism,cd_score,title,year
+W2102953824,arabidopsis,1.0,Benzothiadiazole induces disease resistance in <i>Arabidopsis</i> by activation of the systemic acquired resistance signal transduction pathway,1996
+W583784549,arabidopsis,1.0,Arabidopsis : a laboratory manual,2002
+W1978661900,arabidopsis,1.0,Assignment of 30 Microsatellite Loci to the Linkage Map of Arabidopsis,1994
+W4240574505,arabidopsis,1.0,Characterization of an Arabidopsis Mutant That Is Nonresponsive to Inducers of Systemic Acquired Resistance,1994
+W2035874951,arabidopsis,1.0,Early embryogenesis in <i>Arabidopsis thaliana</i>. II. The developing embryo,1991
+W4251284792,arabidopsis,1.0,Arabidopsis Flavonoid Mutants Are Hypersensitive to UV-B Irradiation,1993
+W4242861156,arabidopsis,1.0,Salicylic Acid Induction-Deficient Mutants of Arabidopsis Express PR-2 and PR-5 and Accumulate High Levels of Camalexin after Pathogen Inoculation,1999
+W2079421360,arabidopsis,1.0,Mutant of <i>Arabidopsis</i> Deficient in Xylem Loading of Phosphate,1991
+W2130808155,arabidopsis,1.0,Correlation between the induction of a gene for Δ<sup>1</sup>‐pyrroline‐5‐carboxylate synthetase and the accumulation of proline in <i>Arabidopsis thaliana</i> under osmotic stress,1995
+W2119405709,arabidopsis,1.0,Transformation of <i>Arabidopsis thaliana</i> with the <i>codA</i> gene for choline oxidase; accumulation of glycinebetaine and enhanced tolerance to salt and cold stress,1997
+W1963701865,arabidopsis,1.0,Recombinant inbred lines for mapping RFLP and phenotypic markers in <i>Arabidopsis thaliana</i>,1993
+W2978703830,arabidopsis,1.0,Phytochrome-mediated inhibition of shade avoidance involves degradation of growth-promoting bHLH transcription factors,2007
+W1981663912,arabidopsis,1.0,The <i>SHOOT MERISTEMLESS</i> gene is required for maintenance of undifferentiated cells in <i>Arabidopsis</i> shoot and floral meristems and acts at a different regulatory level than the meristem genes <i>WUSCHEL</i> and <i>ZWILLE</i>,1996
+W2015851559,arabidopsis,1.0,Morphogenesis in <i>pinoid</i> mutants of <i>Arabidopsis thaliana</i>,1995
+W2134588184,arabidopsis,1.0,Isolation and characterization of abscisic acid‐deficient <i>Arabidopsis</i> mutants at two new loci,1996
+W4229757499,arabidopsis,1.0,"A Novel cis-Acting Element in an Arabidopsis Gene Is Involved in Responsiveness to Drought, Low-Temperature, or High-Salt Stress",1994
+W1998377076,arabidopsis,1.0,Systemic Acquired Resistance in<i>Arabidopsis</i>Requires Salicylic Acid but Not Ethylene,1995
+W2015946583,arabidopsis,1.0,Autophagy in Development and Stress Responses of Plants,2006
+W4243001760,arabidopsis,1.0,Growth Stage-Based Phenotypic Analysis of Arabidopsis: A Model for High Throughput Functional Genomics in Plants,2001
+W2169922635,arabidopsis,1.0,Movement and subcellular localization of a tobamovirus in<i> Arabidopsis</i>,1997
+W1975195438,arabidopsis,1.0,Transient transformation of <i>Arabidopsis</i> leaf protoplasts: a versatile experimental system to study gene expression,1994
+W2037414264,arabidopsis,1.0,The <i>Arabidopsis</i> Athb‐10 (GLABRA2) is an HD‐Zip protein required for regulation of root hair development,1996
+W2030611224,arabidopsis,1.0,Genetic evidence for an essential role of brassinosteroids in plant development,1996
+W2141265355,arabidopsis,1.0,Genetic evidence that induction of root Fe(III) chelate reductase activity is necessary for iron uptake under iron deficiency<sup>†</sup>,1996
+W3012723500,arabidopsis,1.0,Correction: Corrigendum: Salicylic acid biosynthesis is enhanced and contributes to increased biotrophic pathogen resistance in Arabidopsis hybrids,2015
+W2034234820,arabidopsis,1.0,Mutations in the <i>AXR3</i> gene of <i>Arabidopsis</i> result in altered auxin response including ectopic expression from the <i>SAUR‐AC1</i> promoter,1996
+W1848060965,arabidopsis,1.0,Molecular Cloning and Characterization of 9 cDNAs for Genes That Are Responsive to Desiccation in Arabidopsis thaliana: SequenceAnalysis of One cDNA Clone That Encodes a Putative Transmembrane Channel Protein,1992
+W1975878968,arabidopsis,1.0,Tissue‐specific expression of <i>Arabidopsis AKT1</i> gene is consistent with a role in K<sup>+</sup> nutrition,1996
+W2006983022,arabidopsis,1.0,Functional analysis of the <i>Arabidopsis thaliana</i> SBP‐box gene <i>SPL3</i>: a novel gene involved in the floral transition,1997
+W2000345299,arabidopsis,1.0,"<i>amp1</i> ‐ a mutant with high cytokinin levels and altered embryonic pattern, faster vegetative growth, constitutive photomorphogenesis and precocious flowering",1993
+W1966377424,arabidopsis,1.0,"Differential expression of two <i>P5CS</i> genes controlling proline accumulation during salt‐stress requires ABA and is regulated by <i>ABA1, ABI1</i> and <i>AXR2</i> in <i>Arabidopsis</i>",1997
+W4244174210,arabidopsis,1.0,Relationship between Endopolyploidy and Cell Size in Epidermal Tissue of Arabidopsis,1993
+W1578354962,arabidopsis,1.0,Plant roots : the hidden half,1991
+W1607705891,arabidopsis,1.0,Ethylene is a positive regulator of root hair development in <i>Arabidopsis thaliana</i>,1995
+W2004806734,arabidopsis,1.0,The <i>Arabidopsis</i> ribonuclease gene <i>RNS1</i> is tightly controlled in response to phosphate limitation,1994
+W2069579071,arabidopsis,1.0,Seed and Molecular Resources for Arabidopsis,2000
+W1942286409,arabidopsis,1.0,The New <i>RGA</i> Locus Encodes a Negative Regulator of Gibberellin Response in <i>Arabidopsis thaliana</i>,1997
+W4241689729,arabidopsis,1.0,Production of Salicylic Acid Precursors Is a Major Function of Phenylalanine Ammonia-Lyase in the Resistance of Arabidopsis to Peronospora parasitica,1996
+W2116697546,arabidopsis,1.0,A role for arabinogalactan‐proteins in plant cell expansion: evidence from studies on the interaction of β‐glucosyl Yariv reagent with seedlings of <i>Arabidopsis thaliana</i>,1996
+W4231058641,arabidopsis,1.0,Molecular Characterization of Functional Domains in the Protein Kinase SOS2 That Is Required for Plant Salt Tolerance,2001
+W2044514710,arabidopsis,1.0,The <i>Arabidopsis</i> homeobox gene <i>ATHB‐7</i> is induced by water deficit and by abscisic acid,1996
+W2115803636,arabidopsis,1.0,Mutants of <i>Arabidopsis thaliana</i> with altered cell wall polysaccharide composition,1997
+W2041433712,arabidopsis,1.0,Coordinate transcriptional induction of <i>myo</i>‐inositol metabolism during environmental stress,1996
+W4255852062,arabidopsis,1.0,"Phenotypic and Genetic Analysis of det2, a New Mutant That Affects Light-Regulated Seedling Development in Arabidopsis",1991
+W2054246604,arabidopsis,1.0,The <i>Arabidopsis ELF</i>3 gene regulates vegetative photomorphogenesis and the photoperiodic induction of flowering,1996
+W1964558478,arabidopsis,1.0,Real‐time imaging of phloem unloading in the root tip of <i>Arabidopsis</i>,1994
+W1978805236,arabidopsis,1.0,An inventory of 1152 expressed sequence tags obtained by partial sequencing of cDNAs from <i>Arabidopsis thaliana</i><sup>†</sup>,1993
+W2125921110,arabidopsis,1.0,"HAT3.1, a novel <i>Arabidopsis</i> homeodomain protein containing a conserved cysteine‐rich region",1993
+W4248333908,arabidopsis,1.0,Role of Arabidopsis MYC and MYB Homologs in Drought- and Abscisic Acid-Regulated Gene Expression,1997
+W2072244066,arabidopsis,1.0,Developmental regulation of the gibberellin biosynthetic gene <i>GA1</i> in <i>Arabidopsis thaliana</i>,1997
+W1986037157,barley,1.0,The analysis of adaptation in a plant-breeding programme,1963
+W2132252339,barley,1.0,Analysis of the sugar specificity and molecular location of the β-glucan-binding lectin site of complement receptor type 3 (CD11b/CD18),1996
+W2027939343,barley,1.0,"Response of antioxidant enzymes to transfer from elevated carbon dioxide to air and ozone fumigation, in the leaves and roots of wild‐type and a catalase‐deficient mutant of barley",1998
+W2055672528,barley,1.0,Nutrient Supply and the Growth of the Seminal Root System in Barley,1975
+W2146601875,barley,1.0,Nutrient Supply and the Growth of the Seminal Root System in Barley,1973
+W2054639265,barley,1.0,Barley Mutants Lacking Chloroplast Glutamine Synthetase—Biochemical and Genetic Analysis,1987
+W2931294,barley,1.0,Effects of the inclusion of yeast culture (Saccharomyces cerevisiae plus growth medium) in the diet of dairy cows on milk yield and forage degradation and fermentation patterns in the rumen of steers,1991
+W2035049609,barley,1.0,Near‐Isogenic Barley Lines with Genes for Resistance to Powdery Mildew<sup>1</sup>,1986
+W6049808,barley,1.0,Effect of Yucca schidigera on ruminal fermentation and nutrient digestion in heifers.,1999
+W2018020060,barley,1.0,Osmotic Adjustment and Growth of Barley Genotypes under Drought Stress,1989
+W2038869176,barley,1.0,Plant Breeding Progress and Genetic Diversity from De Novo Variation and Elevated Epistasis,1997
+W2054381733,barley,1.0,Evidence for Noncirculative Transmission of Pierce's Disease Bacterium by Sharpshooter Leafhoppers,1979
+W2162826705,barley,1.0,"Germin‐like oxalate oxidase, a H<sub>2</sub>O<sub>2</sub>‐producing enzyme, accumulates in barley attacked by the powdery mildew fungus",1995
+W2067735945,barley,1.0,"Aphid Transmission and Systemic Plant Infection Determinants of Barley Yellow Dwarf Luteovirus-PAV are Contained in the Coat Protein Readthrough Domain and 17-kDa Protein, Respectively",1996
+W1988858514,barley,1.0,Effect of calcium on root development and root ion fluxes in salinised barley seedlings,2003
+W1969701569,barley,1.0,Relative Toxicities of Inorganic Aluminum Complexes to Barley,1986
+W2044745008,barley,1.0,Viability and Leaching of Sugars from Germinating Barley<sup>1</sup>,1970
+W2402364037,barley,1.0,Physiological and Ecological Studies in the Analysis of Plant Environment,1951
+W2143798842,barley,1.0,Salt tolerance of <i>Hordeum</i> and <i>Brassica</i> species during germination and early seedling growth,1995
+W1998740202,barley,1.0,Evidence for Receptor-Mediated Endocytosis Regulating Luteovirus Acquisition by Aphids,1993
+W2045891963,barley,1.0,Sodium Absorption by Barley Roots: Role of the Dual Mechanisms of Alkali Cation Transport,1967
+W1985173529,barley,0.8173913043478261,Gene for Improved Nutritional Value in Barley Seed Protein,1970
+W1960498850,barley,0.7027027027027027,Improved Equations for the Prediction of Seed Longevity,1980
+W2132466944,barley,0.6915422885572139,MULTILOCUS STRUCTURE OF NATURAL POPULATIONS OF <i>HORDEUM SPONTANEUM</i>,1980
+W2089051496,barley,0.4349206349206349,Induced root-secreted phenolic compounds as a belowground plant defense,2010
+W1983741842,barley,0.3931847968545216,"PLASTID STRUCTURE, CHLOROPHYLL CONCENTRATION, AND FREE AMINO ACID COMPOSITION OF A CHLOROPHYLL MUTANT OF BARLEY",1963
+W2319913518,barley,0.3438320209973753,Occupation of Biological Space During Seedling Establishment,1972
+W2136619438,barley,0.2905464006938421,The use of dosed and herbage n-alkanes as markers for the determination of herbage intake,1986
+W2041261103,barley,0.2077464788732394,Relationships between lipophilicity and root uptake and translocation of non‐ionised chemicals by barley,1982
+W2038775459,barley,0.1434689507494646,A Numerical Scale to Classify Reactions of Barley to<i>Pyrenophora Teres</i>,1985
+W1990141454,barley,0.1334768568353067,Potassium homeostasis in vacuolate plant cells.,1996
+W2128430880,barley,0.1022146507666098,Studies of the Uptake of Nitrate in Barley,1990
+W2147470376,barley,0.0965250965250965,Effects of silicon on salinity tolerance of two barley cultivars,1996
+W2005898250,barley,0.0949432404540763,Root Respiration Associated with Ammonium and Nitrate Absorption and Assimilation by Barley,1992
+W1966439290,barley,0.0886454183266932,Simultaneous Determination of Multiple Phytohormones in Plant Extracts by Liquid Chromatography−Electrospray Tandem Mass Spectrometry,2005
+W1988720073,barley,0.0597938144329896,Interactions between <i>Treponema bryantii</i> and cellulolytic bacteria in the <i>in vitro</i> degradation of straw cellulose,1987
+W2046936544,barley,0.0485744456177402,Regulation of Potassium Absorption in Barley Roots,1976
+W1971295008,barley,0.0361663652802893,Weed suppression ability of spring barley varieties,1995
+W2117491464,barley,0.0324189526184538,Mechanisms of Weed Suppression in Cover Crop-based Production Systems,1996
+W1898213540,barley,0.0321027287319422,Structural and functional relationships of enzyme activities induced by nitrate in barley,1970
+W1972789341,barley,0.0304174533249423,"Haplotyping, linkage mapping and expression analysis of barley genes regulated by terminal drought stress influencing seed quality",2011
+W1580257366,barley,0.0274469186949766,Chlorophyll Fluorescence as a Possible Tool for Salinity Tolerance Screening in Barley (Hordeum vulgare L.),1994
+W2161479301,barley,0.0239320638188368,Genome Expansion and Gene Loss in Powdery Mildew Fungi Reveal Tradeoffs in Extreme Parasitism,2010
+W2076895022,barley,0.018331226295828,Seed priming enhances germination and seedling growth of barley under conditions of P and Zn deficiency,2004
+W2119896452,barley,0.0178957112002468,Efficient and Accurate Construction of Genetic Linkage Maps from the Minimum Spanning Tree of a Graph,2008
+W2165227099,barley,0.0170547720564119,Rapid and tissue-specific changes in ABA and in growth rate in response to salinity in barley leaves,2004
+W2138892620,barley,0.0162348877374784,The phylogeny of RNA-dependent RNA polymerases of positive-strand RNA viruses,1991
+W2085578548,barley,0.0131147540983606,Gibberellic acid and abscisic acid coordinately regulate cytoplasmic calcium and secretory activity in barley aleurone protoplasts.,1992
+W2765361152,barley,0.0070124371526858,Influence of PEG induced drought stress on molecular and biochemical constituents and seedling growth of Egyptian barley cultivars,2017
+W2144006329,barley,0.0067824199674443,Identification of a methyl jasmonate‐responsive region in the promoter of a lipoxygenase 1 gene expressed in barley grain,1997
+W1994781360,cotton,1.0,Effect of Organic Acids on Aluminum Toxicity in Subsoils,1986
+W2013752239,cotton,1.0,Antioxidant Response to NaCl Stress in Salt‐Tolerant and Salt‐Sensitive Cultivars of Cotton,1994
+W2093747141,cotton,1.0,An introduction to tropical rain forests,1998
+W2030106093,cotton,1.0,Rapid Extraction and Analysis of Nonstructural Carbohydrates in Plant Tissues,1993
+W2067592899,cotton,1.0,Genotypic and Environmental Variances and Covariances in an Upland Cotton Cross of Interspecific Origin<sup>1</sup>,1958
+W2074868294,cotton,1.0,Estimates of Genotypic and Environmental Variances and Covariances in Upland Cotton and Their Implications in Selection<sup>1</sup>,1958
+W2317646682,cotton,1.0,Congruence and Consensus in the Cotton Tribe (Malvaceae),1997
+W30984071,cotton,1.0,"Alternaria: biology, plant diseases and metabolites.",1992
+W2291694901,cotton,1.0,Biodegradation of malachite green by Kocuria rosea MTCC 1532,2006
+W2018450039,cotton,1.0,Influence of Field Application of an Atoxigenic Strain of<i>Aspergillus flavus</i>on the Populations of<i>A. flavus</i>Infecting Cotton Bolls and on the Aflatoxin Content of Cottonseed,1994
+W2153332928,cotton,1.0,Salt Tolerance of Cotton: Some New Advances,2002
+W2312382243,cotton,1.0,"An<i>Xanthomonas citri</i>Pathogenicity Gene,<i>pthA,</i>Pleiotropically Encodes Gratuitous Avirulence on Nonhosts",1992
+W62038207,cotton,1.0,Effects of gossypol and cottonseed products on reproduction of mammals,1992
+W2015420277,cotton,1.0,"A Conformation-dependent Cotton Effect in α-Helical Polypeptides and Proteins<sup>1,2</sup>",1961
+W2062777462,cotton,1.0,Temperature Effects on Cotton Fruit Retention,1992
+W2006744382,cotton,1.0,Genetic Diversity in Elite Cotton Germplasm Determined by Morphological Characteristics and RAPDs,1996
+W2009589398,cotton,1.0,Temperature Effects on Early Season Cotton Growth and Development,1992
+W2076975981,cotton,1.0,Competitive Exclusion of a Toxigenic Strain of<i>Aspergillus flavus</i>by an Atoxigenic Strain,1993
+W4210349322,cotton,1.0,Salt Tolerance of Cotton: Some New Advances,2002
+W2117129344,cotton,0.9148936170212766,Structures of Bamboo Fiber for Textiles,2009
+W1989457482,cotton,0.8387470997679815,Germination of Witchweed ( <i>Striga lutea</i> Lour.): Isolation and Properties of a Potent Stimulant,1966
+W2142587441,cotton,0.4072398190045249,Biotechnology as an alternative to chemical pesticides: a case study of Bt cotton in China,2003
+W2117532617,cotton,0.2608695652173913,Identification of Plant Hormones from Cotton Ovules,1975
+W2499222419,cotton,0.2307692307692307,Taxonomy and Germplasm Resources,1984
+W2014134050,cotton,0.1642651296829971,Determination of the Pore Size of Cell Walls of Living Plant Cells,1979
+W2525045760,cotton,0.1420454545454545,Measurements of Proline and Malondialdehyde Content and Antioxidant Enzyme Activities in Leaves of Drought Stressed Cotton,2016
+W2320782927,cotton,0.1333333333333333,Concept for Monitoring the Growth and Development of Cotton Plants Using Main‐Stem Node Counts,1992
+W2013708014,cotton,0.10912343470483,Effects of Ethylene on Auxin Transport,1966
+W2041200266,cotton,0.106679960119641,A Potent Inhibitor of Ethylene Action in Plants,1976
+W2073512111,cotton,0.0966202783300198,New World tetraploid cottons contain Old World cytoplasm,1989
+W2773601183,cotton,0.0929292929292929,Machine learning regression technique for cotton leaf disease detection and controlling using IoT,2017
+W1844846354,cotton,0.0908018867924528,Analysis of conditional genetic effects and variance components in developmental genetics.,1995
+W2148584947,cotton,0.0778443113772455,Virulence and Cultural Characteristics of Two<i>Aspergillus flavus</i>Strains Pathogenic on Cotton,1989
+W2012106612,cotton,0.0697928026172301,"Colour in textile effluents - sources, measurement, discharge consents and simulation: a review",1999
+W2167917677,cotton,0.0677351073480495,Displacement of Ca<sup>2+</sup> by Na<sup>+</sup> from the Plasmalemma of Root Cells,1985
+W2536452926,cotton,0.0564738292011019,Classification of cotton leaf spot diseases using image processing edge detection techniques,2012
+W2087369364,cotton,0.0333333333333333,"Discovery, Characterization, and Structure−Activity Relationships Studies of Proapoptotic Polyphenols Targeting B-Cell Lymphocyte/Leukemia-2 Proteins",2003
+W2064389911,cotton,0.0236656596173212,Stem Diameter in Relation to Plant Water Status,1971
+W101918165,cotton,0.0195945945945945,Economical and rapid method for extracting cotton genomic DNA.,2000
+W2028922415,cotton,0.0133700353912701,Engineering cottonseed for use in human nutrition by tissue-specific reduction of toxic gossypol,2006
+W2079456374,cotton,0.0127569099929128,"Influx of Na<sup>+</sup>, K<sup>+</sup>, and Ca<sup>2+</sup> into Roots of Salt-Stressed Cotton Seedlings",1987
+W2058355586,cotton,0.0077830780818478,GENETIC DIVERSITY IN GOSSYPIUM HIRSUTUM AND THE ORIGIN OF UPLAND COTTON,1992
+W1511759670,cotton,0.0055292259083728,"Influence of Potassium Deficiency on Photosynthesis, Chlorophyll Content, and Chloroplast Ultrastructure of Cotton Plants",2001
+W1608181111,cotton,0.0053530461381595,Chitinolytic Enterobacter agglomerans Antagonistic to Fungal Plant Pathogens,1995
+W2156854131,cotton,0.0040633888663145,Drought-induced Changes in Shoot and Root Growth of Young Cotton Plants,1999
+W2164594641,cotton,0.0037037037037037,Evaluating cell wall structure and composition of developing cotton fibers using Fourier transform infrared spectroscopy and thermogravimetric analysis,2007
+W2016671489,cotton,0.0033444816053511,Interaction of Light with a Plant Canopy*,1968
+W2524983888,cotton,0.0024630541871921,Cotton plants export microRNAs to inhibit virulence gene expression in a fungal pathogen,2016
+W2000293741,cotton,0.0016781652060413,Changes in Biochemical Composition of the Cell Wall of the Cotton Fiber During Development,1977
+W2063715895,cotton,0.001669825796552,Gene Expression Profile Changes in Cotton Root and Hypocotyl Tissues in Response to Infection with <i>Fusarium oxysporum</i> f. sp. <i>vasinfectum</i>,2004
+W1875412457,maize,1.0,CERES-Maize: a simulation model of maize growth and development,1986
+W2058372130,maize,1.0,"Xylan and xylan derivatives - biopolymers with valuable properties, 1. Naturally occurring xylans structures, isolation procedures and properties",2000
+W2025560344,maize,1.0,Identifying Mega‐Environments and Targeting Genotypes,1997
+W1598449041,maize,1.0,Crop micrometeorology : a simulation study,1977
+W2040866820,maize,1.0,Comparison of Models for Describing; Corn Yield Response to Nitrogen Fertilizer,1990
+W2026125218,maize,1.0,Analysis and Interpretation of Factors Which Contribute to Efficiency of Nitrogen Utilization<sup>1</sup>,1982
+W652020414,maize,1.0,Seed Development and Germination,2017
+W1974759912,maize,1.0,The Composition of a Field of Maize,1908
+W2342825194,maize,1.0,Light Distribution and Photosynthesis in Field Crops,1965
+W1503201926,maize,1.0,The structure and reproduction of corn,1980
+W2033210774,maize,1.0,Kernel Number Determination in Maize,1999
+W54045799,maize,1.0,Breeding Vegetable Crops,1985
+W2101631181,maize,1.0,Breeding for drought and nitrogen stress tolerance in maize: From theory to practice,2000
+W639688165,maize,1.0,Mycotoxins and Animal Foods,1991
+W151937095,maize,1.0,Starch Digestion and Utilization in Ruminants,1986
+W2221571340,maize,1.0,Mutable Loci in Maize,1948
+W2145504406,maize,1.0,Insect Pests of Cowpeas,1986
+W1988499173,maize,1.0,Heat Units as a Method of Measuring Maturity in Corn<sup>1</sup>,1958
+W2077748368,maize,1.0,A new model system for tomato genetics,1997
+W4237253531,maize,1.0,Evidence for Chilling-Induced Oxidative Stress in Maize Seedlings and a Regulatory Role for Hydrogen Peroxide,1994
+W2036743032,maize,1.0,Characterization of phosphatase of intact maize roots,1975
+W2077971449,maize,1.0,The Effects of Soil Moisture Stress at Different Stages of Growth on the Development and Yield of Corn<sup>1</sup>,1960
+W1976938214,maize,1.0,The effect of salt stress on lipid peroxidation and antioxidants in the leaf of the cultivated tomato and its wild salt‐tolerant relative <i>Lycopersicon pennellii</i>,1998
+W2313456038,maize,1.0,"Insecticidal Properties of Several Monoterpenoids to the House Fly (Diptera: Muscidae), Red Flour Beetle (Coleoptera: Tenebrionidae), and Southern Corn Rootworm (Coleoptera: Chrysomelidae)",1994
+W2087339712,maize,1.0,Simultaneous Selection for Yield and Stability in Crop Performance Trials: Consequences for Growers,1993
+W1991281905,maize,1.0,Temperature and Solar Radiation Effects on Potential Maize Yield across Locations,1990
+W1976575447,maize,1.0,Prediction of Maize Single‐Cross Performance Using RFLPs and Information from Related Hybrids,1994
+W2074444386,maize,1.0,"Nitrogen Defeciency in Maize: I. Effects on Crop Growth, Development, Dry Matter Partitioning, and Kernel Set",1995
+W1966350617,maize,1.0,"Mechanisms of chilling‐induced oxidative stress injury and tolerance in developing maize seedlings: changes in antioxidant system, oxidation of proteins and lipids, and protease activities",1996
+W2054585477,maize,1.0,Leaf Reflectance vs. Leaf Chlorophyll and Carotenoid Concentrations for Eight Crops<sup>1</sup>,1977
+W71320721,maize,1.0,"Roots, plant production and nutrient use efficiency",1987
+W2119284171,maize,1.0,Growth of the Maize Primary Root at Low Water Potentials,1990
+W2080108537,maize,1.0,Water Deficit Timing Effects on Yield Components in Maize,1989
+W1976713456,maize,1.0,"Leaf Angles, Leaf Area, and Canopy Photosynthesis<sup>1</sup>",1971
+W2139757216,maize,1.0,Plant Growth Substances,1979
+W1987297838,maize,1.0,Nitrogen Response of Leaf Photosynthesis and Canopy Radiation Use Efficiency in Field‐Grown Maize and Sorghum,1994
+W2100520855,maize,1.0,A Potential Phosphate Crisis,1999
+W2068964335,maize,1.0,"Row Spacing Effects on Light Extinction Coefficients of Corn, Sorghum, Soybean, and Sunflower",1996
+W2012981798,maize,1.0,Mycorrhizae: Possible Explanation for Yield Decline with Continuous Corn and Soybean,1992
+W2029062246,maize,1.0,Selection for Drought Tolerance Increases Maize Yields across a Range of Nitrogen Levels,1999
+W2010130291,maize,1.0,Genetic Improvement in Grain Yield of Commercial Maize Hybrids Grown in Ontario from 1959 to 1988,1989
+W2032409127,maize,1.0,High Temperature Stress and Pollen Viability of Maize<sup>1</sup>,1980
+W2038142828,maize,1.0,Ear and Kernel Formation in Maize Hybrids Representing Three Decades of Grain Yield Improvement in Ontario,1992
+W2058685043,maize,1.0,Influence of Tillage Systems on Weed Population Dynamics and Management in Corn and Soybean in the Central USA,1995
+W4237159149,maize,1.0,French Beans and Food Scares,2004
+W2047858817,maize,1.0,Causes for Silk Delay in a Lowland Tropical Maize Population,1993
+W560997783,maize,1.0,Mutants of Maize,1997
+W2014720907,maize,1.0,Efficiency of Secondary Traits for Improving Maize for Low‐Nitrogen Target Environments,1997
+W2020468957,maize,1.0,Efficiency of High‐Nitrogen Selection Environments for Improving Maize for Low‐Nitrogen Target Environments,1997
+W2058433536,maize,1.0,"Growth Stages of Corn (Zea mays, L.)<sup>1</sup>",1963
+W1514490835,non_specific,1.0,"Seeds: ecology, biogeography, and evolution of dormancy and germination",2015
+W2181908191,non_specific,1.0,Virus taxonomy: classification and nomenclature of viruses. Seventh report of the International Committee on Taxonomy of Viruses.,2000
+W3001748765,non_specific,1.0,Nutrient Requirements of Sheep,1975
+W2051228629,non_specific,1.0,Plant Growth-Promoting Effects of Diazotrophs in the Rhizosphere,2003
+W2018308587,non_specific,1.0,Progress in Nucleic Acid Research and Molecular Biology,2001
+W4251060592,non_specific,1.0,Introduction of a Chimeric Chalcone Synthase Gene into Petunia Results in Reversible Co-Suppression of Homologous Genes in trans,1990
+W1819373124,non_specific,1.0,Working with Mycorrhizas in Forestry and Agriculture,1996
+W2302267631,non_specific,1.0,An annotated check-list of the italian vascular flora,2004
+W1600598759,non_specific,1.0,Perspectives on Plant Competition,1992
+W2095549276,non_specific,1.0,Phytochemical Studies And Comparative Efficacy Of The Crude Extracts Of Some Haemostatic Plants In Edo And Delta States Of Nigeria,2002
+W1592582327,non_specific,1.0,Nematodes as biocontrol agents,2005
+W195621321,non_specific,1.0,Methods for the diagnosis of bacterial diseases of plants,1987
+W2099907980,non_specific,1.0,Principles of crop improvement,1979
+W2027631788,non_specific,1.0,Nuclear DNA Amounts in Angiosperms,1995
+W1523224409,non_specific,1.0,The merging of the senses,1994
+W1833994117,non_specific,1.0,Ethnobotany: a methods manual,1995
+W2120171067,non_specific,1.0,Microbial Iron Compounds,1981
+W2025335260,non_specific,1.0,Electrical effects accompanying the decomposition of organic compounds,1911
+W1498703985,non_specific,1.0,Egg Science and Technology,1986
+W1994998338,non_specific,1.0,Seeds: the ecology of regeneration in plant communities,2000
+W1536211993,non_specific,1.0,"Postharvest: an introduction to the physiology and handling of fruit, vegetables and ornamentals",2007
+W1591648418,non_specific,1.0,Global warming and biological diversity,1992
+W2141175458,non_specific,1.0,Luminescent greenhouse collector for solar radiation,1976
+W2034407949,non_specific,1.0,PHOTOMORPHOGENESIS IN PLANTS,1990
+W2797133290,non_specific,1.0,The new Britton and Brown illustrated flora of the northeastern United States and adjacent Canada,1958
+W1541466328,non_specific,1.0,Advances in Legume Science,2014
+W1668720348,non_specific,1.0,Contemporary statistical models for the plant and soil sciences,2002
+W640084784,non_specific,1.0,Handbook of Functional Plant Ecology,1999
+W2335256095,non_specific,1.0,The Individualistic Concept of the Plant Association,1939
+W3002258748,non_specific,1.0,"Experiments in Microbiology, Plant Pathology and Biotechnology",2003
+W2140031547,non_specific,1.0,Mechanisms of Salt Tolerance in Nonhalophytes,1980
+W2069551150,non_specific,1.0,Seeds: Physiology of Development and Germination.,1995
+W1870940040,non_specific,1.0,Crop Salt Tolerance—Current Assessment,1977
+W1661611782,non_specific,1.0,The Chemistry of Soils,2016
+W1980691675,non_specific,1.0,Natural vegetation of Oregon and Washington,1988
+W1772754405,non_specific,1.0,The biochemistry of silage,1981
+W1605702094,non_specific,1.0,Plant Breeding for Stress Environments,2018
+W2396140944,non_specific,1.0,An Introduction to Genetic Statistics,1958
+W2040797005,non_specific,1.0,Grazing ecology and forest history,2000
+W1506064382,non_specific,1.0,Vegetation of southern Africa,1998
+W2505405263,non_specific,1.0,Medicinal Natural Products,2009
+W266934124,non_specific,1.0,Analysis of Phenolic Plant Metabolites,1994
+W2104919199,non_specific,1.0,The Quantitative Analysis of Plant Growth.,1973
+W2009475438,non_specific,1.0,Genetics and conservation of rare plants,1992
+W1497895255,non_specific,1.0,Oxidative stress and the molecular biology of antioxidant defenses.,1997
+W2109943000,non_specific,1.0,Ethnobotany: principles and applications,1997
+W2034727354,non_specific,1.0,The tropical rain forest: an ecological study,1997
+W2021315850,non_specific,1.0,Patterns of Species Distributions in the Dry Seasonal Forests of South America,1993
+W1514681737,non_specific,1.0,People's Plants: A Guide to Useful Plants of Southern Africa,2000
+W8539602,non_specific,1.0,Methods in Phytobacteriology,1990
+W2106835948,other_crop,1.0,Tropical Trees and Forests. An Architectural Analysis.,1980
+W1491046840,other_crop,1.0,Peppers: vegetable and spice capsicums,2012
+W1976547281,other_crop,1.0,Influence of processing and storage on the phenolic composition of Thompson Seedless grape juice,1990
+W2030128711,other_crop,1.0,Therapeutic actions of garlic constituents,1996
+W1968583820,other_crop,1.0,Compendium of Grape Diseases,1989
+W2089547130,other_crop,1.0,Functional and electrophoretic characteristics of succinylated peanut flour protein,1977
+W2330450977,other_crop,1.0,"Allicin, the Antibacterial Principle of Allium sativum. I. Isolation, Physical Properties and Antibacterial Action",1944
+W2074420144,other_crop,1.0,Exact Confidence Intervals for Heritability on a Progeny Mean Basis<sup>1</sup>,1985
+W1492800937,other_crop,1.0,"Sorghum: origin, history, technology and production.",2000
+W2060213751,other_crop,1.0,Scavenging Effect of Methanolic Extracts of Peanut Hulls on Free-Radical and Active-Oxygen Species,1994
+W2568881002,other_crop,1.0,A Model for Estimating the Completion of Rest for ‘Redhaven’ and ‘Elberta’ Peach Trees1,1974
+W2340461078,other_crop,1.0,Environmental and Management Practices Affecting Grape Composition and Wine Quality - A Review,1993
+W2046146717,other_crop,1.0,Description of Sunflower Growth Stages<sup>1</sup>,1981
+W3014970354,other_crop,1.0,"Control of Peach Tree Growth and Productivity by Regulated Water Supply, Tree Density, and Summer Pruning1",1981
+W2260448939,other_crop,1.0,Cluster Sun Exposure and Quercetin in Pinot noir Grapes and Wine,1995
+W1944382492,other_crop,1.0,Development and Characterization of Additional Microsatellite DNA Markers for Grape,1999
+W563412920,other_crop,1.0,Garlic: The Science and Therapeutic Application of Allium Sativum L. and Related Species,1996
+W1542480419,other_crop,1.0,Bananas and Plantains,1995
+W2476439854,other_crop,1.0,"FRUIT MATURITY, RIPENING, AND QUALITY RELATIONSHIPS",1999
+W2039350925,other_crop,1.0,Genetic Control of the Domestication Syndrome in Common Bean,1996
+W635420415,other_crop,1.0,Advances in cowpea research,1997
+W2109335148,other_crop,1.0,Biological Properties of Citrus Flavonoids Pertaining to Cancer and Inflammation,2001
+W2608044737,other_crop,1.0,The Politics of Resentment: Rural Consciousness in Wisconsin and the Rise of Scott Walker,2017
+W2057892597,other_crop,1.0,Developmentally regulated epitopes of cell surface arabinogalactan proteins and their relation to root tissue pattern formation,1991
+W2058164136,other_crop,1.0,Antioxidant and Radical Scavenging Effects of Aged Garlic Extract and its Constituents,1994
+W2088931541,other_crop,1.0,Compendium of Apple and Pear Diseases,1990
+W2135980731,other_crop,1.0,A Non-Destructive Method for Determining Peanut Pod Maturity,1981
+W118978382,other_crop,1.0,Chemistry and biology of boron.,1992
+W2574787812,other_crop,1.0,Analyzing the biochemical compounds and the differentially expressed genes in anthocyanin biosynthesis pathway for the variegated peach flowers,2015
+W2084133270,other_crop,1.0,Structural Characterization of Nanoparticles Loaded with Garlic Essential Oil and Their Insecticidal Activity against<i>Tribolium castaneum</i>(Herbst) (Coleoptera: Tenebrionidae),2009
+W1504050599,other_crop,1.0,Common beans : Research for crop improvement,1991
+W1990772339,other_crop,1.0,A Simplified Classification of Cultivated Sorghum<sup>1</sup>,1972
+W1971866469,other_crop,1.0,Induction of Systemic Resistance of Cucumber to<i>Colletotrichum orbiculare</i>by Select Strains of Plant Growth-Promoting Rhizobacteria,1991
+W4389383397,other_crop,1.0,General Viticulture,1974
+W2020641997,other_crop,1.0,Effects of organosulfur compounds from garlic and onions on benzo[<i>a</i>]pyrene-induced neoplasia and glutathione S-transferase activity in the mouse,1988
+W1554403518,other_crop,1.0,Epistasis and the Evolutionary Process,2000
+W1563194812,other_crop,1.0,Handbook of Plant and Crop Physiology,2001
+W1540818229,other_crop,1.0,Evolution through Genetic Exchange,2007
+W2162810808,other_crop,1.0,Antioxidant Effects of Sulfur-Containing Amino Acids,2004
+W2222155483,other_crop,1.0,Influence of Pre- and Postveraison Water Deficit on Synthesis and Concentration of Skin Phenolic Compounds during Berry Growth of Vitis vinifera cv. Shiraz,2002
+W2082729296,other_crop,1.0,Contribution of Nitrogen Fixation to Sugar Cane: Nitrogen‐15 and Nitrogen‐Balance Estimates,1992
+W2290739878,other_crop,1.0,Research on Development and Ripening of the Grape Berry,1992
+W1981853323,other_crop,1.0,Compendium of citrus diseases.,2000
+W2031261463,other_crop,1.0,An Overview of Plant Defenses against Pathogens and Herbivores,2008
+W1993520455,other_crop,1.0,Growth Stages of Peanut (<i>Arachis hypogaea</i> L.)1,1982
+W1996492280,other_crop,1.0,"Changes in phloem export of sucrose in leaves in response to phosphorus, potassium and magnesium deficiency in bean plants",1994
+W2970758768,other_crop,1.0,A guide to sugarcane diseases,2000
+W2442230836,other_crop,1.0,Enrichment of microsatellites from the citrus genome using biotinylated oligonucleotide sequences bound to streptavidin-coated magnetic particles.,1994
+W1594916836,other_crop,1.0,Biotechnology of perennial fruit crops.,1992
+W1637981159,other_crop,1.0,The Science of allelopathy,1986
+W1562673428,other_model_organism,1.0,Colour Atlas of Ectomycorrhizae,1991
+W657744354,other_model_organism,1.0,Phytoremediation of toxic metals : using plants to clean up the environment,2000
+W1591731208,other_model_organism,1.0,Biology of Populus and its implications for management and conservation,1996
+W1983279516,other_model_organism,1.0,Visible/near infrared reflectance and chlorophyll content in Eucalyptus leaves,1999
+W1585693460,other_model_organism,1.0,Ecology and Silviculture of Eucalypt Forests,2004
+W2297382079,other_model_organism,1.0,Poplars and willows: trees for society and the environment,2014
+W2066210296,other_model_organism,1.0,Ectopic expression of oat phytochrome A in hybrid aspen changes critical daylength for growth and prevents cold acclimatization,1997
+W1989762240,other_model_organism,1.0,Establishment of a root proteome reference map for the model legumeMedicago truncatulausing the expressed sequence tag database for peptide mass fingerprinting,2001
+W2024781037,other_model_organism,1.0,An Assessment of the Allelopathic Potential of <i>Eucalyptus</i>,1990
+W2097756305,other_model_organism,0.5514705882352942,The ecological aspect of ethnobotany and ethnopharmacology of population in Bosnia and Herzegovina.,2007
+W2096681075,other_model_organism,0.1157024793388429,The Clonal Growth Habit of American Aspens,1966
+W161917353,other_model_organism,0.0735294117647058,Effective Tree Species for Local Airquality Management,2000
+W2030362769,other_model_organism,0.0436432637571157,Free‐air CO<sub>2</sub> enrichment (FACE) of a poplar plantation: the POPFACE fumigation system,2001
+W2024811202,other_model_organism,0.0318471337579617,Leaf Conductance in Relation to Assimilation in <i>Eucalyptus pauciflora</i> Sieb. ex Spreng,1978
+W2134065692,other_model_organism,0.0171052631578947,"Grazing effects on plant cover, soil and microclimate in fragmented woodlands in south‐western Australia: implications for restoration",2000
+W2106447684,other_model_organism,0.0115843270868824,Phenotypic variation in growth and biomass distribution for two advanced-generation pedigrees of hybrid poplar,2005
+W2136142998,other_model_organism,0.010948905109489,Energy Product Options for Eucalyptus Species Grown as Short Rotation Woody Crops,2008
+W1984732025,other_model_organism,0.0040927694406548,Different mechanisms for phytoalexin induction by pathogen and wound signals in <i>Medicago truncatula</i>,2007
+W1981992705,other_model_organism,0.0014745637748832,Cytochrome f and plastocyanin: their sequence in the photosynthetic electron transport chain of Chlamydomonas reinhardi.,1965
+W2053066796,other_model_organism,0.0014302059496567,The Allelopathic Effects of Eucalyptus camaldulensis,1970
+W179400839,other_model_organism,0.0007078810759792,Biochemical parameters of plants as indicators of air pollution.,2007
+W2160898602,other_model_organism,0.000683674980914,LAMINA: a tool for rapid quantification of leaf size and shape parameters,2008
+W2006564295,other_model_organism,0.0001328197635808,Short-rotation woody crops for bioenergy and biofuels applications,2009
+W2103955844,other_model_organism,0.0001236552491653,Effects of high temperature on photosynthesis and related gene expression in poplar,2014
+W2032006952,other_model_organism,5.738633918195774e-05,LEAF DIMORPHISM IN POPULUS TRICHOCARPA,1960
+W2339062698,other_model_organism,-8.206407563025211e-05,Genetic Variation and the Natural History of Quaking Aspen,1996
+W2133966033,other_model_organism,-0.0001406020323384,Wood formation of trees in relation to potassium and calcium nutrition,2010
+W2163412729,other_model_organism,-0.0002572678157962,The complete nucleotide sequence of the hornwort (Anthoceros formosae) chloroplast genome: insight into the earliest land plants,2003
+W2124445015,other_model_organism,-0.0002804642166344,"<i>Enod40</i> , a Short Open Reading Frame–Containing mRNA, Induces Cytoplasmic Localization of a Nuclear RNA Binding Protein in <i>Medicago truncatula</i>",2004
+W2038281147,other_model_organism,-0.0002980837473385,Harmful and beneficial aspects of Parthenium hysterophorus: an update,2011
+W2132545099,other_model_organism,-0.0003143418467583,"<i>Lotus japonicus</i>, an autogamous, diploid legume species for classical and molecular genetics",1992
+W2033401580,other_model_organism,-0.0003243914135003,Short-rotation forestry with hybrid aspen (<i>Populus tremula</i>L.×<i>P. tremuloides</i>Michx.) in Northern Europe,2011
+W2169867826,other_model_organism,-0.0004000213344711,Phosphorus Deficiency Impairs Early Nodule Functioning and Enhances Proton Release in Roots of Medicago truncatula L.,2001
+W2125751420,other_model_organism,-0.0004107579462102,Nitrogen storage and seasonal nitrogen cycling in <i>Populus</i>: bridging molecular physiology and ecophysiology,2005
+W2147754222,other_model_organism,-0.0004187206181838,A transcriptional timetable of autumn senescence,2004
+W2121462051,other_model_organism,-0.0004254232961796,Genome-Based Approaches to Understanding Phosphorus Deprivation Responses and PSR1 Control in<i>Chlamydomonas reinhardtii</i>,2006
+W2053601607,other_model_organism,-0.000496661332156,The genetics and genomics of the drought response in <i>Populus</i>,2006
+W2025082271,other_model_organism,-0.0004973938634032,Pathway analysis of the transcriptome and metabolome of salt sensitive and tolerant poplar species reveals evolutionary adaption of stress tolerance mechanisms,2010
+W2083263833,other_model_organism,-0.0005326268061511,Impacts of drought on leaf respiration in darkness and light in <i>Eucalyptus saligna</i> exposed to industrial‐age atmospheric CO<sub>2</sub> and growth temperature,2011
+W2046726033,other_model_organism,-0.000571636951401,<i>Lotus japonicus</i> Metabolic Profiling. Development of Gas Chromatography-Mass Spectrometry Resources for the Study of Plant-Microbe Interactions,2005
+W2047335834,other_model_organism,-0.0005994485073732,The Control of Autumn Senescence in European Aspen    ,2009
+W1907880914,other_model_organism,-0.0006146561340405,Lignin-Modifying Enzymes of the White Rot Basidiomycete <i>Ganoderma lucidum</i>,1999
+W1980683036,other_model_organism,-0.0006265727481278,Pectin Methyl Esterase Inhibits Intrusive and Symplastic Cell Growth in Developing Wood Cells of<i>Populus</i> ,2007
+W2105714011,other_model_organism,-0.0006511755432174,The molecular genetic linkage map of the model legume Medicago truncatula: an essential tool for comparative legume genomics and the isolation of agronomically important genes,2002
+W2165284619,other_model_organism,-0.0006890517335666,Xyloglucan Endo-transglycosylase (XET) Functions in Gelatinous Layers of Tension Wood Fibers in Poplar—A Glimpse into the Mechanism of the Balancing Act of Trees,2007
+W2153390210,other_model_organism,-0.0006935817805383,MOSSES AS MODEL SYSTEMS FOR THE STUDY OF METABOLISM AND DEVELOPMENT,2006
+W2170150650,other_model_organism,-0.0007157031783727,Context dependence in the coevolution of plant and rhizobial mutualists,2007
+W2062776545,other_model_organism,-0.0007318286935394,Upgrading Root Physiology for Stress Tolerance by Ectomycorrhizas: Insights from Metabolite and Transcriptional Profiling into Reprogramming for Stress Anticipation,2009
+W1970329447,other_model_organism,-0.0007520372813235,Genome Sequence of the Plant Growth Promoting Endophytic Bacterium Enterobacter sp. 638,2010
+W2164189900,other_model_organism,-0.0007523746825919,Purification and Characterization of Peroxidases Correlated with Lignification in Poplar Xylem1,1998
+W2332039551,potato,1.0,"Mycoplasma- or PLT Group-like Microorganisms Found in the Phloem Elements of Plants Infected with Mulberry Dwarf, Potato Witches' Broom, Aster Yellows, or Paulownia Witches' Broom",1967
+W1581830689,potato,1.0,Induced Responses to Herbivory,1997
+W650957787,potato,1.0,Potato Breeding Problems and Perspectives,1986
+W1972527344,potato,1.0,"Free, esterified, and insoluble-bound phenolic acids. 3. Composition of phenolic acids in cereal and potato flours",1982
+W2011832671,potato,1.0,"Extensin: repetitive motifs, functional sites, post‐translational codes, and phylogeny",1994
+W583527970,potato,1.0,Compendium of potato diseases.,1981
+W620466111,potato,1.0,Compendium of potato diseases,2001
+W2146879042,potato,1.0,Genotypic Stability Analysis and Its Application to Potato Regional Trials,1971
+W4299436563,potato,1.0,"Tropical root and tuber crops: cassava, sweet potato, yams and aroids",2008
+W573613236,potato,1.0,Encyclopedia of Pest Management,2002
+W2157569037,potato,1.0,With bitter herbs they shall eat it: chemical ecology and the origins of human diet and medicine,1991
+W1889675536,potato,1.0,The coat protein of potato virus X is a strain‐specific elicitor of <i>Rx</i>1‐mediated virus resistance in potato,1995
+W2119611865,potato,1.0,The botany of desire: a plant's eye view of the world,2001
+W1992607183,potato,1.0,Isolation and partial characterization of antifungal metabolites of Bacillus pumilus,1998
+W2092957636,potato,1.0,Managing<i>Meloidogyne chitwoodi</i>on Potato with Rapeseed as Green Manure,1993
+W2048714652,potato,1.0,Biological Control of<i>Eutypa lata</i>on Grapevine by an Antagonistic Strain of<i>Bacillus subtilis</i>,1991
+W2064552842,potato,0.5882352941176471,Reflectance and Transmittance of Light by Leaves,1971
+W2089218078,potato,0.4426229508196721,Increased Disease Resistance and Enzyme Activity Induced by Ethylene and Ethylene Production of Black Rot Infected Sweet Potato Tissue,1966
+W2055177323,potato,0.26232741617357,Panglobal distribution of a single clonal lineage of the Irish potato famine fungus.,1994
+W1634853551,potato,0.2564102564102564,Smart Monitoring of Potato Crop: A Cyber-Physical System Architecture Model in the Field of Precision Agriculture,2015
+W2016194316,potato,0.1509433962264151,The effect of the method of drying on the colour of dehydrated products,2001
+W2580067168,potato,0.1296779808529155,Advanced Materials From Fungal Mycelium: Fabrication and Tuning of Physical Properties,2017
+W2133270902,potato,0.1296076099881093,Isolation and characterization of a potato cDNA corresponding to a 1-aminocyclopropane-1-carboxylate (ACC) oxidase gene differentially activated by stress,2002
+W1965796076,potato,0.1062801932367149,Managing fungal diseases of potato,1999
+W1976265853,potato,0.1049180327868852,Response of economically important aphids to components of <i>Hemizygia petiolata</i> essential oil,2005
+W2154208128,potato,0.0909952606635071,Nutritional potential of two leafy vegetables: Moringa oleifera and Ipomoea batatas leaves,2008
+W2005697938,potato,0.0714285714285714,Estimating the global severity of potato late blight with GIS‐linked disease forecast models,2000
+W2085425130,potato,0.0673828125,The production of antifungal volatiles by Bacillus subtilis,1993
+W2169651664,potato,0.064,African herbal medicines in the treatment of HIV: Hypoxis and Sutherlandia. An overview of evidence and pharmacology,2005
+W2111530368,potato,0.0634920634920634,Electrical Impedance Studies on Potato and Alfalfa Tissue,1969
+W1992328858,potato,0.0397509578544061,Growth Enhancement and Developmental Modifications of <i>in Vitro</i> Grown Potato (<i>Solanum tuberosum</i> spp. <i>tuberosum</i>) as Affected by a Nonfluorescent <i>Pseudomonas</i> sp.,1991
+W2885105421,potato,0.023091976516634,The Value of Expanding the Training Population to Improve Genomic Selection Models in Tetraploid Potato,2018
+W2714342494,potato,0.0224155235864837,Detection of potato diseases using image segmentation and multiclass support vector machine,2017
+W2123449092,potato,0.0199610516066212,"Detection of <i>Ralstonia solanacearum</i> Strains with a Quantitative, Multiplex, Real-Time, Fluorogenic PCR (TaqMan) Assay",2000
+W2093242085,potato,0.0166666666666666,Hypothesis: anencephaly and spina bifida are usually preventable by avoidance of a specific but unidentified substance present in certain potato tubers.,1972
+W2100779385,potato,0.0131826741996233,"Role of Polyphenol Oxidase, Peroxidase, Phenylalanine Ammonia Lyase, Chlorogenic Acid, and Total Soluble Phenols in Resistance of Potatoes to Soft Rot",2011
+W1983126004,potato,0.0107238605898123,"<i>Penicillium</i><i>expansum</i>:  Consistent Production of Patulin, Chaetoglobosins, and Other Secondary Metabolites in Culture and Their Natural Occurrence in Fruit Products",2004
+W2025103185,potato,0.009594882729211,Detection of <i>Potato mop top virus</i> and <i>Tobacco rattle virus</i> Using a Multiplex Real-Time Fluorescent Reverse-Transcription Polymerase Chain Reaction Assay,2000
+W2012331775,potato,0.0085767269355586,Genome sequence and analysis of the tuber crop potato,2011
+W2186996070,potato,0.0085257082896117,"Agricolae - Ten years of an open source statistical tool for experiments in breeding, agriculture and biology",2015
+W2522006754,potato,0.0082474226804123,Rapeseed (<i>Brassica napus</i>) Green Manure Crop Suppresses Weeds in Potato (<i>Solanum tuberosum</i>),1995
+W2110282787,potato,0.0081374321880651,Multiple alleles for tuber shape in diploid potato detected by qualitative and quantitative genetic analysis using RFLPs.,1994
+W1914742631,potato,0.0075459317585301,"Screening, identification and evaluation of potential biocontrol fungal endophytes against Rhizoctonia solani AG3 on potato plants",2010
+W2017358989,potato,0.0063829787234042,Discovering the future of the case study method in evaluation research,1994
+W2744339746,potato,0.004595744680851,Comparative Transcriptomics of Bacillus mycoides Strains in Response to Potato-Root Exudates Reveals Different Genetic Adaptation of Endophytic and Soil Isolates,2017
+W2167889321,potato,0.0031328320802005,"Integration of soil, crop and weed management in low‐external‐input farming systems",2000
+W2419568746,potato,0.0011300417246175,"Bacterial disease management: challenges, experience, innovation and future prospects",2016
+W1994150718,potato,0.0006640615023114,Potato virus X as a vector for gene expression in plants,1992
+W1890340485,potato,0.0004118616144975,"A moderate decrease of plastid aldolase activity inhibits photosynthesis, alters the levels of sugars and starch, and inhibits growth of potato plants",1998
+W2155852285,potato,0.0001574109054275,Growth at elevated CO<sub>2</sub> concentrations leads to modified profiles of secondary metabolites in tobacco cv. SamsunNN and to increased resistance against infection with <i>potato virus Y</i>,2005
+W2549442499,rice,1.0,Fundamentals of rice crop science,1981
+W2021885731,rice,1.0,"Leaf Nitrogen, Photosynthesis, and Crop Radiation Use Efficiency: A Review",1989
+W616920926,rice,1.0,RICE: Chemistry and Technology,2004
+W1602851398,rice,1.0,Plant Adaptation and Crop Improvement,1996
+W3190365438,rice,1.0,International Rice Research Institute,1990
+W578868330,rice,1.0,ESTABLISHMENT OF AN EFFICIENT MEDIUM FOR ANTHER CULTURE OF RICE THROUGH COMPARATIVE EXPERIMENTS ON THE NITROGEN SOURCES,1975
+W1986507106,rice,1.0,Evolution of Crop Plants,1979
+W2123961034,rice,1.0,Principles and Practices of Rice Production,1981
+W373452788,rice,1.0,"Rice: origin, history, technology and production.",1999
+W1988143469,rice,1.0,Changes in plant response to NaCl during development of rice (<i>Oryza sativa</i>L.) varieties differing in salinity resistance,1995
+W40791384,rice,1.0,"Pratylenchus (Nematoda: Pratylenchidae): Diagnosis, Biology, Pathogenicity and Management",2007
+W1996565389,rice,1.0,Cooked rice aroma and 2-acetyl-1-pyrroline,1983
+W1984964412,rice,1.0,Contribution of volatiles to rice aroma,1988
+W267400943,rice,1.0,Multi-location testing as a tool to identify plant response to global climate change.,2010
+W2045661743,rice,1.0,Proteomic analysis of rice leaves during drought stress and recovery,2002
+W1510825767,rice,1.0,CRC handbook of pest management in agriculture,1990
+W4231531252,rice,1.0,"<i>Review</i> : Mechanisms of anoxia tolerance in plants. I. Growth, survival and anaerobic catabolism",2003
+W112874940,rice,1.0,Water-wise Rice Production,2002
+W2011474508,rice,1.0,The use of nutrients in crop plants,2009
+W221997224,rice,1.0,Allelopathy : Basic and applied aspects,1992
+W2090820195,rice,1.0,Compendium of Rice Diseases,1992
+W4213424175,rice,1.0,Black Rice,2001
+W1966298827,rice,1.0,Breeding for Drought Resistance in Rice: Physiology and Molecular Genetics Considerations,1997
+W2059168882,rice,1.0,Using a Chlorophyll Meter to Estimate Specific Leaf Nitrogen of Tropical Maize during Vegetative Growth,1997
+W4249921644,rice,1.0,Production of Aflatoxin on Rice,1966
+W1779664042,rice,1.0,Plant genetic conservation: the in situ approach,1997
+W232638337,rice,1.0,The Leafhoppers and planthoppers,1985
+W2051653516,rice,1.0,"<i>rbohA</i>, a rice homologue of the mammalian <i>gp91phox</i> respiratory burst oxidase gene",1996
+W2031348266,rice,1.0,"International Rice Research Institute, Los Baños, Philippines",1999
+W230570419,rice,1.0,Rice: Nutrient Disorders & Nutrient Management,2000
+W1485439630,rice,1.0,The wild relatives of rice: a genetic resources handbook.,1994
+W566358944,rice,1.0,Principles and practices in plant ecology : allelochemical interactions,1999
+W2036220110,rice,1.0,Adjustment for Specific Leaf Weight Improves Chlorophyll Meter's Estimate of Rice Leaf Nitrogen Concentration,1993
+W1965855075,rice,1.0,Induction of Phytoalexin Formation in Suspension-cultured Rice Cells by<i>N</i>-Acetyl-chitooligosaccharides,1993
+W1987958970,rice,1.0,"Effect of the Defatted Rice Germ Enriched with GABA for Sleeplessness, Depression, Autonomic Disorder by Oral Administration.",2000
+W1493765615,rice,1.0,Direct Seeding: Research Strategies and Opportunities,2002
+W608967872,rice,1.0,Rice in human nutrition,1994
+W2167722384,rice,1.0,The Contribution of an Apoplastic Pathway to Sodium Uptake by Rice Roots in Saline Conditions,1987
+W2060344559,rice,1.0,Identification of a Family of Avirulence Genes from<i>Xanthomonas oryzae</i>pv.<i>oryzae</i>,1992
+W2047613366,rice,1.0,"PAPER PRESENTED AT INTERNATIONAL WORKSHOP ON INCREASING WHEAT YIELD POTENTIAL, CIMMYT, OBREGON, MEXICO, 20–24 MARCH 2006 Understanding the physiological basis of yield potential in wheat",2007
+W2122026637,rice,1.0,"World oilseeds: chemistry, technology, and utilization",1992
+W2064216510,rice,1.0,Evaluation of the Total Antioxidant Activity as a Marker of the Deterioration of Apple Juice on Storage,1995
+W30346954,rice,1.0,Genotype x environment interaction challenges and opportunities for plant breeding and cultivar recommendations,2002
+W1495407666,rice,1.0,Asian rice bowls: the returning crisis?,1998
+W582234571,rice,1.0,Crop Ferality and Volunteerism,2005
+W2302708914,rice,1.0,Rice research in Asia: progress and priorities,1997
+W1980939094,rice,1.0,Iron Coatings on Rice Roots: Morphology and Models of Development,1980
+W2069171037,rice,1.0,"Synthesis and Fungicidal Activity against <i>Rhizoctonia </i><i>s</i><i>olani</i> of 2-Alkyl (Alkylthio)-5-pyrazolyl-1,3,4-oxadiazoles (Thiadiazoles)",2000
+W2004728888,rice,1.0,Equilibrium theory of erosional slopes approached by frequency distribution analysis; Part II,1950
+W2333598964,rice,1.0,Silica Nanoparticles for Increased Silica Availability in Maize (Zea mays. L) Seeds Under Hydroponic Conditions,2012
+W2090607828,soybean,1.0,Vigor Determination in Soybean Seed by Multiple Criteria<sup>1</sup>,1973
+W1509909912,soybean,1.0,"Soybeans: Chemistry, Technology, and Utilization",1995
+W1971928109,soybean,1.0,Statistical Analysis of a Yield Trial,1988
+W2094108457,soybean,1.0,"Stage of Development Descriptions for Soybeans, <i>Glycine Max</i> (L.) Merrill<sup>1</sup>",1971
+W2014052340,soybean,1.0,Stress Tolerance in Soybeans. I. Evaluation of Three Screening Techniques for Heat and Drought Tolerance<sup>1</sup>,1984
+W2113652248,soybean,1.0,CRYSTALLINE SOYBEAN TRYPSIN INHIBITOR,1946
+W2725102736,soybean,1.0,Stages of soybean development,1977
+W1614310946,soybean,1.0,Compendium of Soybean Diseases,1999
+W4245475363,soybean,1.0,Salt Tolerance and Crop Potential of Halophytes,1999
+W2010166202,soybean,1.0,Effects of Ultraviolet-B Irradiance on Soybean,1984
+W2685884857,soybean,1.0,How a soybean plant develops,1967
+W2020353403,soybean,1.0,"Soybean proteins. Their functional, chemical, and physical properties",1970
+W2136329395,soybean,1.0,Genetic diversity in <i>Bradyrhizobium japonicum</i> Jordan 1982 and a proposal for <i>Bradyrhizobium elkanii</i> sp.nov.,1992
+W1995160592,soybean,1.0,A Supernodulation and Nitrate-Tolerant Symbiotic (<i>nts</i>) Soybean Mutant,1985
+W2011622025,soybean,1.0,Major proteins of soybean seeds. A straightforward fractionation and their characterization,1976
+W2100374028,soybean,1.0,The interaction between salinity stress and seed vigour during germination of soyabean seeds,2003
+W2059419091,soybean,1.0,Genetic Base for North American Public Soybean Cultivars Released between 1947 and 1988,1994
+W4238475645,soybean,1.0,Biplot Analysis of Test Sites and Trait Relations of Soybean in Ontario,2002
+W2015718283,soybean,1.0,Genetic Mapping of Agronomic Traits Using Recombinant Inbred Lines of Soybean,1996
+W1998271538,soybean,1.0,Response of Soybean to Air Temperature and Carbon Dioxide Concentration,1989
+W2095084377,soybean,1.0,Two Major Genes for Time of Flowering and Maturity in Soybeans<sup>1</sup>,1971
+W1979244073,soybean,1.0,Mapping QTL for Seed Protein and Oil Content in Eight Soybean Populations,1997
+W2138077107,soybean,1.0,"Effect of Germination on Chemical Composition, Biochemical Constituents and Antinutritional Factors of Soya Bean (Glycine max) Seeds",1997
+W2040634597,soybean,1.0,Interception of Solar Radiation and Dry Matter Production by Various Soybean Planting Patterns<sup>1</sup>,1966
+W2018931591,soybean,1.0,"Relationship Between the Content of Oil, Protein, and Sugar in Soybean Seed<sup>1</sup>",1972
+W2022708736,soybean,1.0,Waterlogging Effects on Growth and Yield Components in Late‐Planted Soybean,1998
+W2086647900,soybean,1.0,Rheological Characteristics and Gelation Mechanism of Tofu (Soybean Curd),1995
+W1972805925,soybean,1.0,Two Genes Affecting Stem Termination in Soybeans<sup>1</sup>,1972
+W2070471459,soybean,1.0,Bicarbonate Accumulation and pH Changes at the Soybean (Glycine max (L.) Merr.) Root‐Soil Interface,1969
+W2095544744,soybean,1.0,Major proteins of soybean seeds. Subunit structure of .beta.-conglycinin,1978
+W2414972710,soybean,1.0,Methane output and lactation response in Holstein cattle with monensin or unsaturated fat added to the diet.,1998
+W2257817646,soybean,1.0,A new gene affecting the time of flowering and maturity in soybeans,1987
+W2031844725,soybean,1.0,Water Stress during Seed Filling and Leaf Senescence in Soybean,1997
+W2085425806,soybean,1.0,Assimilatory Capacity Effects on Soybean Yield Components and Pod Number,1995
+W2142066741,soybean,1.0,Soybean growth and development.,2010
+W85274192,soybean,1.0,"Global and Regional Trends in Production, Trade and Consumption of Food Legume Crops",2012
+W2002133276,soybean,1.0,"The roles of the N‐linked glycans and extension regions of soybean β‐conglycinin in folding, assembly and structural features",1998
+W1975985389,soybean,1.0,Anatomical analysis of the development and distribution of <i>Rhizobium</i> infections in soybean roots,1984
+W2020769296,soybean,1.0,Genetic Control of a Long‐Juvenile Trait in Soybean,1995
+W602673990,soybean,1.0,"Soybeans : chemistry, production, processing, and utilization",2008
+W2126234318,soybean,1.0,In-situ Hybridization to Messenger RNA in Heterodera glycines.,1998
+W2071909821,soybean,1.0,Differentiation of Soy Bean Antitryptic Factors,1946
+W1972671005,soybean,1.0,Repeatability of Yield Stability Statistics in Soybean,1997
+W2065709394,soybean,1.0,Identification of Diverse Soybean Germplasm Using RAPD Markers,1998
+W2091433550,soybean,1.0,Effects of Chromium on Growth and Mineral Nutrition of Soybeans,1971
+W1985122449,soybean,1.0,Role of Constitutive Isoflavone Conjugates in the Accumulation of Glyceollin in Soybean Infected with<i>Phytophthora megasperma</i>,1990
+W2072597742,soybean,1.0,Studies on the Nature of the Endogenous Rhythm Affecting Photoperiodic Response of Biloxi Soybean,1958
+W2057311344,soybean,1.0,Field Drought Tolerance of a Soybean Plant Introduction,1990
+W2008336530,soybean,1.0,Heat-induced interactions between soybean proteins: preferential association of 11S basic subunits and .beta. subunits of 7S,1984
+W2029600410,soybean,1.0,Fifty‐Eight Years of Genetic Improvement of Short‐Season Soybean Cultivars in Canada,1997
+W2129851138,tobacco,1.0,A benzothiadiazole derivative induces systemic acquired resistance in tobacco,1996
+W1986976129,tobacco,1.0,Accumulation of nitrate in the shoot acts as a signal to regulate shoot‐root allocation in tobacco<sup>†</sup>,1997
+W1792722883,tobacco,1.0,"Tobacco : production, chemistry, and technology",1999
+W2330845275,tobacco,1.0,The Relationship Between CO2 Transfer Conductance and Leaf Anatomy in Transgenic Tobacco With a Reduced Content of Rubisco,1994
+W2061974378,tobacco,1.0,Peroxidase-Generated Hydrogen Peroxide as a Source of Antifungal Activity In Vitro and on Tobacco Leaf Disks,1992
+W1867790384,tobacco,1.0,Botanical Pesticides in Agriculture,2018
+W2010254904,tobacco,1.0,Conditional transgenic expression of the <i>ipt</i> gene indicates a function for cytokinins in paracrine signaling in whole tobacco plants,1997
+W1883720221,tobacco,1.0,Isolation of tobacco mesophyll cells in intact and active state,1968
+W2086680316,tobacco,1.0,Tobacco plants epigenetically suppressed in phenylalanine ammonia‐lyase expression do not develop systemic acquired resistance in response to infection by tobacco mosaic virus,1996
+W2234630191,tobacco,1.0,The Effect of High pH and Calcium on Tobacco Leaf Protoplast Fusion,1973
+W1772198057,tobacco,1.0,Enhanced Tolerance to Photooxidative Stress of Transgenic &lt;italic&gt;Nicotiana tabacum&lt;/italic&gt; with High Chloroplastic Glutathione Reductase Activity,1993
+W627193268,tobacco,1.0,Cannabis: evolution and ethnobotany,2014
+W2118045417,tobacco,1.0,Bestimmung der biologisch wirksamen Einheit in der Ribosenucleinsäure des Tabakmosaikvirus auf chemischem Wege,1958
+W2002900330,tobacco,1.0,"A basic‐type PR‐1 promoter directs ethylene responsiveness, vascular and abscission zone‐specific expression",1993
+W1978875536,tobacco,0.5609480812641083,Biochemical and Developmental Characterization of Multiple Forms of Catalase in Tobacco Leaves,1987
+W2129873803,tobacco,0.4619565217391304,Comparison of Three Pathogenesis-related Proteins from Plants of Two Cultivars of Tobacco Infected with TMV,1980
+W2742954728,tobacco,0.3271889400921659,ICTV Virus Taxonomy Profile: Virgaviridae,2017
+W2066885219,tobacco,0.203862660944206,Exchange of Genetic Material Between Cells in Plant Tissue Grafts,2009
+W2322803741,tobacco,0.2008032128514056,The Preparation and Characterization of Essentially Uniform Tobacco Mosaic Virus Particles,1958
+W2048101669,tobacco,0.1078574914592484,"Harpin, Elicitor of the Hypersensitive Response Produced by the Plant Pathogen <i>Erwinia amylovora</i>",1992
+W2044524906,tobacco,0.066340782122905,"Primary structural comparison of RNA-dependent polymerases from plant, animal and bacterial viruses",1984
+W2124663138,tobacco,0.0605738575982996,Cytokinesis in tobacco BY-2 and root tip cells: a new model of cell plate formation in higher plants.,1995
+W2509232174,tobacco,0.0578778135048231,An application of image processing techniques for detection of diseases on brinjal leaves using k-means clustering method,2016
+W1983157624,tobacco,0.0552301255230125,Nucleotide sequence of tobacco mosaic virus RNA.,1982
+W1964501678,tobacco,0.0526315789473684,Raman to the limit: tip‐enhanced Raman spectroscopic investigations of a single tobacco mosaic virus,2008
+W1964132352,tobacco,0.0451977401129943,ELECTRON MICROSCOPY OF STRUCTURAL DETAIL IN FROZEN BIOLOGICAL SPECIMENS,1957
+W1989167510,tobacco,0.0406278855032317,Characterization of Osmotin,1987
+W1986853288,tobacco,0.037073652990608,"Acute, Sublethal, Antifeedant, and Synergistic Effects of Monoterpenoid Essential Oil Compounds on the Tobacco Cutworm, <i>Spodoptera litura</i> (Lep., Noctuidae)",2001
+W2140346055,tobacco,0.0266694447338264,Ethylene-inducible DNA binding proteins that interact with an ethylene-responsive element.,1995
+W2259175255,tobacco,0.0195702225633154,Stress Protective Role of Secondary Metabolites Diversity of Functions and Mechanisms,2008
+W2012819949,tobacco,0.0187018701870187,Method for the extraction of the volatile compound salicylic acid from tobacco leaf material,2002
+W1504404542,tobacco,0.015156855833627,pGD vectors: versatile tools for the expression of green and red fluorescent protein fusions in agroinfiltrated plant leaves,2002
+W1971922509,tobacco,0.0150375939849624,Expression in plants of two bacterial antibiotic resistance genes after protoplast transformation with a new plant expression vector,1986
+W2029814115,tobacco,0.0145310435931307,Hormonal regulation of protein synthesis associated with salt tolerance in plant cells,1987
+W2130022681,tobacco,0.0143540669856459,The Food Industry and Self-Regulation: Standards to Promote Success and to Avoid Public Health Failures,2009
+W1983188063,tobacco,0.013064133016627,Site‐specific integration of DNA into wild‐type and mutant <i>lox</i> sites placed in the plant genome,1995
+W2316855069,tobacco,0.0111386138613861,"Inhibition of Tobacco Bacterial Wilt with Sulfone Derivatives Containing an 1,3,4-Oxadiazole Moiety",2011
+W2051777213,tobacco,0.0111324376199616,Regulation of plant growth by cytokinin,2001
+W1485488844,tobacco,0.010948905109489,Turnover of inositol polyphosphate pyrophosphates in pancreatoma cells.,1993
+W2087646800,tobacco,0.010183299389002,Replicational release of geminivirus genomes from tandemly repeated copies: evidence for rolling-circle replication of a plant viral DNA.,1991
+W1966979325,tobacco,0.0101435910947174,The Combined Effect of Drought Stress and Heat Shock on Gene Expression in Tobacco,2002
+W1859039351,tobacco,0.0097765363128491,Epigenetic silencing in transgenic plants,2015
+W2090677935,tobacco,0.0096700796359499,Bax-induced cell death in tobacco is similar to the hypersensitive response,1999
+W2070624468,tobacco,0.0095238095238095,NMR Metabolomics to Revisit the Tobacco Mosaic Virus Infection in <i>Nicotiana </i><i>t</i><i>abacum </i>Leaves,2006
+W1995273609,tobacco,0.0071416668650463,Delay of Disease Development in Transgenic Plants That Express the Tobacco Mosaic Virus Coat Protein Gene,1986
+W2079215077,tobacco,0.0062787777312683,SNF1-related kinases allow plants to tolerate herbivory by allocating carbon to roots,2006
+W2152146526,tobacco,0.0042472864558754,"The responses of guard and mesophyll cell photosynthesis to CO2, O2, light, and water stress in a range of species are similar",2003
+W2043434470,tobacco,0.004241139048773,High-efficiency protein expression in plants from agroinfection-compatible Tobacco mosaic virus expression vectors,2007
+W2007438535,tobacco,0.0037475345167652,Regulation of a plant pathogenesis-related enzyme: Inhibition of chitinase and chitinase mRNA accumulation in cultured tobacco tissues by auxin and cytokinin,1987
+W1502584156,tobacco,0.0036245469316335,Effects of Iron Excess on Nicotiana plumbaginifolia Plants (Implications to Oxidative Stress),1995
+W160023192,tomato,1.0,Bacterial wilt disease and the Ralstonia solanacearum species complex,2005
+W2031376159,tomato,1.0,Review of Data Analysis Methods for Seed Germination<sup>1</sup>,1984
+W2102277656,tomato,1.0,Differential expression of the 1‐aminocyclopropane‐1‐carboxylate oxidase gene family of tomato,1996
+W2023491285,tomato,1.0,Zinc and Cadmium Uptake by Hyperaccumulator Thlaspi caerulescens Grown in Nutrient Solution,1995
+W2016216815,tomato,1.0,Solar Heating by Polyethylene Mulching for the Control of Diseases Caused by Soil-Borne Pathogens,2009
+W2306542319,tomato,1.0,"Bacterial wilt: the disease and its causative agent, Pseudomonas solanacearum.",1994
+W2060883448,tomato,1.0,Microscopic Studies of Intercellular Infection and Protoxylem Invasion of Tomato Roots by<i>Pseudomonas solanacearum</i>,1995
+W1945565554,tomato,1.0,Relationship between Sensory and Instrumental Analysis for Tomato Flavor,1998
+W11700218,tomato,1.0,Virus-Induced Gene Silencing,2003
+W2983629383,tomato,1.0,The Tomato crop : a scientific basis for improvement,1986
+W2026280531,tomato,1.0,Quantitative and sensory studies on tomato paste volatiles,1990
+W2616233046,tomato,1.0,Traditional and Medicinal Uses of Banana,2012
+W2063862236,tomato,1.0,"Multiplication of tomato spotted wilt virus in its insect vector, Frankliniella occidentalis",1993
+W1974358699,tomato,1.0,Induced Systemic Resistance in Cucumber and Tomato Against Cucumber Mosaic Cucumovirus Using Plant Growth-Promoting Rhizobacteria (PGPR),1996
+W1972704326,tomato,1.0,A New ‘<i>Candidatus</i> Liberibacter’ Species in <i>Solanum tuberosum</i> in New Zealand,2008
+W1580596418,tomato,1.0,Floriculture: Principles and Species,1998
+W2103169927,tomato,1.0,Distinct Levels of Specificity in Thrips Transmission of Tospoviruses,1995
+W1980531366,tomato,1.0,The Isolation and some properties of liquid crystalline substances from solanaceous plants infected with three strains of tobacco mosaic virus,1937
+W2041030127,tomato,1.0,Characterization of additional volatile components of tomato,1971
+W2071501968,tomato,1.0,<i>Tospovirus</i>Replication in Insect Vector Cells: Immunocytochemical Evidence that the Nonstructural Protein Encoded by the S RNA of Tomato Spotted Wilt Tospovirus Is Present in Thrips Vector Cells,1993
+W2326981264,tomato,1.0,"HrpG, a Key<i>hrp</i>Regulatory Protein of<i>Xanthomonas campestris</i>pv.<i>vesicatoria</i>Is Homologous to Two-Component Response Regulators",1996
+W2126400151,tomato,1.0,Differential regulation of three functional ammonium transporter genes by nitrogen in root hairs and by light in leaves of tomato,2000
+W1969317797,tomato,1.0,Rapid Evolution of Pathogenicity Within Clonal Lineages of the Potato Late Blight Disease Fungus,1995
+W2074326125,tomato,1.0,"DspA, an essential pathogenicity factor of <i>Erwinia amylovora</i> showing homology with AvrE of <i>Pseudomonas syringae</i>, is secreted via the Hrp secretion pathway in a DspB‐dependent way",1997
+W1986755673,tomato,1.0,Stress‐induced changes in polyamine and tyramine levels can regulate proline accumulation in tomato leaf discs treated with sodium chloride,1998
+W2324473992,tomato,1.0,"Transformation of the Oomycete Pathogen,<i>Phytophthora infestans</i>",1991
+W2056484121,tomato,1.0,Branched absorbing structures (BAS): a feature of the extraradical mycelium of symbiotic arbuscular mycorrhizal fungi,1998
+W1821915183,tomato,1.0,Nucleotide Sequence of the Tobacco Mosaic Virus (Tomato Strain) Genome and Comparison with the Common Strain Genome1,1984
+W2127368769,tomato,1.0,"A comparative study of the transmission of <i>Hyoscyamus</i> virus 3, potato virus Y and cucumber virus 1 by the vectors <i>Myzus persicae</i> (Sulz), <i>M. circumflexus</i> (Buckton), and <i>Macrosiphum gei</i> (Koch)",1939
+W2144181560,tomato,1.0,"Tomato Plant Culture In the Field, Greenhouse, and Home Garden",1998
+W2319938745,tomato,1.0,Determinants of Pathogenicity in<i>Xanthomonas campestris</i>pv.<i>vesicatoria</i>are Related to Proteins Involved in Secretion in Bacterial Pathogens of Animals,1992
+W3016151935,tomato,1.0,Effect of grafting on growth and yield of tomato (Lycopersicon esculentum Mill.) in greenhouse and open-tield,2006
+W4289843656,tomato,1.0,Polyuronide Degradation and Hemicellulose Modifications in Ripening Tomato Fruit,1983
+W2018319448,tomato,1.0,Effect of Cadmium Treatment on Cadmium and Zinc Uptake by Selected Vegetable Species,1973
+W1532213428,tomato,0.624390243902439,Vegetation and reproduction with special reference to the tomato,1918
+W2315403081,tomato,0.5267489711934157,Irrigation with saline water improves carotenoids content and antioxidant activity of tomato,2001
+W2064442089,tomato,0.3946360153256705,A DYNAMIC TOMATO GROWTH AND YIELD MODEL (TOMGRO),1991
+W1990489197,tomato,0.3753280839895013,"PERIODIC, RATHER THAN CONTINUAL ACQUISITION OF A NEW TOMATO VIRUS BY ITS VECTOR, THE TOBACCO WHITEFLY (<i>BEMISIA TABACI</i> GENNADIUS)<sup>1</sup>",1964
+W2410095990,tomato,0.2302839116719243,Biofertilizers and their role in management of plant parasitic nematodes. A review,2014
+W2174766121,tomato,0.1869436201780415,Epidemiology and Control of Tomato Mosaic Virus,1976
+W1535343965,tomato,0.1393034825870646,QUANTIFICATION OF THE GROWTH RESPONSE TO LIGHT QUANTITY OF GREENHOUSE GROWN CROPS,2006
+W2327503595,tomato,0.1386138613861386,Computer Vision Based Fruit Grading System for Quality Evaluation of Tomato in Agriculture industry,2016
+W2035837532,tomato,0.1232876712328767,CAUSES OF INJURY TO PLANTS RESULTING FROM FLOODING OF THE SOIL,1951
+W1991126671,tomato,0.1196172248803827,Photoregulation of Anthocyanin Synthesis,1984
+W2305262972,tomato,0.1164658634538152,The influence of shading on yield of glasshouse tomatoes,1992
+W2289529415,tomato,0.1094890510948905,Tomato leaves diseases detection approach based on Support Vector Machines,2015
+W2048325428,tomato,0.1051094890510948,Comparison of color indexes for tomato ripening,2004
+W2187864716,tomato,0.0971599402092675,Mineral nutrition of tomato,2003
+W2064271701,tomato,0.0933424845573095,Interplant communication: airborne methyl jasmonate induces synthesis of proteinase inhibitors in plant leaves.,1990
+W2073369651,tomato,0.0911528150134048,Uptake and Transport of Calcium and the Possible Causes of Blossom-end Rot in Tomato,1993
+W1876282212,wheat,1.0,Decline in Percentage N of C3 and C4 Crops with Increasing Plant Mass,1990
+W1946501898,wheat,1.0,Rust diseases of wheat: Concepts and methods of disease management,1992
+W2026307199,wheat,1.0,Instrument for Indirect Measurement of Canopy Architecture,1991
+W2123625597,wheat,1.0,Statistical analysis of regional yield trials : AMMI analysis of factorial designs,1992
+W2040417533,wheat,1.0,"Water use efficiency of wheat in a Mediterranean-type environment. I. The relation between yield, water use and climate",1984
+W1971273486,wheat,1.0,First Report of the Cereal Cyst Nematode <i>Heterodera latipons</i> on Wheat in Morocco,2012
+W2033014033,wheat,1.0,Cell Membrane Stability as a Measure of Drought and Heat Tolerance in Wheat<sup>1</sup>,1981
+W2058467808,wheat,1.0,"Wheat Yield Progress Associated with Higher Stomatal Conductance and Photosynthetic Rate, and Cooler Canopies",1998
+W1969275334,wheat,1.0,Detection of Virulence to Wheat Stem Rust Resistance Gene <i>Sr31</i> in <i>Puccinia graminis</i>. f. sp. <i>tritici</i> in Uganda,2000
+W2316240360,wheat,1.0,The Niche-Relationships of the California Thrasher,1917
+W2104043339,wheat,1.0,Optimizing parental selection for genetic linkage maps,1993
+W1987503020,wheat,1.0,The Effect of Nitrogen Fertilization on the Expression of Slow-Mildewing Resistance in Knox Wheat,2009
+W1527492872,wheat,1.0,Crop ecology: productivity and management in agricultural systems,1993
+W2026273381,wheat,1.0,Reduced Virulence of<i>Gibberella zeae</i>Caused by Disruption of a TrichotheceneToxin Biosynthetic Gene,1995
+W1538266969,wheat,1.0,Plant-Environment Interactions,2000
+W2068351250,wheat,1.0,In Situ Conservation of Landraces in Centers of Crop Diversity,1995
+W2157238267,wheat,1.0,Optimizing wheat grain yield: effects of <i>Rht</i> (gibberellin-insensitive) dwarfing genes,1997
+W1550357761,wheat,1.0,The vegetable proteins,1909
+W2014385424,wheat,1.0,Visual Quantification of Wheat Development<sup>1</sup>,1973
+W2328031695,wheat,1.0,Factors Influencing the Rate and Duration of Grain Filling in Wheat,1977
+W1539836938,wheat,1.0,Polyploidy: biological relevance.,1979
+W1502607396,wheat,1.0,Bread wheat: improvement and production.,2002
+W1965309806,wheat,1.0,Standard karyotype and nomenclature system for description of chromosome bands and structural aberrations in wheat (<i>Triticum aestivum</i>),1991
+W1982602101,wheat,1.0,Induction of Systemic Resistance of Tobacco to Tobacco Necrosis Virus by the Root-Colonizing<i>Pseudomonas fluorescens</i>Strain CHA0: Influence of the<i>gacA</i>Gene and of Pyoverdine Production,1994
+W1973418002,wheat,1.0,Additive Main Effects and Multiplicative Interaction Analysis of Two International Maize Cultivar Trials,1990
+W1507789344,wheat,1.0,The proteins of the wheat kernel,1907
+W1997727913,wheat,1.0,Genetic Progress in Wheat Yield and Nitrogen Use Efficiency under Four Nitrogen Rates,1997
+W2085642204,wheat,1.0,Water Relations in Winter Wheat as Drought Resistance Indicators,1988
+W2062692655,wheat,1.0,Utilization of Allelopathy for Weed Management in Agroecosystems,1996
+W2164288075,wheat,1.0,Compendium of Wheat Diseases,1978
+W1990628819,wheat,1.0,Leaf Water Content and Gas‐Exchange Parameters of Two Wheat Genotypes Differing in Drought Resistance,1990
+W2333761520,wheat,1.0,Reduced Virulence of Trichothecene-Nonproducing Mutants of<i>Gibberella zeae</i>in Wheat Field Tests,1996
+W2067164914,wheat,1.0,Cytogenetic studies in wheat. XV. Location of rust resistance genes in VPM1 and their genetic linkage with other disease resistance genes in chromosome 2A,1993
+W2012911132,wheat,1.0,Carbon Isotope Discrimination is Positively Correlated with Grain Yield and Dry Matter Production in Field‐Grown Wheat<sup>1</sup>,1987
+W2051416354,wheat,1.0,Histology of the Pathogenesis of<i>Mycosphaerella graminicola</i>in Wheat,1996
+W1525564107,wheat,1.0,Mineral nutrition of crops: fundamental mechanisms and implications,2000
+W2331417319,wheat,1.0,The Significance of a Two-Phase Growth Response to Salinity in Wheat and Barley,1995
+W1996254785,wheat,1.0,Wheat Science-Today and Tomorrow.,1982
+W208072760,wheat,1.0,Gnotobiotic System for Studying Rhizosphere Colonization by Plant Growth-Promoting<i>Pseudomonas</i>Bacteria Gnotobiotic System for Studying Rhizosphere,1996
+W2463359751,wheat,1.0,Soil Water Status Affects the Stomata1,1986
+W2058415552,wheat,1.0,RFLP Mapping of QTL for Fusarium Head Blight Resistance in Wheat,1999
+W2072689609,wheat,1.0,"Nitrogen and Dry Matter Accumulation, Remobilization, and Losses for Mediterranean Wheat during Grain Filling",1991
+W2473765010,wheat,1.0,Worldwide Occurrence of Mycotoxins in Foods and Feeds—An Update,1989
+W1974053474,wheat,1.0,Use of Mixtures of Fluorescent Pseudomonads to Suppress Take-all and Improve the Growth of Wheat,1994
+W1990727968,wheat,1.0,<i>Trichoderma harzianum</i>: A Biocontrol Agent Effective Against <i>Sclerotium rolfsii</i> and <i>Rhizoctonia solani</i>,2008
+W2057784806,wheat,1.0,Desiccation Tolerance and Its Relationship to Assimilate Partitioning in Winter Wheat,1990
+W2016501878,wheat,1.0,Relationship Between Root Colonization and Suppression of<i>Gaeumannomyces graminis</i>var.<i>tritici</i>by<i>Pseudomonas fluorescens</i>Strain 2-79,1991
+W2167869374,wheat,1.0,"Genetic Similarities among Winter Wheat Cultivars Determined on the Basis of RFLPs, AFLPs, and SSRs and Their Use for Predicting Progeny Variance",1999
+W2903251462,wheat,1.0,Ectomycorrhizal fungal diversity: separating the wheat from the chaff,2008
+W2068012959,wheat,1.0,Evaluation of Methods for Quantification of Drought Tolerance in Wheat,1992

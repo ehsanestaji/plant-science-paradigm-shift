@@ -1,0 +1,56 @@
+2026-04-22 22:44:32,398 INFO Starting canon substitution analysis (smoke=False)
+2026-04-22 22:44:32,398 INFO Loading top100_by_window.csv from /Users/ehsan/Documents/GitHub/academic-works/papers/plant-science-metascience/results/paper_a/insights/canon_churn
+2026-04-22 22:44:32,401 INFO Fetching abstracts for 327 unique references
+2026-04-22 22:44:32,612 INFO Abstracts retrieved: 191 / 327 non-null
+2026-04-22 22:44:32,613 INFO Part A: computing composition by window
+2026-04-22 22:44:32,617 INFO AI/ML fractions: {'1995-1999': '0.000', '2000-2004': '0.000', '2005-2009': '0.000', '2010-2014': '0.000', '2015-2019': '0.000', '2020-2024': '0.040'}
+2026-04-22 22:44:32,617 INFO Classical fractions: {'1995-1999': '0.050', '2000-2004': '0.040', '2005-2009': '0.050', '2010-2014': '0.060', '2015-2019': '0.030', '2020-2024': '0.010'}
+2026-04-22 22:44:32,617 INFO AI/ML >= Classical crossover window: 2020-2024
+2026-04-22 22:44:32,846 INFO Saved fig_composition_over_time.pdf
+2026-04-22 22:44:32,846 INFO Part B: pairwise topical substitution (top 5 risers x top 5 fallen)
+2026-04-22 22:44:32,849 INFO TF-IDF matrix shape: (10, 283)
+2026-04-22 22:44:33,000 INFO Pair (A TWO‐STAGE TECHNIQUE FOR THE <i>IN VITR ... | Using Deep Learning for Image-Based Plan ...): sim=0.024 corr=0.647 p=0.059
+2026-04-22 22:44:33,119 INFO Pair (A TWO‐STAGE TECHNIQUE FOR THE <i>IN VITR ... | Abiotic Stress Signaling and Responses i ...): sim=0.000 corr=0.731 p=0.025
+2026-04-22 22:44:33,233 INFO Pair (A TWO‐STAGE TECHNIQUE FOR THE <i>IN VITR ... | Deep learning models for plant disease d ...): sim=0.000 corr=0.109 p=0.797
+2026-04-22 22:44:33,352 INFO Pair (A TWO‐STAGE TECHNIQUE FOR THE <i>IN VITR ... | Shifting the limits in wheat research an ...): sim=0.009 corr=0.034 p=0.930
+2026-04-22 22:44:33,468 INFO Pair (A TWO‐STAGE TECHNIQUE FOR THE <i>IN VITR ... | Deep learning in agriculture: A survey ...): sim=0.000 corr=0.712 p=0.073
+2026-04-22 22:44:33,582 INFO Pair (A plant DNA minipreparation: Version II ... | Using Deep Learning for Image-Based Plan ...): sim=0.000 corr=-0.466 p=0.206
+2026-04-22 22:44:33,700 INFO Pair (A plant DNA minipreparation: Version II ... | Abiotic Stress Signaling and Responses i ...): sim=0.000 corr=-0.280 p=0.466
+2026-04-22 22:44:33,820 INFO Pair (A plant DNA minipreparation: Version II ... | Deep learning models for plant disease d ...): sim=0.000 corr=-0.487 p=0.221
+2026-04-22 22:44:33,937 INFO Pair (A plant DNA minipreparation: Version II ... | Shifting the limits in wheat research an ...): sim=0.000 corr=-0.475 p=0.196
+2026-04-22 22:44:34,055 INFO Pair (A plant DNA minipreparation: Version II ... | Deep learning in agriculture: A survey ...): sim=0.000 corr=-0.274 p=0.552
+2026-04-22 22:44:34,172 INFO Pair (The estimation of protein degradability  ... | Using Deep Learning for Image-Based Plan ...): sim=0.004 corr=0.497 p=0.173
+2026-04-22 22:44:34,292 INFO Pair (The estimation of protein degradability  ... | Abiotic Stress Signaling and Responses i ...): sim=0.000 corr=0.680 p=0.044
+2026-04-22 22:44:34,410 INFO Pair (The estimation of protein degradability  ... | Deep learning models for plant disease d ...): sim=0.000 corr=0.060 p=0.889
+2026-04-22 22:44:34,527 INFO Pair (The estimation of protein degradability  ... | Shifting the limits in wheat research an ...): sim=0.009 corr=0.241 p=0.533
+2026-04-22 22:44:34,644 INFO Pair (The estimation of protein degradability  ... | Deep learning in agriculture: A survey ...): sim=0.000 corr=0.377 p=0.404
+2026-04-22 22:44:34,763 INFO Pair (The Water-Culture Method for Growing Pla ... | Using Deep Learning for Image-Based Plan ...): sim=0.000 corr=-0.712 p=0.032
+2026-04-22 22:44:34,883 INFO Pair (The Water-Culture Method for Growing Pla ... | Abiotic Stress Signaling and Responses i ...): sim=0.000 corr=-0.549 p=0.126
+2026-04-22 22:44:35,003 INFO Pair (The Water-Culture Method for Growing Pla ... | Deep learning models for plant disease d ...): sim=0.000 corr=-0.521 p=0.186
+2026-04-22 22:44:35,120 INFO Pair (The Water-Culture Method for Growing Pla ... | Shifting the limits in wheat research an ...): sim=0.000 corr=-0.243 p=0.529
+2026-04-22 22:44:35,243 INFO Pair (The Water-Culture Method for Growing Pla ... | Deep learning in agriculture: A survey ...): sim=0.000 corr=-0.491 p=0.264
+2026-04-22 22:44:35,364 INFO Pair (A manual for the practical study of root ... | Using Deep Learning for Image-Based Plan ...): sim=0.000 corr=-0.853 p=0.003
+2026-04-22 22:44:35,483 INFO Pair (A manual for the practical study of root ... | Abiotic Stress Signaling and Responses i ...): sim=0.000 corr=-0.726 p=0.027
+2026-04-22 22:44:35,602 INFO Pair (A manual for the practical study of root ... | Deep learning models for plant disease d ...): sim=0.000 corr=-0.805 p=0.016
+2026-04-22 22:44:35,721 INFO Pair (A manual for the practical study of root ... | Shifting the limits in wheat research an ...): sim=0.000 corr=-0.466 p=0.206
+2026-04-22 22:44:35,841 INFO Pair (A manual for the practical study of root ... | Deep learning in agriculture: A survey ...): sim=0.000 corr=-0.607 p=0.149
+2026-04-22 22:44:35,843 INFO Saved pair_correlations.csv (25 rows)
+2026-04-22 22:44:35,844 INFO Strong anti-correlations (|r|>0.5, negative): 7 / 25 pairs
+2026-04-22 22:44:36,018 INFO Saved fig_top_substitution_pair.pdf
+2026-04-22 22:44:36,018 INFO === SUMMARY ===
+2026-04-22 22:44:36,018 INFO Part A — AI/ML fractions by window:
+2026-04-22 22:44:36,018 INFO   1995-1999: AI/ML=0.000  Classical=0.050  Other=0.950
+2026-04-22 22:44:36,018 INFO   2000-2004: AI/ML=0.000  Classical=0.040  Other=0.960
+2026-04-22 22:44:36,018 INFO   2005-2009: AI/ML=0.000  Classical=0.050  Other=0.950
+2026-04-22 22:44:36,018 INFO   2010-2014: AI/ML=0.000  Classical=0.060  Other=0.940
+2026-04-22 22:44:36,018 INFO   2015-2019: AI/ML=0.000  Classical=0.030  Other=0.970
+2026-04-22 22:44:36,018 INFO   2020-2024: AI/ML=0.040  Classical=0.010  Other=0.950
+2026-04-22 22:44:36,018 INFO   Crossover (AI/ML >= Classical): 2020-2024
+2026-04-22 22:44:36,018 INFO Part B — Top-5 pairs by |corr| (anti-correlation):
+2026-04-22 22:44:36,019 INFO   F=A manual for the practical study of root | R=Using Deep Learning for Image-Based Plan | sim=0.000 | r=-0.853
+2026-04-22 22:44:36,019 INFO   F=A manual for the practical study of root | R=Deep learning models for plant disease d | sim=0.000 | r=-0.805
+2026-04-22 22:44:36,019 INFO   F=A manual for the practical study of root | R=Abiotic Stress Signaling and Responses i | sim=0.000 | r=-0.726
+2026-04-22 22:44:36,019 INFO   F=The Water-Culture Method for Growing Pla | R=Using Deep Learning for Image-Based Plan | sim=0.000 | r=-0.712
+2026-04-22 22:44:36,019 INFO   F=A manual for the practical study of root | R=Deep learning in agriculture: A survey | sim=0.000 | r=-0.607
+2026-04-22 22:44:36,019 INFO   Strong anti-correlated pairs (|r|>0.5, r<0): 7 / 25
+2026-04-22 22:44:36,019 INFO Done.

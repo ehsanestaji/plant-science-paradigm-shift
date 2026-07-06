@@ -1,0 +1,23 @@
+[coauthor_tribes_network_only] window 1990-1994 ...
+  n_nodes=46,150 n_edges=103,686 clustering_coef=0.0702
+  assortativity=0.8493 paradigm_alignment=0.0076
+[coauthor_tribes_network_only] window 1995-1999 ...
+  n_nodes=58,005 n_edges=151,725 clustering_coef=0.0816
+  assortativity=0.8295 paradigm_alignment=0.0093
+[coauthor_tribes_network_only] window 2000-2004 ...
+  n_nodes=87,776 n_edges=224,698 clustering_coef=0.0338
+  assortativity=0.8717 paradigm_alignment=0.0318
+[coauthor_tribes_network_only] window 2005-2009 ...
+  n_nodes=130,633 n_edges=393,232 clustering_coef=0.0031
+  assortativity=0.8235 paradigm_alignment=0.0320
+[coauthor_tribes_network_only] window 2010-2014 ...
+  n_nodes=188,984 n_edges=675,630 clustering_coef=0.0034
+  assortativity=0.8333 paradigm_alignment=0.0359
+[coauthor_tribes_network_only] window 2015-2019 ...
+  n_nodes=254,940 n_edges=1,359,491 clustering_coef=0.0054
+  assortativity=0.8546 paradigm_alignment=0.0306
+[coauthor_tribes_network_only] window 2020-2024 ...
+  n_nodes=327,523 n_edges=2,100,799 clustering_coef=0.0063
+  assortativity=0.8378 paradigm_alignment=0.0244
+Wrote /Users/ehsan/Documents/GitHub/academic-works/papers/plant-science-metascience/results/paper_a/insights/coauthor_tribes/metrics_by_window.json
+Done.

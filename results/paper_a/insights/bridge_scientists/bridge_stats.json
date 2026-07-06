@@ -1,0 +1,19 @@
+{
+  "bridge_mean": 55.82990947009226,
+  "a_only_mean": 58.608075501611374,
+  "c_only_mean": 30.098400691724407,
+  "bridge_vs_a_diff": -2.7649186484278094,
+  "bridge_vs_c_diff": 25.717044463353336,
+  "bridge_vs_a_ci": [
+    -3.273149074690699,
+    -2.204994607483232
+  ],
+  "bridge_vs_c_ci": [
+    25.267953940747365,
+    26.179707766460943
+  ],
+  "permutation_pvalue": 0.000999000999000999,
+  "threshold_min_papers": 3,
+  "n_bridge_matched": 5543,
+  "smoke": false
+}
