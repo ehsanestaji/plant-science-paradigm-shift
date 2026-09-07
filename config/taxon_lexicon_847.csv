@@ -1,0 +1,118 @@
+taxon_id,common_or_scientific_name,organism_bin,source
+T0001,allium cepa,other_crop,committed classification dictionaries
+T0002,allium sativum,other_crop,committed classification dictionaries
+T0003,amaranth,amaranth,committed classification dictionaries
+T0004,apple,other_crop,committed classification dictionaries
+T0005,arabidopsis,arabidopsis,committed classification dictionaries
+T0006,arachis,other_crop,committed classification dictionaries
+T0007,banana,other_crop,committed classification dictionaries
+T0008,barley,barley,committed classification dictionaries
+T0009,brachypodium,other_model_organism,committed classification dictionaries
+T0010,brassica napus,other_crop,committed classification dictionaries
+T0011,cacao,other_crop,committed classification dictionaries
+T0012,cajanus,other_crop,committed classification dictionaries
+T0013,camellia sinensis,other_crop,committed classification dictionaries
+T0014,canola,other_crop,committed classification dictionaries
+T0015,capsicum,other_crop,committed classification dictionaries
+T0016,carrot,other_crop,committed classification dictionaries
+T0017,cassava,other_crop,committed classification dictionaries
+T0018,chenopodium quinoa,quinoa,committed classification dictionaries
+T0019,chickpea,other_crop,committed classification dictionaries
+T0020,chlamydomonas,other_model_organism,committed classification dictionaries
+T0021,cicer,other_crop,committed classification dictionaries
+T0022,cicer arietinum,chickpea,committed classification dictionaries
+T0023,citrus,other_crop,committed classification dictionaries
+T0024,cocoa,cocoa,committed classification dictionaries
+T0025,coconut,other_crop,committed classification dictionaries
+T0026,cocos nucifera,other_crop,committed classification dictionaries
+T0027,coffea,other_crop,committed classification dictionaries
+T0028,coffee,other_crop,committed classification dictionaries
+T0029,common bean,other_crop,committed classification dictionaries
+T0030,corn,maize,committed classification dictionaries
+T0031,cotton,cotton,committed classification dictionaries
+T0032,cowpea,other_crop,committed classification dictionaries
+T0033,cucumber,other_crop,committed classification dictionaries
+T0034,cucumis sativus,other_crop,committed classification dictionaries
+T0035,daucus carota,other_crop,committed classification dictionaries
+T0036,digitaria exilis,fonio,committed classification dictionaries
+T0037,dioscorea,other_crop,committed classification dictionaries
+T0038,elaeis,other_crop,committed classification dictionaries
+T0039,eleusine,millet,committed classification dictionaries
+T0040,eragrostis tef,teff,committed classification dictionaries
+T0041,eucalyptus,other_model_organism,committed classification dictionaries
+T0042,finger millet,other_crop,committed classification dictionaries
+T0043,fonio,fonio,committed classification dictionaries
+T0044,fragaria,other_crop,committed classification dictionaries
+T0045,garlic,other_crop,committed classification dictionaries
+T0046,glycine max,soybean,committed classification dictionaries
+T0047,gossypium,cotton,committed classification dictionaries
+T0048,grape,other_crop,committed classification dictionaries
+T0049,groundnut,other_crop,committed classification dictionaries
+T0050,helianthus,other_crop,committed classification dictionaries
+T0051,hevea,other_crop,committed classification dictionaries
+T0052,hordeum,barley,committed classification dictionaries
+T0053,hordeum vulgare,barley,committed classification dictionaries
+T0054,lactuca,other_crop,committed classification dictionaries
+T0055,lens culinaris,other_crop,committed classification dictionaries
+T0056,lentil,other_crop,committed classification dictionaries
+T0057,lettuce,other_crop,committed classification dictionaries
+T0058,lotus japonicus,other_model_organism,committed classification dictionaries
+T0059,lycopersicon,tomato,committed classification dictionaries
+T0060,maize,maize,committed classification dictionaries
+T0061,malus domestica,other_crop,committed classification dictionaries
+T0062,manihot,other_crop,committed classification dictionaries
+T0063,marchantia,other_model_organism,committed classification dictionaries
+T0064,medicago truncatula,other_model_organism,committed classification dictionaries
+T0065,melon,other_crop,committed classification dictionaries
+T0066,millet,other_crop,committed classification dictionaries
+T0067,moringa,moringa,committed classification dictionaries
+T0068,musa,plantain,committed classification dictionaries
+T0069,nicotiana,tobacco,committed classification dictionaries
+T0070,oil palm,other_crop,committed classification dictionaries
+T0071,onion,other_crop,committed classification dictionaries
+T0072,oryza sativa,rice,committed classification dictionaries
+T0073,peach,other_crop,committed classification dictionaries
+T0074,peanut,other_crop,committed classification dictionaries
+T0075,pearl millet,other_crop,committed classification dictionaries
+T0076,pennisetum,millet,committed classification dictionaries
+T0077,pepper,other_crop,committed classification dictionaries
+T0078,phaseolus,other_crop,committed classification dictionaries
+T0079,physcomitrella,other_model_organism,committed classification dictionaries
+T0080,physcomitrium,other_model_organism,committed classification dictionaries
+T0081,pigeon pea,other_crop,committed classification dictionaries
+T0082,plantain,other_crop,committed classification dictionaries
+T0083,poplar,other_model_organism,committed classification dictionaries
+T0084,populus,other_model_organism,committed classification dictionaries
+T0085,potato,potato,committed classification dictionaries
+T0086,prunus persica,other_crop,committed classification dictionaries
+T0087,quinoa,quinoa,committed classification dictionaries
+T0088,rapeseed,other_crop,committed classification dictionaries
+T0089,rice,rice,committed classification dictionaries
+T0090,rubber,other_crop,committed classification dictionaries
+T0091,rubber tree,rubber,committed classification dictionaries
+T0092,saccharum,other_crop,committed classification dictionaries
+T0093,selaginella,other_model_organism,committed classification dictionaries
+T0094,setaria viridis,other_model_organism,committed classification dictionaries
+T0095,solanum lycopersicum,tomato,committed classification dictionaries
+T0096,solanum tuberosum,potato,committed classification dictionaries
+T0097,sorghum,other_crop,committed classification dictionaries
+T0098,soy bean,soybean,committed classification dictionaries
+T0099,soybean,soybean,committed classification dictionaries
+T0100,strawberry,other_crop,committed classification dictionaries
+T0101,sugar beet,other_crop,committed classification dictionaries
+T0102,sugarcane,other_crop,committed classification dictionaries
+T0103,sunflower,other_crop,committed classification dictionaries
+T0104,synechocystis,other_model_organism,committed classification dictionaries
+T0105,tea,tea,committed classification dictionaries
+T0106,tea plant,other_crop,committed classification dictionaries
+T0107,teff,teff,committed classification dictionaries
+T0108,theobroma,other_crop,committed classification dictionaries
+T0109,tobacco,tobacco,committed classification dictionaries
+T0110,tomato,tomato,committed classification dictionaries
+T0111,triticum,wheat,committed classification dictionaries
+T0112,vigna,other_crop,committed classification dictionaries
+T0113,vigna unguiculata,cowpea,committed classification dictionaries
+T0114,vitis vinifera,other_crop,committed classification dictionaries
+T0115,wheat,wheat,committed classification dictionaries
+T0116,yam,other_crop,committed classification dictionaries
+T0117,zea mays,maize,committed classification dictionaries

@@ -1,0 +1,10 @@
+{
+  "freeze_date": "2026-09-07",
+  "row_count": 117,
+  "source_files": [
+    "code/nlp/classify_paper_a.py",
+    "code/novel/orphan_organisms.py",
+    "code/novel/sleeping_beauty_crops.py"
+  ],
+  "note": "Do not cite 847 if row_count differs; cite row_count."
+}

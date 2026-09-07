@@ -1,3 +1,5 @@
+import csv
+import json
 import subprocess
 import sys
 from pathlib import Path
@@ -29,3 +31,18 @@ def test_query_string_table_exists_and_is_referenced():
     assert r"tab:S3" not in supp
     methods = read("manuscript/sections/methods.tex")
     assert r"\ref{tab:query-strings}" in methods
+
+
+def test_lexicon_exists_and_paper_cites_its_row_count():
+    path = REPO / "config" / "taxon_lexicon_847.csv"
+    assert path.exists()
+    rows = list(csv.DictReader(path.open(encoding="utf-8")))
+    assert len(rows) >= 1
+    meta = json.loads(
+        (REPO / "config" / "taxon_lexicon_847.meta.json").read_text()
+    )
+    assert meta["row_count"] == len(rows)
+    methods = read("manuscript/sections/methods.tex")
+    assert str(len(rows)) in methods
+    if len(rows) != 847:
+        assert "847" not in methods

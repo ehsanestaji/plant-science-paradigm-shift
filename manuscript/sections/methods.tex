@@ -46,7 +46,7 @@ citation rate first exceeds ten times the mean pre-awakening citation rate.
 Papers were required to have at least ten years of citation history and at
 least 50 total citations by the end of the corpus window.
 Organism assignment used title and abstract keyword matching against a
-curated species lexicon of 847 plant taxa.
+curated species lexicon of 117 plant taxa.
 Awakening year cluster significance was assessed by a permutation test
 in which awakening years were randomly reassigned 100,000 times within the
 observed paper cohort, and the probability of observing 35 or more awakenings
@@ -97,12 +97,12 @@ Papers were assigned to organism categories (arabidopsis, rice, wheat, maize,
 soybean, tomato, barley, cotton, potato, tobacco, other\_crop,
 other\_model\_organism, non\_specific) using a two-stage pipeline.
 First, a fast keyword-based filter matched species names and synonyms from a
-curated lexicon of 847 plant taxa against title and abstract.
+curated lexicon of 117 plant taxa against title and abstract.
 Second, papers not resolved by keyword matching were passed through a
 zero-shot classification head fine-tuned on top of SPECTER2 embeddings,
 trained with 13 organism labels.
 Organism confidence scores take one of two values. A score of 1.0 denotes papers where
-a unique species name from the curated 847-taxon lexicon was matched in
+a unique species name from the curated 117-taxon lexicon was matched in
 the title or abstract (unambiguous keyword hit), and 0.7 denotes papers where
 two or more species names matched (multi-match ambiguity resolved by
 selecting the most frequently mentioned taxon).
