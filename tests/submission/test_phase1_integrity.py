@@ -100,14 +100,27 @@ def test_most_convergent_organism_is_tobacco():
     assert "$d = 0.047$" in block
 
 
+MANUSCRIPT_COUNT_FILES = (
+    "manuscript/sections/main_text.tex",
+    "manuscript/sections/methods.tex",
+    "manuscript/sections/supplementary.tex",
+    "manuscript/sections/item_lists.tex",
+)
+
+
 def test_corpus_states_harvested_and_classified():
     methods = read("manuscript/sections/methods.tex")
     assert "4,912,447" in methods
     assert "2,466,390" in methods
-    assert "2,770,088" not in methods
-    assert "2.77 million" not in methods
-    assert "56\\%" not in methods
     assert "each with at least one author affiliation and abstract text" not in methods
+
+    combined = "\n".join(read(path) for path in MANUSCRIPT_COUNT_FILES)
+    for stale in ("2,770,088", "2.77 million", "56\\%"):
+        assert stale not in combined, stale
+
+    main = read("manuscript/sections/main_text.tex")
+    assert "46.1\\%" not in main
+    assert "46.1%" not in main
 
 
 def test_methods_does_not_cite_query_table_yet():
