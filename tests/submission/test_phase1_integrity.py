@@ -123,11 +123,12 @@ def test_corpus_states_harvested_and_classified():
     assert "46.1%" not in main
 
 
-def test_methods_does_not_cite_query_table_yet():
+def test_methods_query_pointer_is_code_or_query_table():
     methods = read("manuscript/sections/methods.tex")
-    assert "tab:query-strings" not in methods
     assert "tab:S3" not in methods
-    assert "code/novel/method" in methods or "method\\_diffusion.py" in methods
+    points_at_code = "method\\_diffusion.py" in methods or "method_diffusion.py" in methods
+    points_at_table = "tab:query-strings" in methods
+    assert points_at_code or points_at_table
 
 
 def test_no_introduction_or_policy_headings():

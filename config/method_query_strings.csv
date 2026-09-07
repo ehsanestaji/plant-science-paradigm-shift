@@ -1,0 +1,6 @@
+method,boolean_query,source
+genetic mapping (QTL),"(QTL OR ""quantitative trait locus"" OR ""quantitative trait loci"" OR ""genetic mapping"" OR ""linkage mapping"")",reconstructed to match Methods diffusion names; LIKE-style as in code/novel/method_diffusion.py
+next-generation sequencing,"(""next-generation sequenc"" OR ""next generation sequenc"" OR ""high-throughput sequenc"" OR Illumina OR RNA-seq OR RNAseq OR ""rna sequencing"")",reconstructed to match Methods diffusion names
+RNA interference,"(""RNA interference"" OR RNAi OR ""gene silencing"")",reconstructed to match Methods diffusion names
+CRISPR-Cas9,"(CRISPR OR Cas9 OR Cas12 OR Cas13)",code/novel/method_diffusion.py METHODS CRISPR
+machine learning,"(""machine learning"" OR ""deep learning"" OR ""neural network"")",code/novel/method_diffusion.py METHODS Machine learning
