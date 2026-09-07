@@ -120,12 +120,11 @@ were excluded by the quality filters in \texttt{code/db/clean.py}.
 
 \paragraph{BERTopic modelling.}
 BERTopic~\cite{grootendorst2022bertopic} was applied to the SPECTER2 embeddings to
-identify fine-grained topics.
+identify fine-grained topics across the 2,466,390 classified papers.
 HDBSCAN ($\mathtt{min\_cluster\_size} = 50$) was used for initial clustering,
 yielding 1,632 topics after outlier removal.
-Of the 2,770,088 classified papers, 1,491,147 (53.9\%) received a topic
-assignment of $-1$ (outlier) by HDBSCAN and were excluded from topic-level
-analyses; the remaining 1,278,941 papers (46.1\%) carry a valid topic
+Papers receiving a topic assignment of $-1$ (outlier) from HDBSCAN were
+excluded from topic-level analyses; the remaining papers carry a valid topic
 assignment.
 The high outlier rate reflects the semantic breadth of a field spanning
 molecular genetics, agronomy, ecology, and food science; HDBSCAN's
