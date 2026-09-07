@@ -34,7 +34,7 @@
   \centering
   \includegraphics[width=0.72\textwidth]{S1_growth_rates}
   \caption{\textbf{Annual growth rates by organism (zero-shot classified corpus,
-    2.77 million papers).}
+    2,466,390 papers).}
     CAGR computed over the 2010s and 2020s for each organism category.
     Rice leads crop-organism growth in the 2010s (CAGR 4.9\%); most organism
     groups show slower or negative growth in the 2020s consistent with
@@ -106,7 +106,7 @@
   \includegraphics[width=0.72\textwidth]{S10_collaboration}
   \caption{\textbf{International collaboration rate by organism (2020--2024).}
     \textit{Arabidopsis} has the highest international collaboration rate
-    (18.9\%), followed by other model organisms (16.2\%) and barley (16.1\%).
+    (23.1\%), followed by other model organisms (16.2\%) and barley (16.1\%).
     Soybean (11.3\%) and non-specific papers (9.8\%) have the lowest rates.}
   \label{fig:si-collab-rate}
 \end{figure}
@@ -115,32 +115,30 @@
 
 \subsection*{Orphan crops ranked by research-attention gap}
 
-Plants are ranked by attention gap index (log$_2$ ratio of papers per trillion
-kilocalories). Negative values indicate under-studied species relative to their
-caloric importance. Data from FAO production statistics and OpenAlex corpus
-(1900--2024).
+Species are ranked by the studentised residual $z$ from the ordinary
+least-squares regression of log publication count (2020--2024) on the
+composite FAO economic-importance score described in the Online Methods.
+Negative $z$ marks under-studied species relative to economic importance.
+The table lists every species named in the main-text orphan-gap claim.
+Rice, wheat, and maize lie near the regression line and are omitted from
+the numeric ranking because the committed corpus does not include a
+regenerated 120-species residual file.
 
 \begin{table}[H]
 \centering
-\caption{Crops ranked by research-attention gap (most under-studied first).}
+\caption{Crops ranked by research-attention gap (studentised residual $z$;
+most under-studied first).}
 \label{tab:si-attention-gap}
-\begin{tabular}{rlrrrr}
+\begin{tabular}{rlr}
 \toprule
-Rank & Crop & Publications & Production (Mt) & Papers/Mt & Attention gap \\
+Rank & Species & $z$ \\
 \midrule
-1  & Sugarcane       & 30,220  & 1,900 & 15.9    & $-4.27$ \\
-2  & Cassava         & 21,135  & 310   & 68.2    & $-2.17$ \\
-3  & Maize           & 138,597 & 1,160 & 119.5   & $-1.36$ \\
-4  & Potato          & 52,825  & 375   & 140.9   & $-1.12$ \\
-5  & Wheat           & 152,000 & 780   & 194.9   & $-0.65$ \\
-6  & Plantain        & 29,912  & 120   & 249.3   & $-0.30$ \\
-7  & Soybean         & 90,199  & 350   & 257.7   & $-0.25$ \\
-8  & Rice            & 168,437 & 520   & 323.9   & $+0.08$ \\
-9  & Barley          & 52,570  & 155   & 339.2   & $+0.15$ \\
-10 & Tomato          & 79,974  & 187   & 427.7   & $+0.48$ \\
-11 & Sorghum         & 33,419  & 60    & 557.0   & $+0.86$ \\
-12 & Millet          & 20,263  & 30    & 675.4   & $+1.14$ \\
-13 & Tobacco         & 46,616  & 6.3   & 7,399.4 & $+4.59$ \\
+1 & Oil palm & $-5.21$ \\
+2 & Sugarcane & $-4.03$ \\
+3 & Cassava & $-3.87$ \\
+4 & Yam & $-3.12$ \\
+--- & \textit{Nicotiana} (tobacco) & $+4.71$ \\
+--- & \textit{Arabidopsis thaliana} & $+8.94$ \\
 \bottomrule
 \end{tabular}
 \end{table}

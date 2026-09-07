@@ -210,7 +210,7 @@ funding cycles would predict.
 \subsection*{Corpus-wide organism classification and paradigm analysis}
 
 To complement keyword-based assignment, we applied SPECTER2 embeddings and
-zero-shot classification to the full classified corpus of \num{2.77} million
+zero-shot classification to the full classified corpus of 2,466,390
 papers (\textit{Online Methods}). Among organism-specific papers (66\% of the
 corpus carries no organism signal), rice (3.9\%), wheat (3.9\%), and maize
 (3.6\%) collectively exceed \textit{Arabidopsis} (2.3\%) in recent share
@@ -221,7 +221,7 @@ structural transition (head-to-head in Extended Data Fig.~\ref{fig:ED2}).
   \centering
   \includegraphics[width=0.85\textwidth]{M1_organism_share_timeseries}
   \caption{\textbf{Organism share timeseries from zero-shot classification
-    (2.77 million papers).}
+    (2,466,390 papers).}
     Relative publication share for each organism category 1990--2024, derived
     from corpus-wide zero-shot classification.
     Non-specific papers (66\% of corpus) are excluded for clarity.
@@ -266,9 +266,9 @@ entropy series in Supplementary Fig.~\ref{fig:si-shannon-entropy}).
 
 Using SPECTER2 embeddings, we track each organism's conceptual profile as the
 cosine distance of its centroid from \textit{Arabidopsis} in rolling five-year
-windows (Extended Data Fig.~\ref{fig:ED7}). Cotton and rice converge most strongly
-toward \textit{Arabidopsis} concept space over 2010--2024, consistent with
-adoption of tools originally developed in the model organism, whereas
+windows (Extended Data Fig.~\ref{fig:ED7}). Tobacco converges most strongly
+toward \textit{Arabidopsis} concept space in 2020--2024 ($d = 0.016$),
+consistent with adoption of tools originally developed in the model organism, whereas
 non-specific papers remain most distant ($d = 0.047$, 2020--2024). This semantic
 convergence complements the citation-flow findings: crop papers are not merely
 citing \textit{Arabidopsis} but increasingly resemble it in concepts and methods.
@@ -308,8 +308,9 @@ A sleeping beauty is a paper that receives negligible citations for an extended
 dormancy before a sudden, sustained burst~\cite{ke2015sleeping}. Applying the Ke
 et al.\ index $B$ to the full corpus, we identify \num{40} papers on minor or
 under-studied crops meeting strict criteria (dormancy $\geq 8$ years, awakening
-amplitude $\geq 10\times$), spanning 23 crop species including teff, quinoa,
-amaranth, cowpea, and breadfruit --- long peripheral to mainstream plant biology.
+amplitude $\geq 10\times$), spanning the species listed in Supplementary
+Table~\ref{tab:si-sleeping-beauty}: Moringa (eight of the ten highest-$B$
+papers), millet, and amaranth --- long peripheral to mainstream plant biology.
 Their awakenings are strikingly non-uniform: 35 of the 40 (87.5\%) fall in
 2019--2022 (Figure~\ref{fig:FA3}), with median dormancy 11.4 years and median
 awakening magnitude $17.3\times$ (highest-index papers in Supplementary
@@ -428,69 +429,29 @@ reshaping the top of the distribution do not provide.
 % ── Discussion ───────────────────────────────────────────
 \section*{Discussion}
 
-Nine independent lines of evidence --- logistic growth saturation, model-organism
-decline, sleeping-beauty awakening clusters, accelerated method diffusion, a new
-crop-centred concept epoch, a persistent orphan-organism gap, corpus-wide
-classification confirming crop species now collectively exceed \textit{Arabidopsis}
-in share, a topical-entropy decline (1.82\,$\to$\,1.14 bits), and semantic
-convergence of crop literature toward \textit{Arabidopsis} --- converge on one
-conclusion: plant science is undergoing a structural reorganisation from
-model-organism-centred discovery toward crop-centred, climate-relevant research.
-Their methodological diversity (growth modelling, citation dynamics, diffusion
-fitting, semantic-network analysis, and attention-gap regression) makes any single
-artefact unlikely, and a temporal placebo test confirms the signal is specific to
-the recent era (Supplementary Note~\ref{note6}).
+Nine independent analyses converge on a reorganisation from model-organism-centred
+discovery toward crop-centred, climate-relevant research. Their methodological
+diversity makes a single artefact unlikely, and a temporal placebo confirms that
+the signal is specific to the recent era (Supplementary Note~\ref{note6}).
 
-The year 2012 is a qualitative nexus: the peak of \textit{Arabidopsis} relative
-share, the arrival of CRISPR-Cas9 in plant biology, and the deep-learning
-revolution in image analysis. Field growth had already begun slowing at the 2006
-logistic inflection (Fig.~\ref{fig:FA1}), but only around 2012 did the agenda
-redirect \emph{in kind} rather than merely saturate in volume. Two drivers appear
-to act in concert: the CRISPR-Cas9 platform, whose 9.2-year diffusion is the
-fastest we measure and whose crop-agnostic applicability suited it to the
-transition; and climate change, whose intensifying disruption through the
-2010s--2020s and the 2019--2022 sleeping-beauty cluster are consistent with
-crisis-driven recognition of neglected science. Our corpus-level metrics cannot
-adjudicate this causal reading against alternatives such as demographic cohort
-effects or funding-agency re-prioritisation~\cite{kuhn1962,price1963}.
+The 2012 peak in \textit{Arabidopsis} share coincides with CRISPR-Cas9 and the
+deep-learning revolution. The shift is nevertheless a rebalancing, not replacement:
+\textit{Arabidopsis} output kept growing through 2018 while its methods became part
+of crop science's substrate, paralleling transitions in neuroscience, cancer
+biology, and microbiology~\cite{nestler2010,frese2007,sunagawa2015}. The data
+cannot distinguish climate and technology effects from cohort or funding
+changes~\cite{kuhn1962,price1963}.
 
-Consistent with model-organism-to-applied transitions documented in
-neuroscience~\cite{nestler2010}, cancer biology~\cite{frese2007}, and
-microbiology~\cite{sunagawa2015}, the shift is not a clean replacement:
-\textit{Arabidopsis} absolute output kept growing through 2018 even as its share
-fell, and current-epoch concept marriages combine crop genomics with model-system
-insight. The transition is better read as expansion and rebalancing --- the
-consolidation of \textit{Arabidopsis} into crop science's methodological substrate
---- than as decline.
-
-Several limitations apply. Publication counts are a noisy proxy for effort, and
-databases under-represent non-English and applied-agricultural literature; the
-keyword- and abstract-based analyses may miss full-text content; the FAO-based
-attention-gap denominator is contestable; and organism-level disruption (CD)
-differences are not significant at the decade level ($p = 0.17$) and should be
-read as directional. Topic analyses cover the 46.1\% of classified papers with a
-valid BERTopic assignment, though the excluded outliers do not differ appreciably
-in organism or decade composition (\textit{Online Methods}). Robustness details
-for the climate-event study, the paradigm-bridging-author analysis, and the
-coauthor-network analysis are given in Supplementary
-Notes~\ref{note4},~\ref{note3},
-and~\ref{note2}. Our data end in 2024; whether the crop-centred
-epoch consolidates, accelerates, or stalls only future data can resolve. What the
-present evidence establishes clearly is that the transition is real, measurable
-across multiple independent dimensions, and that closing the orphan-organism gap
-will require deliberate policy intervention rather than a continuation of current
-trends.
+Publication counts imperfectly measure effort, database coverage is uneven, and
+keyword and abstract analyses miss full-text content. The FAO denominator is
+contestable; decade-level organism disruption differences are non-significant
+($p = 0.17$); and topic results cover 46.1\% of classified papers. Robustness
+analyses appear in Supplementary Notes~\ref{note2}--\ref{note4}. Data end in 2024,
+so the epoch's persistence remains unresolved.
 
 \subsection*{Policy implications}
 
-Three implications follow. First, funding calls organised under ``model
-organism'' headers risk under-representing the crop-centred research that now
-dominates the field; realigning categories would match calls to where the work
-lives. Second, the orphan-organism gap is not self-closing: oil palm, sugarcane,
-cassava, and yam remain structurally under-served ($z < -3$, widening since
-1990) and need ring-fenced calls and career pathways rather than open
-competition with staple-crop and model-organism research. Third, the 2019--2022
-sleeping-beauty awakenings on climate-relevant taxa show that latent scientific
-capacity can be unlocked quickly when policy and public attention align --- but
-that this alignment is fragile and should be institutionalised before the window
-closes.
+Funding categories should reflect where crop-centred work now occurs. The
+persistent gaps for oil palm, sugarcane, cassava, and yam ($z < -3$) support
+ring-fenced calls and career pathways. The 2019--2022 sleeping-beauty cluster
+also shows that aligned policy and public attention can unlock latent capacity.

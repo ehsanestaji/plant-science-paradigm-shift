@@ -6,7 +6,7 @@
 % ============================================================
 
 \paragraph{Data sources and corpus construction.}
-The corpus comprises \num{4.9} million plant science publications indexed in
+The harvested corpus comprises 4,912,447 plant science publications indexed in
 OpenAlex~\cite{priem2022openalex} and PubMed.
 OpenAlex records span 1900--2024; PubMed records span 1990--2024.
 Records were retrieved using a controlled vocabulary of plant-science
@@ -16,15 +16,14 @@ and 47 related headings).
 Duplicate records were resolved by DOI and then by title--author--year
 triple matching, and publication years were capped at 2024 with pre-1900
 records removed.
-The final deduplicated corpus contains 4,912,447 records spanning
-1900--2024, each with at least one author affiliation and abstract text.
+Records without abstracts are excluded from embedding and organism
+classification and remain in the harvested count only.
 Field-growth and organism-share analyses use the 1990--2024 modern window
 ($n \approx 3.98$ million), for which coverage from both sources is dense;
 the historical analyses (temporal placebo, concept-marriage epochs, and the
 orphan-crop attention gap) draw on the full 1900--2024 back-catalogue.
-Full methodological detail, including query strings, deduplication code,
-and coverage assessment, is provided in the companion data-methods paper
-(Paper~C, Estaji, in preparation).
+Boolean query strings, deduplication code, and coverage assessment live in
+\texttt{code/collect/} and \texttt{code/db/clean.py}.
 
 \paragraph{Growth modelling.}
 Annual publication counts were fitted with both exponential
@@ -115,9 +114,9 @@ distribution between confidence~0.7 and confidence~1.0 papers
 minimal divergence (KS\,=\,0.023, $p < 0.001$).
 The confidence~0.7 papers represent genuine multi-species mentions and
 are retained to avoid systematic exclusion of interdisciplinary research.
-The 2.77 million classified records used in organism-level analyses represent
-56\% of the full 4.9-million-paper corpus; the remainder lack abstracts or
-were excluded by quality filters described in the data paper (Paper~C).
+The 2,466,390 classified records used in organism-level analyses represent
+50\% of the harvested 4,912,447-record corpus; the remainder lack abstracts or
+were excluded by the quality filters in \texttt{code/db/clean.py}.
 
 \paragraph{BERTopic modelling.}
 BERTopic~\cite{grootendorst2022bertopic} was applied to the SPECTER2 embeddings to
