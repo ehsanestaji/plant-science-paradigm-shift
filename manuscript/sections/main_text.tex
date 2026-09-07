@@ -53,7 +53,7 @@ from approximately 40,000 papers per year in 1990 to a peak of roughly
 below that peak.
 When we fit both exponential and logistic growth models to this trajectory
 (works\_clean, 1990--2024), the logistic model provides a significantly
-better fit to the data ($\Delta$AIC $= 31.2$, Figure~\ref{fig:FA1}).
+better description of the data ($\Delta$AIC $= 31.2$, Figure~\ref{fig:FA1}).
 We also compared logistic against Gompertz and Richards (generalised
 logistic) sigmoidal alternatives; Richards fits better
 ($\Delta\mathrm{AICc} = 11.5$ relative to logistic) and Gompertz worse
@@ -135,9 +135,9 @@ crop-centred field. A direct analysis of citation flow rejects that
 reading.
 
 We define the instrumentalization ratio
-$r_{\mathrm{inst}}(Y) = (\text{C}{\to}\text{A}\text{ share}) / (\text{A}{\to}\text{A}\text{ share})$ in year $Y$,
+$r_{\mathrm{inst}}(Y) = [\text{C}{\to}\text{A}\text{ share in year }Y] / [\text{A}{\to}\text{A}\text{ share in year }Y]$,
 where C is the rice/wheat/maize crop triad and A is \textit{Arabidopsis}
-(\textit{Methods}; organism classification confidence $\geq 0.7$).
+(\textit{Methods}; paper\_a\_organism.csv confidence $\geq 0.7$).
 Between 1995 and 2016, $r_{\mathrm{inst}}$ rose from 0.018 to 0.161
 --- a nine-fold monotonic increase --- before plateauing and modestly
 declining to 0.131 by 2024 (Figure~\ref{fig:M9}a). In parallel, the
@@ -251,8 +251,8 @@ publication share) and 7 as declining; 14 are stable.
 Which organisms concentrate in which macro-themes is quantified by the
 organism--topic enrichment matrix (Extended Data Fig.~\ref{fig:ED5}).
 Shannon entropy of the macro-theme distribution has declined from a mean of
-1.74 bits in the 1990s to 1.14 bits in the 2020s ($\Delta = -0.60$ bits),
-a 34.5\% reduction indicating substantial concentration of research attention
+1.82 bits in the 1990s to 1.14 bits in the 2020s ($\Delta = -0.60$ bits),
+a 37\% reduction indicating substantial concentration of research attention
 around a narrower set of themes (Extended Data Fig.~\ref{fig:ED6}; annual
 entropy series in Supplementary Fig.~\ref{fig:si-shannon-entropy}).
 
@@ -431,8 +431,8 @@ reshaping the top of the distribution do not provide.
 Nine independent lines of evidence --- logistic growth saturation, model-organism
 decline, sleeping-beauty awakening clusters, accelerated method diffusion, a new
 crop-centred concept epoch, a persistent orphan-organism gap, corpus-wide
-classification confirming crop species collectively exceed \textit{Arabidopsis}
-in share, a topical-entropy decline (1.74\,$\to$\,1.14 bits), and semantic
+classification confirming crop species now collectively exceed \textit{Arabidopsis}
+in share, a topical-entropy decline (1.82\,$\to$\,1.14 bits), and semantic
 convergence of crop literature toward \textit{Arabidopsis} --- converge on one
 conclusion: plant science is undergoing a structural reorganisation from
 model-organism-centred discovery toward crop-centred, climate-relevant research.
