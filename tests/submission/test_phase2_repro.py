@@ -46,3 +46,19 @@ def test_lexicon_exists_and_paper_cites_its_row_count():
     assert str(len(rows)) in methods
     if len(rows) != 847:
         assert "847" not in methods
+
+
+def test_code_availability_has_no_slurm():
+    assert "SLURM" not in read("manuscript/main.tex")
+    assert not list(REPO.rglob("*.sbatch"))
+    assert not list(REPO.rglob("*.slurm"))
+
+
+def test_sample_duckdb_not_promised_in_git():
+    readme = read("reproducibility/README.md")
+    sample = REPO / "reproducibility" / "plant_science_sample.duckdb"
+    if not sample.exists():
+        assert "included here" not in readme
+        assert "sample DuckDB is not shipped in git" in readme
+    assert "[ZENODO DOI]" in readme
+    assert "10.5281/zenodo.21199139" not in readme
