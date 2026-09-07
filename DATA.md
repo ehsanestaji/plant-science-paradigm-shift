@@ -12,10 +12,13 @@ what is archived on Zenodo, and what is re-derivable rather than distributed.
 - `results/paper_a/` — derived result tables and figure outputs backing every
   display item in the paper (small enough for version control).
 
-## Archived on Zenodo (DOI: 10.5281/zenodo.21199139 (reserved; registers on publish))
+## Archived on Zenodo ([ZENODO DOI])
 
-Large derived artifacts, too big for git, are deposited as a single Zenodo
-record. **Planned contents:**
+Large derived artifacts, too big for git, will be deposited as a single Zenodo
+record after Phase 3 publish confirms HTTP 200. Until then the manuscript
+cites the placeholder `[ZENODO DOI]`, not reserved record 21199139.
+
+**Planned contents:**
 
 | Artifact | Approx. size | Description |
 |---|---|---|
@@ -25,12 +28,6 @@ record. **Planned contents:**
 | `works_clean.csv.gz` | (see record) | The analysed publication list: one row per deduplicated work, sorted by year and organism, with DOI/OpenAlex ID, year, organism label + confidence, paradigm label, and BERTopic assignment. |
 | `summary_tables/` | small | Roll-up tables — papers per year; papers per organism per year; method-diffusion parameters; organism × paradigm counts; attention-gap rankings. |
 | `figure_source_tables/` | small | The exact CSVs behind each main, Extended Data, and Supplementary figure (mirror of `results/paper_a/`). |
-
-> The DOI `10.5281/zenodo.21199139` is reserved on a Zenodo draft
-> (`https://zenodo.org/uploads/21199139`) and is already cited in the manuscript
-> Data Availability section. It becomes active once the draft's files are
-> uploaded and the record is published — no further edit to the manuscript is
-> needed.
 
 ## Not distributed (re-derivable)
 

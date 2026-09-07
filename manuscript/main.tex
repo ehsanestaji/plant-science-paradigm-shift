@@ -85,30 +85,24 @@ methodological substrate.
 % ── Main sections ─────────────────────────────────────────────────────
 \input{sections/main_text}
 
-% ── Online Methods ────────────────────────────────────────────────────
+\bibliographystyle{naturemag}
+\bibliography{references}
+
 \section*{Online Methods}
 \input{sections/methods}
 
-% ── Extended Data ─────────────────────────────────────────────────────
-\clearpage
-\section*{Extended Data}
-\input{sections/extended_data}
-
-% ── Data Availability ─────────────────────────────────────────────────
 \section*{Data Availability}
 The OpenAlex and PubMed bibliographic records used in this study are
 publicly available from \url{https://openalex.org} and
 \url{https://pubmed.ncbi.nlm.nih.gov}, respectively.
 The processed corpus (deduplicated DOI list, organism and paradigm
 classification labels, BERTopic topic assignments, and derived
-result tables) is archived at Zenodo:
-\url{https://doi.org/10.5281/zenodo.21199139}.
+result tables) will be archived at Zenodo under {[ZENODO DOI]}.
 FAO production statistics used for the research-attention gap analysis
 are available from \url{https://www.fao.org/faostat/}.
 
-% ── Code Availability ─────────────────────────────────────────────────
 \section*{Code Availability}
-All analysis code, SLURM batch scripts, and figure generation scripts
+All analysis code and figure generation scripts
 are available at
 \url{https://github.com/ehsanestaji/plant-science-paradigm-shift}
 under the MIT licence.
@@ -118,22 +112,18 @@ CPU-only and can be run on a standard workstation with 64\,GB RAM.
 A reproducible environment specification (\texttt{requirements.txt} and
 \texttt{environment.yml}) is included in the repository root.
 
-% ── Author Contributions ──────────────────────────────────────────────
 \section*{Author Contributions}
 E.E.\ and J.-F.M.\ conceived the study. E.E.\ designed and performed all
 analyses and wrote the manuscript. J.-F.M.\ contributed critical revisions
 to the manuscript. All authors read and approved the final version.
 
-% ── Competing Interests ───────────────────────────────────────────────
 \section*{Competing Interests}
 The authors declare no competing interests.
 
-% ── Funding ───────────────────────────────────────────────────────────
 \section*{Funding}
 This work was partially supported by the Wallenberg Initiatives in Forest
 Research (WIFORCE), funded by the Knut and Alice Wallenberg Foundation.
 
-% ── Acknowledgments ───────────────────────────────────────────────────
 \section*{Acknowledgments}
 We thank OpenAlex, PubMed, and FAO for openly releasing the
 bibliographic and agricultural-production data on which this study
@@ -145,16 +135,13 @@ analyses were run on local Apple Silicon workstations. We thank the
 and \texttt{SPECTER2} open-source maintainers whose tools underpin
 the analyses reported here.
 
-% ── References ────────────────────────────────────────────────────────
-\bibliographystyle{naturemag}
-\bibliography{references}
+\clearpage
+\section*{Extended Data}
+\input{sections/extended_data}
 
-% ── Index of display items and supplementary materials ────────────────
-% (placed after the reference list, before the Supplementary Information)
 \clearpage
 \input{sections/item_lists}
 
-% ── Supplementary Information (placed at the end of the document) ──────
 \clearpage
 \appendix
 \section*{Supplementary Information}

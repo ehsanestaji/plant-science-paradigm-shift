@@ -128,3 +128,42 @@ def test_methods_does_not_cite_query_table_yet():
     assert "tab:query-strings" not in methods
     assert "tab:S3" not in methods
     assert "code/novel/method" in methods or "method\\_diffusion.py" in methods
+
+
+def test_no_introduction_or_policy_headings():
+    main = read("manuscript/sections/main_text.tex")
+    assert r"\section*{Introduction}" not in main
+    assert r"\subsection*{Policy implications}" not in main
+
+
+def test_paper_c_is_not_the_only_methods():
+    blob = read("manuscript/sections/methods.tex") + read("manuscript/main.tex")
+    assert "Paper C, in preparation" not in blob
+    assert "in preparation" not in blob
+    for needle in (
+        "PubMed 1990--2024",
+        "OpenAlex 1900--2024",
+        "SPECTER2",
+        "sleeping-beauty index",
+        "CD disruption index",
+        "studentised residual",
+        "code/collect/",
+        "code/db/clean.py",
+    ):
+        assert needle in blob, needle
+
+
+def test_methods_follows_references_in_main_tex():
+    tex = read("manuscript/main.tex")
+    i_bib = tex.index("\\bibliography{references}")
+    i_methods = tex.index("\\input{sections/methods}")
+    i_da = tex.index("Data Availability")
+    i_ed = tex.rindex("\\input{sections/extended_data}")
+    assert i_bib < i_methods < i_da < i_ed
+
+
+def test_data_availability_uses_placeholder_not_404():
+    tex = read("manuscript/main.tex")
+    assert "[ZENODO DOI]" in tex
+    assert "10.5281/zenodo.21199139" not in tex
+    assert "https://doi.org/10.5281/zenodo." not in tex

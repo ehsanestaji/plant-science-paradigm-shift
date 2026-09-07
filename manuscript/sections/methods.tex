@@ -1,14 +1,11 @@
 % ============================================================
-%  Paper A — Methods
-%  Full methodological detail is provided in the companion
-%  Paper C (Estaji, in preparation). This section summarises
-%  the approaches used for the six analyses reported here.
+%  Paper A — Methods (stand-alone; do not defer to Paper C)
 % ============================================================
 
 \paragraph{Data sources and corpus construction.}
 The harvested corpus comprises 4,912,447 plant science publications indexed in
 OpenAlex~\cite{priem2022openalex} and PubMed.
-OpenAlex records span 1900--2024; PubMed records span 1990--2024.
+OpenAlex 1900--2024; PubMed 1990--2024.
 Records were retrieved using a controlled vocabulary of plant-science
 subject tags (OpenAlex concept hierarchy, level 1--2) combined with
 PubMed MeSH terms (Plant Physiology, Plant Biology, Botany, Agronomy,
@@ -24,6 +21,9 @@ the historical analyses (temporal placebo, concept-marriage epochs, and the
 orphan-crop attention gap) draw on the full 1900--2024 back-catalogue.
 Boolean query strings, deduplication code, and coverage assessment live in
 \texttt{code/collect/} and \texttt{code/db/clean.py}.
+Git holds derived tables under \texttt{results/paper\_a/}. The raw
+$\sim$41\,GB harvest is not distributed and is re-derivable from the public
+OpenAlex and PubMed APIs via \texttt{code/collect/} and \texttt{code/db/clean.py}.
 
 \paragraph{Growth modelling.}
 Annual publication counts were fitted with both exponential
@@ -201,6 +201,10 @@ least-squares regression of log publication count on log economic importance
 score, fit across 120 species with complete data.
 Species with $|z| > 2.0$ were classified as significantly over- or
 under-studied.
+
+\paragraph{Companion data paper.}
+A future companion data-methods paper (Paper~C) will archive additional harvest
+diagnostics; it is not required to reproduce the analyses reported here.
 
 \paragraph{Use of large language models.}
 AI coding and writing assistants (Anthropic Claude and OpenAI models) were used
