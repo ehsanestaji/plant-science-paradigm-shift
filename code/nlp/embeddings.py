@@ -5,7 +5,7 @@ Loads abstracts_for_embedding.parquet, encodes with allenai/specter2_base
 via sentence-transformers, saves as float16 .npy arrays with checkpointing.
 
 Usage:
-    python -m src.nlp.embeddings \
+    python -m nlp.embeddings \
         --abstracts-path data/abstracts_for_embedding.parquet \
         --out-dir data/processed/embeddings \
         --batch-size 512 \

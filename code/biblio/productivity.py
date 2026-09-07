@@ -10,7 +10,7 @@ Produces CSVs in results/citations/ for:
   - Q25: Big team vs small team impact
 
 Usage:
-    python -m src.biblio.productivity --db-path data/processed/plant_science.duckdb
+    python -m biblio.productivity --db-path data/processed/plant_science.duckdb
 """
 
 import argparse
@@ -24,8 +24,8 @@ import pandas as pd
 from scipy.optimize import curve_fit
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
-from src.db.schema import create_database
-from src.utils.storage_monitor import check_storage
+from db.schema import create_database
+from utils.storage_monitor import check_storage
 
 OUT_DIR_CIT = "results/citations"
 OUT_DIR_NET = "results/networks"

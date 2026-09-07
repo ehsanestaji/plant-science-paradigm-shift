@@ -13,7 +13,7 @@ Outputs → results/paper_a/
       paradigm, oa_status, count, share
 
 Usage:
-    python -m src.analysis.paper_a.paradigm_shift \\
+    python -m analysis.paper_a.paradigm_shift \\
         --db-path data/processed/plant_science.duckdb
 """
 
@@ -28,8 +28,8 @@ import pandas as pd
 from scipy import stats
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[3]))
-from src.db.schema import create_database
-from src.utils.storage_monitor import check_storage
+from db.schema import create_database
+from utils.storage_monitor import check_storage
 
 # Short label constants to avoid repeated long strings
 LABEL_FUNDAMENTAL = "fundamental basic science research"

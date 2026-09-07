@@ -5,7 +5,7 @@ Reads analysis results from results/paper_a/ and produces figures in
 results/paper_a/figures/{main,supplementary}/ as PDF + PNG (300 DPI).
 
 Usage:
-    python -m src.viz.paper_a_gpu_figures [--results-dir results/paper_a] [--out-dir results/paper_a/figures]
+    python -m viz.paper_a_gpu_figures [--results-dir results/paper_a] [--out-dir results/paper_a/figures]
 
 Main figures (M1–M8) and supplementary figures (S1, S2, S3, S6, S9, S10).
 Skips gracefully when an input file is missing.

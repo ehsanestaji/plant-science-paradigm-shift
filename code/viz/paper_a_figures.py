@@ -5,7 +5,7 @@ Reads analysis results from results/ and produces publication-quality
 figures in figures/ as PDF + PNG (300 DPI).
 
 Usage:
-    python -m src.viz.paper_a_figures [--results-dir results --out-dir figures]
+    python -m viz.paper_a_figures [--results-dir results --out-dir figures]
 
 Figures:
     FA1  Growth of plant science with logistic inflection & plateau

@@ -10,7 +10,7 @@ Produces CSVs in results/temporal/ for:
 No local database is required — data come directly from the OpenAlex API.
 
 Usage:
-    python -m src.biblio.cross_field_comparison
+    python -m biblio.cross_field_comparison
 """
 
 import argparse

@@ -16,7 +16,7 @@ Outputs:
   results/bibliometrics/powerlaw_comparison.csv — LR tests against alternatives
 
 Usage:
-    python -m src.biblio.powerlaw_fitting --db-path data/processed/plant_science.duckdb
+    python -m biblio.powerlaw_fitting --db-path data/processed/plant_science.duckdb
 
 Reference:
     Clauset, A., Shalizi, C. R., & Newman, M. E. J. (2009).
@@ -35,8 +35,8 @@ import pandas as pd
 import powerlaw  # pip install powerlaw  (Alstott et al. 2014, wraps Clauset 2009)
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
-from src.db.schema import create_database
-from src.utils.storage_monitor import check_storage
+from db.schema import create_database
+from utils.storage_monitor import check_storage
 
 OUT_DIR = "results/bibliometrics"
 

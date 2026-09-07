@@ -7,7 +7,7 @@ JSON-lines file, filter for plant science concepts, and write matching
 records directly to DuckDB. Raw files are deleted after processing.
 
 Usage:
-    python -m src.collect.openalex_snapshot \
+    python -m collect.openalex_snapshot \
         --snapshot-dir data/raw/openalex/ \
         --db-path data/processed/plant_science.duckdb \
         --config config/openalex_concepts.json
@@ -33,9 +33,9 @@ except ImportError:
 
 # Add project root to path
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
-from src.db.schema import create_database
-from src.utils.storage_monitor import check_storage
-from src.utils.checkpointing import checkpoint_save, checkpoint_load, checkpoint_clear
+from db.schema import create_database
+from utils.storage_monitor import check_storage
+from utils.checkpointing import checkpoint_save, checkpoint_load, checkpoint_clear
 
 
 def load_concept_filter(config_path: str) -> tuple[set, float, bool]:
@@ -360,7 +360,7 @@ def main():
 
     # Done
     checkpoint_clear("openalex_filter")
-    from src.db.schema import get_stats
+    from db.schema import get_stats
     stats = get_stats(con)
     print(f"\nComplete! Database stats:")
     for k, v in stats.items():

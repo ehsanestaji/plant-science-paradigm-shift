@@ -5,7 +5,7 @@ Produces a Parquet file with columns: work_id, year, abstract, journal_name, oa_
 Only works with non-empty abstracts are included.
 
 Usage (on HPC):
-    python -m src.nlp.export_abstracts --db-path data/processed/plant_science.duckdb
+    python -m nlp.export_abstracts --db-path data/processed/plant_science.duckdb
 
 Then copy to MacBook:
     scp HPC_HOST:~/path/to/abstracts_for_embedding.parquet data/
@@ -20,7 +20,7 @@ from pathlib import Path
 import pandas as pd
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
-from src.utils.storage_monitor import check_storage
+from utils.storage_monitor import check_storage
 
 
 OUT_PATH = "data/abstracts_for_embedding.parquet"

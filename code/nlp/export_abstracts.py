@@ -2,7 +2,7 @@
 Export abstracts to a portable parquet file for GPU embedding on MacBook.
 
 Usage:
-    python -m src.nlp.export_abstracts --db-path data/processed/plant_science.duckdb
+    python -m nlp.export_abstracts --db-path data/processed/plant_science.duckdb
     # Output: data/abstracts_for_embedding.parquet  (~800MB)
 """
 
@@ -12,8 +12,8 @@ import time
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
-from src.db.schema import create_database
-from src.utils.storage_monitor import check_storage
+from db.schema import create_database
+from utils.storage_monitor import check_storage
 
 OUT_PATH = "data/abstracts_for_embedding.parquet"
 

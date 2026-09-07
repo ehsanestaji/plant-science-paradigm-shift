@@ -17,7 +17,7 @@ Outputs:
       organism_a, organism_b, decade, cosine_similarity
 
 Usage:
-    python -m src.analysis.paper_a.semantic_drift \\
+    python -m analysis.paper_a.semantic_drift \\
         --db-path data/processed/plant_science.duckdb \\
         --embeddings-path data/processed/embeddings/specter2_embeddings.npy \\
         --work-ids-path data/processed/embeddings/specter2_work_ids.npy
@@ -34,8 +34,8 @@ import pandas as pd
 from sklearn.metrics.pairwise import cosine_distances, cosine_similarity
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[3]))
-from src.db.schema import create_database
-from src.utils.storage_monitor import check_storage
+from db.schema import create_database
+from utils.storage_monitor import check_storage
 
 # ---------------------------------------------------------------------------
 # Constants

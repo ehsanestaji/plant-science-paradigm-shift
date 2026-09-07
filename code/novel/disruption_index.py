@@ -21,8 +21,8 @@ Output → results/novel/
   cd_top_consolidators.csv (top 100 most consolidating)
 
 Usage:
-    python -m src.novel.disruption_index --db-path data/processed/plant_science.duckdb
-    python -m src.novel.disruption_index --db-path ... --batch-size 2000 --n-focal 20000
+    python -m novel.disruption_index --db-path data/processed/plant_science.duckdb
+    python -m novel.disruption_index --db-path ... --batch-size 2000 --n-focal 20000
 """
 
 import argparse
@@ -36,8 +36,8 @@ import pandas as pd
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 import pickle
 
-from src.db.schema import create_database
-from src.utils.storage_monitor import check_storage
+from db.schema import create_database
+from utils.storage_monitor import check_storage
 
 OUT_DIR = "results/novel"
 CHECKPOINT_FILE = "results/novel/cd_checkpoint.pkl"

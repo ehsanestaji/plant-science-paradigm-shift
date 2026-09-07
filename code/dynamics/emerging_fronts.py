@@ -10,7 +10,7 @@ CPU-only analyses (no embeddings needed):
   - Q47: Climate change in plant science
 
 Usage:
-    python -m src.dynamics.emerging_fronts --db-path data/processed/plant_science.duckdb
+    python -m dynamics.emerging_fronts --db-path data/processed/plant_science.duckdb
 """
 
 import argparse
@@ -23,8 +23,8 @@ import numpy as np
 import pandas as pd
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
-from src.db.schema import create_database
-from src.utils.storage_monitor import check_storage
+from db.schema import create_database
+from utils.storage_monitor import check_storage
 
 OUT_DIR = "results/dynamics"
 

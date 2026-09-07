@@ -10,7 +10,7 @@ For matched works: sets pmid, adds MeSH terms.
 For new works:     full insert (title/abstract/authors/MeSH).
 
 Usage:
-    python -m src.collect.pubmed_ingest \
+    python -m collect.pubmed_ingest \
         --input-dir data/raw/pubmed_api \
         --db-path   data/processed/plant_science.duckdb
 """
@@ -27,9 +27,9 @@ from pathlib import Path
 import pandas as pd
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
-from src.db.schema import create_database
-from src.utils.checkpointing import checkpoint_save, checkpoint_load
-from src.utils.storage_monitor import check_storage
+from db.schema import create_database
+from utils.checkpointing import checkpoint_save, checkpoint_load
+from utils.storage_monitor import check_storage
 
 try:
     import orjson

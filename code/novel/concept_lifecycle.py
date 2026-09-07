@@ -12,7 +12,7 @@ Output → results/novel/
   zombie_concepts_detail.csv
 
 Usage:
-    python -m src.novel.concept_lifecycle --db-path data/processed/plant_science.duckdb
+    python -m novel.concept_lifecycle --db-path data/processed/plant_science.duckdb
 """
 
 import argparse
@@ -26,8 +26,8 @@ import pandas as pd
 from scipy.optimize import curve_fit
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
-from src.db.schema import create_database
-from src.utils.storage_monitor import check_storage
+from db.schema import create_database
+from utils.storage_monitor import check_storage
 
 OUT_DIR = "results/novel"
 TOP_N_CONCEPTS = 200

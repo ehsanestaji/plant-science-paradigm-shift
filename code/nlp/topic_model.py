@@ -10,7 +10,7 @@ Stages and their checkpoint files:
   Stage 4:   2D UMAP      → umap_2d.npy + umap_2d_work_ids.npy
 
 Usage:
-    python -m src.nlp.topic_model \
+    python -m nlp.topic_model \
         --embeddings-path data/processed/embeddings/specter2_embeddings.npy \
         --work-ids-path data/processed/embeddings/specter2_work_ids.npy \
         --abstracts-path data/abstracts_for_embedding.parquet \

@@ -6,7 +6,7 @@ Strategy:
   2. Paradigm: zero-shot on 50k sample → logistic regression on SPECTER2 embeddings → predict all
 
 Usage:
-    python -m src.nlp.classify_paper_a \
+    python -m nlp.classify_paper_a \
         --abstracts-path data/abstracts_for_embedding.parquet \
         --embeddings-path data/processed/embeddings/specter2_embeddings.npy \
         --work-ids-path data/processed/embeddings/specter2_work_ids.npy \

@@ -11,12 +11,12 @@ Search scope:
     Filter: hasabstract
 
 Usage:
-    python -m src.collect.pubmed_api \
+    python -m collect.pubmed_api \
         --output-dir data/raw/pubmed_api \
         --api-key YOUR_KEY
 
     # Resume after interruption (uses checkpoint):
-    python -m src.collect.pubmed_api --output-dir data/raw/pubmed_api
+    python -m collect.pubmed_api --output-dir data/raw/pubmed_api
 
 Output per record (JSONL):
     {pmid, doi, title, abstract, year, publication_date,
@@ -37,8 +37,8 @@ from xml.etree import ElementTree as ET
 import requests
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
-from src.utils.checkpointing import checkpoint_save, checkpoint_load
-from src.utils.storage_monitor import check_storage
+from utils.checkpointing import checkpoint_save, checkpoint_load
+from utils.storage_monitor import check_storage
 
 # ── Search parameters ─────────────────────────────────────────────────
 SEARCH_QUERY = (

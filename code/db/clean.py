@@ -8,7 +8,7 @@ Steps:
   4. Create summary stats materialized view
 
 Usage:
-    python -m src.db.clean --db-path data/processed/plant_science.duckdb
+    python -m db.clean --db-path data/processed/plant_science.duckdb
 """
 
 import argparse
@@ -17,8 +17,8 @@ import time
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
-from src.db.schema import create_database
-from src.utils.storage_monitor import check_storage
+from db.schema import create_database
+from utils.storage_monitor import check_storage
 
 
 # ISO 639-3 → ISO 639-1 mapping for common cases

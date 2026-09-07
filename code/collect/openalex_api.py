@@ -37,8 +37,8 @@ from pathlib import Path
 socket.setdefaulttimeout(45)
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
-from src.utils.storage_monitor import check_storage
-from src.utils.checkpointing import checkpoint_save, checkpoint_load, checkpoint_clear
+from utils.storage_monitor import check_storage
+from utils.checkpointing import checkpoint_save, checkpoint_load, checkpoint_clear
 
 # OpenAlex API base
 API_BASE = "https://api.openalex.org/works"
