@@ -62,3 +62,24 @@ def test_sample_duckdb_not_promised_in_git():
         assert "sample DuckDB is not shipped in git" in readme
     assert "[ZENODO DOI]" in readme
     assert "10.5281/zenodo.21199139" not in readme
+
+
+def test_figure_source_manifest_complete():
+    path = REPO / "results/paper_a/figure_source_manifest.csv"
+    rows = list(csv.DictReader(path.open(encoding="utf-8")))
+    assert {"display_item", "tex_label", "source_csv", "status"} <= set(rows[0].keys()) if rows else False
+    assert len(rows) == 38
+    fig6 = next(r for r in rows if r["tex_label"] == "fig:FA6")
+    assert fig6["status"] in {"ok", "needs_duckdb"}
+    for r in rows:
+        if r["status"] == "ok" and not r["source_csv"].endswith(".tex"):
+            assert (REPO / r["source_csv"]).exists(), r["source_csv"]
+        if r["tex_label"] != "fig:FA6":
+            assert r["status"] == "ok", r
+
+
+def test_provenance_and_no_gbif_in_validation_sample():
+    assert (REPO / "config" / "PROVENANCE.md").exists()
+    sample = read("results/paper_a/supplementary/hardening/classifier_validation_sample.csv")
+    assert "Occurrence Download" not in sample
+    assert "GBIF" not in sample

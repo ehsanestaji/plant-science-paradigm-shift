@@ -1,0 +1,39 @@
+display_item,tex_label,source_csv,status
+Fig. 1,fig:FA1,results/paper_a/robustness/growth_model_aic.json,ok
+Fig. 2,fig:M9,results/paper_a/insights/arabidopsis_instrument/flow_matrix_by_year.json,ok
+Fig. 3,fig:M1,results/paper_a/main/organism_timeseries.csv,ok
+Fig. 4,fig:FA3,results/paper_a/supplementary/organism_sleeping_beauty_detail.csv,ok
+Fig. 5,fig:FA4,results/paper_a/main/method_diffusion_by_organism.csv,ok
+Fig. 6,fig:FA6,results/paper_a/main/research_attention_gap.csv,needs_duckdb
+ED Fig. 1,fig:ED1,results/paper_a/main/organism_timeseries.csv,ok
+ED Fig. 2,fig:ED2,results/paper_a/main/organism_timeseries.csv,ok
+ED Fig. 3,fig:ED3,results/paper_a/main/paradigm_shift_by_organism.csv,ok
+ED Fig. 4,fig:ED4,results/paper_a/supplementary/topic_hierarchy_full.csv,ok
+ED Fig. 5,fig:ED5,results/paper_a/main/organism_topic_heatmap.csv,ok
+ED Fig. 6,fig:ED6,results/paper_a/main/topic_growth_decline.csv,ok
+ED Fig. 7,fig:ED7,results/paper_a/main/semantic_drift_centroids.csv,ok
+ED Fig. 8,fig:ED8,results/paper_a/main/method_diffusion_by_organism.csv,ok
+ED Fig. 9,fig:ED9,results/paper_a/supplementary/organism_concept_marriages.csv,ok
+SI Fig. growth rates,fig:si-growth-rates,results/paper_a/main/organism_growth_rates.csv,ok
+SI Fig. citation impact,fig:si-citation-impact,results/paper_a/supplementary/paradigm_citation_impact.csv,ok
+SI Fig. shannon entropy,fig:si-shannon-entropy,results/paper_a/supplementary/topic_diversity_by_year.csv,ok
+SI Fig. CD index,fig:si-cd-index,results/paper_a/supplementary/organism_disruption_index.csv,ok
+SI Fig. cross-citation,fig:si-cross-citation,results/paper_a/supplementary/organism_cross_citation.csv,ok
+SI Fig. collaboration,fig:si-collab-rate,results/paper_a/supplementary/organism_collaboration.csv,ok
+SI Fig. temporal placebo,fig:si-temporal-placebo,results/paper_a/robustness/temporal_placebo.json,ok
+SI Fig. growth-model,fig:si-growth-model,results/paper_a/robustness/growth_model_aic.json,ok
+SI Fig. climate pooled,fig:si-climate-pooled,results/paper_a/insights/climate_shocks/event_study.json,ok
+SI Fig. citations-per-paper,fig:si-citations-per-paper,results/paper_a/insights/bridge_scientists/matched_sample.csv,ok
+SI Fig. paradigm alignment,fig:si-paradigm-alignment,results/paper_a/insights/coauthor_tribes/metrics_by_window.json,ok
+SI Fig. jaccard,fig:si-jaccard,results/paper_a/insights/canon_churn/churn_stats.json,ok
+SI Fig. half-life,fig:si-half-life,results/paper_a/insights/canon_churn/top100_by_window.csv,ok
+SI Fig. canon composition,fig:si-canon-composition,results/paper_a/insights/canon_substitution/composition_by_window.json,ok
+SI Fig. anticorrelated,fig:si-anticorrelated,results/paper_a/insights/canon_substitution/pair_correlations.csv,ok
+SI Table attention gap,tab:si-attention-gap,manuscript/sections/supplementary.tex,ok
+SI Table sleeping beauty,tab:si-sleeping-beauty,results/paper_a/supplementary/organism_sleeping_beauty_detail.csv,ok
+SI Table logistic diffusion,tab:si-logistic-diffusion,results/paper_a/supplementary/method_adoption_lag.csv,ok
+SI Table growth-model fits,tab:si-growth-model-fits,results/paper_a/robustness/growth_model_aic.json,ok
+SI Table top-5 risers,tab:si-top5-risers,results/paper_a/insights/canon_churn/table_risers.csv,ok
+SI Table top-5 fallen,tab:si-top5-fallen,results/paper_a/insights/canon_churn/table_fallen.csv,ok
+SI Table anticorrelated pairs,tab:si-anticorrelated-pairs,results/paper_a/insights/canon_substitution/pair_correlations.csv,ok
+SI Table query strings,tab:query-strings,config/method_query_strings.csv,ok

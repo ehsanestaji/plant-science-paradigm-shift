@@ -1,0 +1,16 @@
+event_id,name,date,affected_categories,control_categories,source
+E01,European heatwave 2003,2003-07-01,"heat|wheat|grape","arabidopsis",EM-DAT
+E02,Russian drought 2010,2010-07-01,"drought|wheat","arabidopsis",EM-DAT
+E03,US Midwest drought 2012,2012-07-01,"drought|maize|soybean","arabidopsis",NOAA-BDD
+E04,East African drought 2011,2011-05-01,"drought|sorghum|millet|cassava","arabidopsis",EM-DAT
+E05,Horn of Africa drought 2017,2017-03-01,"drought|sorghum|millet","arabidopsis",EM-DAT
+E06,Indian heatwave 2015,2015-05-01,"heat|rice|wheat","arabidopsis",EM-DAT
+E07,Australian bushfires 2020,2020-01-01,"fire|eucalyptus","arabidopsis",NOAA-BDD
+E08,Pakistan floods 2022,2022-08-01,"flood|rice","arabidopsis",EM-DAT
+E09,California drought 2014,2014-01-01,"drought|almond|grape","arabidopsis",NOAA-BDD
+E10,European heatwave 2018,2018-07-01,"heat|wheat","arabidopsis",EM-DAT
+E11,Argentine drought 2018,2018-01-01,"drought|soybean|maize","arabidopsis",EM-DAT
+E12,European heatwave 2022,2022-07-01,"heat|wheat|maize","arabidopsis",EM-DAT
+E13,IPCC AR5 WGII 2014,2014-03-01,"climate-adaptation","genetics-basic",IPCC
+E14,Paris COP21 2015,2015-12-01,"climate-adaptation","genetics-basic",UNFCCC
+E15,IPCC AR6 WGII 2022,2022-02-01,"climate-adaptation","genetics-basic",IPCC
