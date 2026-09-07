@@ -12,7 +12,7 @@ where = ["."]
 include = ["tools*", "src*"]
 
 [tool.pytest.ini_options]
-testpaths = ["tools/reviewer/tests", "tools/robustness/tests", "tools/insights/tests"]
+testpaths = ["tests/submission", "tools/reviewer/tests", "tools/robustness/tests", "tools/insights/tests"]
 addopts = "-q --tb=short"
 
 [tool.ruff]
