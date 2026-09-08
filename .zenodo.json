@@ -1,9 +1,9 @@
 {
   "title": "Plant Science is Reorganizing Around Climate-Relevant Crops: Evidence from 4.9 Million Publications",
-  "description": "Code, manuscript, and derived data for a bibliometric analysis of ~4.9 million plant-science publications (1900-2024), showing a structural reorganization of the field away from model-organism-centred discovery toward crop-centred, climate-relevant research. Large derived datasets (the knowledge-graph database and processed corpus) are archived in a companion Zenodo data record; see DATA.md.",
-  "upload_type": "software",
+  "description": "Dataset and code snapshot for a bibliometric analysis of ~4.9 million plant-science publications (1900-2024). The code snapshot is MIT-licensed. The data files in this record are CC BY 4.0. Large derived binaries that are absent locally are documented as re-derivable from the public OpenAlex and PubMed APIs plus the pinned code (A100 embeddings; workstation CPU for the rest). The raw ~41 GB harvest is not included.",
+  "upload_type": "dataset",
   "access_right": "open",
-  "license": "MIT",
+  "license": "CC-BY-4.0",
   "creators": [
     {
       "name": "Estaji, Ehsan",
