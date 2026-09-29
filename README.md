@@ -78,4 +78,4 @@ database — are archived on Zenodo; see [`DATA.md`](DATA.md).
 
 ## Contact
 
-Ehsan Estaji — ehsan.estaji@umu.se · Umeå Plant Science Centre (UPSC), Department of Plant Physiology, Umeå University.
+Ehsan Estaji — ehsan.estaji@umu.se · Umeå Plant Science Centre, Department of Plant Physiology, Umeå University.
