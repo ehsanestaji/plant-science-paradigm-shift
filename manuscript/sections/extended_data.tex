@@ -30,7 +30,7 @@
     Secondary $y$-axis (right) shows absolute annual publication counts for
     \textit{Arabidopsis} to illustrate that relative decline precedes
     absolute decline.}
-  \label{fig:FA2}
+  \label{fig:ED1}
 \end{figure}
 
 % M2: Arabidopsis versus crops head-to-head share comparison
@@ -44,7 +44,7 @@
     only.
     The crossover point marks the transition from model-organism to crop-centred
     output majority.}
-  \label{fig:M2}
+  \label{fig:ED2}
 \end{figure}
 
 % M3: Applied versus fundamental paradigm by organism
@@ -56,19 +56,7 @@
     The field-wide applied share is 80\%; \textit{Arabidopsis} (95.6\%) is the
     most applied organism.
     Chi-square test: $\chi^2 = 12{,}361$, $df = 9$, $p \approx 0$.}
-  \label{fig:M3}
-\end{figure}
-
-% M8: CRISPR-Cas9 adoption curves by organism
-\begin{figure}[H]
-  \centering
-  \includegraphics[width=0.72\textwidth]{M8_crispr_adoption}
-  \caption{\textbf{CRISPR-Cas9 adoption curves by organism.}
-    Annual CRISPR publication share for each organism category, 2012--2024.
-    \textit{Arabidopsis} (red), rice (blue), and wheat (green) lead adoption;
-    maize (orange) lags by approximately one year.
-    Fitted logistic S-curves are shown as solid lines.}
-  \label{fig:M8}
+  \label{fig:ED3}
 \end{figure}
 
 % M4: Topic landscape — 30 macro-themes from BERTopic
@@ -83,8 +71,20 @@
     legend). The 30 macro-themes obtained from BERTopic modelling of
     the full 1{,}632 fine-grained topics are described in the main
     text and visualised by their temporal trajectories in
-    Fig.~\ref{fig:M5}.}
-  \label{fig:M4}
+    Fig.~\ref{fig:ED6}.}
+  \label{fig:ED4}
+\end{figure}
+
+% M6: Organism-topic enrichment matrix
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.72\textwidth]{M6_organism_topic_enrichment}
+  \caption{\textbf{Organism-topic enrichment matrix.}
+    Log-odds enrichment of each organism category for each macro-theme,
+    relative to the field baseline.
+    Significant enrichments ($p < 0.01$ after Bonferroni correction) are
+    indicated by filled cells.}
+  \label{fig:ED5}
 \end{figure}
 
 % M5: Topic evolution heatmap (1990–2024)
@@ -101,21 +101,9 @@
     (space-limited raw tokens; human-interpretable theme names given
     in main text). Across the 30 macro-themes (not all shown),
     Shannon entropy of the distribution has declined from
-    1.82 bits (1990s mean) to 1.14 bits (2020s mean), indicating
+    1.74 bits (1990s mean) to 1.14 bits (2020s mean), indicating
     concentration of the research agenda.}
-  \label{fig:M5}
-\end{figure}
-
-% M6: Organism-topic enrichment matrix
-\begin{figure}[H]
-  \centering
-  \includegraphics[width=0.72\textwidth]{M6_organism_topic_enrichment}
-  \caption{\textbf{Organism-topic enrichment matrix.}
-    Log-odds enrichment of each organism category for each macro-theme,
-    relative to the field baseline.
-    Significant enrichments ($p < 0.01$ after Bonferroni correction) are
-    indicated by filled cells.}
-  \label{fig:M6}
+  \label{fig:ED6}
 \end{figure}
 
 % M7: Semantic drift — cosine distance of organism centroids from Arabidopsis
@@ -129,7 +117,19 @@
     Cotton (olive) and rice (blue) show the strongest convergence over
     2010--2024.
     Shaded band: 95\% bootstrap confidence interval.}
-  \label{fig:M7}
+  \label{fig:ED7}
+\end{figure}
+
+% M8: CRISPR-Cas9 adoption curves by organism
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.72\textwidth]{M8_crispr_adoption}
+  \caption{\textbf{CRISPR-Cas9 adoption curves by organism.}
+    Annual CRISPR publication share for each organism category, 2012--2024.
+    \textit{Arabidopsis} (red), rice (blue), and wheat (green) lead adoption;
+    maize (orange) lags by approximately one year.
+    Fitted logistic S-curves are shown as solid lines.}
+  \label{fig:ED8}
 \end{figure}
 
 % FA5: Six intellectual epochs defined by concept marriages
@@ -150,7 +150,7 @@
     fewer genuinely novel keyword combinations emerge each year.
     The 2015--2024 epoch is dominated by crop-genomics and
     precision-breeding marriages (main text).}
-  \label{fig:FA5}
+  \label{fig:ED9}
 \end{figure}
 
 % End of Extended Data; subsequent SI figures will continue the ED counter,

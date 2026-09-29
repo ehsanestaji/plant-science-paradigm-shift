@@ -113,6 +113,38 @@
 
 % ── Traditional supplementary tables ───────────────────────────────────
 
+\subsection*{Top sleeping-beauty papers on minor crops}
+
+Papers with highest beauty index ($B$) from the sleeping-beauty analysis
+using the Ke et al.\ (2015) metric. Dormancy defined as years from
+publication to awakening (first year of sustained citation acceleration).
+
+\begin{table}[H]
+\centering
+\caption{Top 10 sleeping beauty papers by $B$-index.}
+\label{tab:si-sleeping-beauty}
+\begin{tabular}{rlrlrr}
+\toprule
+Rank & Crop & Year & Title (abbreviated) & Citations & $B$-index \\
+\midrule
+1  & Moringa   & 1980 & Drumstick: A multipurpose Indian vegetable            & 580   & 83.1 \\
+2  & Moringa   & 2006 & \textit{M.\ oleifera}: multiple medicinal uses        & 1,600 & 63.0 \\
+3  & Moringa   & 2005 & Review of medical evidence, Part 1                    & ---   & 55.2 \\
+4  & Moringa   & 1996 & Nutritional value of whole \& extracted leaves         & 539   & 45.8 \\
+5  & Moringa   & 2003 & Antioxidant properties of drumstick tree               & 1,382 & 43.7 \\
+6  & Moringa   & 1991 & Horseradish tree: a boon to arid lands                & 449   & 42.5 \\
+7  & Moringa   & 2001 & Potential for agricultural \& industrial uses          & 458   & 41.9 \\
+8  & Millet    & 1982 & Peroxidase in excised ragi leaves                     & 182   & 39.8 \\
+9  & Moringa   & 1999 & The miracle tree: natural nutrition for tropics        & 416   & 38.5 \\
+10 & Amaranth  & 1987 & Planting date influence on Palmer amaranth growth      & 235   & 28.8 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+
+\bigskip
+
 \subsection*{Orphan crops ranked by research-attention gap}
 
 Species are ranked by the studentised residual $z$ from the ordinary
@@ -143,32 +175,34 @@ Rank & Species & $z$ \\
 \end{tabular}
 \end{table}
 
+
+
 \bigskip
 
-\subsection*{Top sleeping-beauty papers on minor crops}
-
-Papers with highest beauty index ($B$) from the sleeping-beauty analysis
-using the Ke et al.\ (2015) metric. Dormancy defined as years from
-publication to awakening (first year of sustained citation acceleration).
+\subsection*{Boolean queries for method-diffusion categories}
 
 \begin{table}[H]
 \centering
-\caption{Top 10 sleeping beauty papers by $B$-index.}
-\label{tab:si-sleeping-beauty}
-\begin{tabular}{rlrlrr}
+\caption{Boolean keyword queries used to define the five methodological
+categories in the Online Methods diffusion analysis.}
+\label{tab:query-strings}
+\begin{tabular}{p{3.4cm}p{10.2cm}}
 \toprule
-Rank & Crop & Year & Title (abbreviated) & Citations & $B$-index \\
+Method & Boolean query \\
 \midrule
-1  & Moringa   & 1980 & Drumstick: A multipurpose Indian vegetable            & 580   & 83.1 \\
-2  & Moringa   & 2006 & \textit{M.\ oleifera}: multiple medicinal uses        & 1,600 & 63.0 \\
-3  & Moringa   & 2005 & Review of medical evidence, Part 1                    & ---   & 55.2 \\
-4  & Moringa   & 1996 & Nutritional value of whole \& extracted leaves         & 539   & 45.8 \\
-5  & Moringa   & 2003 & Antioxidant properties of drumstick tree               & 1,382 & 43.7 \\
-6  & Moringa   & 1991 & Horseradish tree: a boon to arid lands                & 449   & 42.5 \\
-7  & Moringa   & 2001 & Potential for agricultural \& industrial uses          & 458   & 41.9 \\
-8  & Millet    & 1982 & Peroxidase in excised ragi leaves                     & 182   & 39.8 \\
-9  & Moringa   & 1999 & The miracle tree: natural nutrition for tropics        & 416   & 38.5 \\
-10 & Amaranth  & 1987 & Planting date influence on Palmer amaranth growth      & 235   & 28.8 \\
+Genetic mapping (QTL) &
+  QTL OR ``quantitative trait locus'' OR ``quantitative trait loci''
+  OR ``genetic mapping'' OR ``linkage mapping'' \\
+Next-generation sequencing &
+  ``next-generation sequenc'' OR ``next generation sequenc''
+  OR ``high-throughput sequenc'' OR Illumina OR RNA-seq OR RNAseq
+  OR ``rna sequencing'' \\
+RNA interference &
+  ``RNA interference'' OR RNAi OR ``gene silencing'' \\
+CRISPR-Cas9 &
+  CRISPR OR Cas9 OR Cas12 OR Cas13 \\
+Machine learning &
+  ``machine learning'' OR ``deep learning'' OR ``neural network'' \\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -205,48 +239,14 @@ Single-cell       & 2015 & 1,607  & 9,642   & 0.112 & 2039.1 & 39.4 & 0.995 \\
 \bottomrule
 \end{tabular}
 \end{table}
-\suppnote{Temporal placebo test (reorganization signal)}{note6}
-
-To rule out the possibility that our ``reorganization around climate-relevant
-crops'' finding reflects generic publication growth rather than a genuine
-structural shift, we applied the same signal detector --- the linear slope of
-annual climate-relevant-crop abstract share --- to a placebo window
-(1970--1999), in which the climate-discourse framing was not yet established,
-and to the treatment window (2000--2024).
-
-The placebo-window slope is $-2.3 \times 10^{-4}$ per year
-(95\% bootstrap CI $[-3.7, -0.9] \times 10^{-4}$, 1{,}000 resamples of
-year--share pairs), indicating a flat or very slightly declining signal in the
-pre-2000 era.
-The treatment-window slope is $+4.5 \times 10^{-4}$ per year
-(95\% bootstrap CI $[+2.7, +6.2] \times 10^{-4}$), i.e.\ the two windows'
-confidence intervals do not overlap.
-A two-sided permutation test (1{,}000 shuffles of pooled year--share pairs,
-statistic = slope gap) rejects the null of a single underlying slope at
-$p = 0.001$.
-
-The signal is era-specific and cannot be reduced to background publication
-growth (Figure~\ref{fig:si-temporal-placebo}).
-
-\begin{figure}[H]
-  \centering
-  \includegraphics[width=0.6\linewidth]{fig_temporal_placebo.pdf}
-  \caption{\textbf{Temporal placebo test.} Reorganization effect size (linear
-  slope of annual climate-relevant-crop abstract share) for the 1970--1999
-  placebo window (grey) and the 2000--2024 treatment window (blue). Error
-  bars show 95\% bootstrap confidence intervals from 1{,}000 resamples of
-  year--share pairs. A permutation test under the exchangeable-window null
-  gives $p = 0.001$ (1{,}000 shuffles).}
-  \label{fig:si-temporal-placebo}
-\end{figure}
 
 \suppnote{Growth-model selection --- logistic vs Gompertz vs Richards}{note1}
 
 We chose the logistic model for the field-growth plateau claim in the
 main text. To address the reviewer question ``why logistic over
 alternative sigmoidal growth models?'' we fit three candidates to the
-deduplicated (works\_clean) annual publication counts 1990--2024
-($n = 35$) by non-linear least squares: the three-parameter logistic,
+deduplicated annual publication counts 1990--2024
+($n = 35$) by non-linear least squares, namely the three-parameter logistic,
 the three-parameter Gompertz, and the four-parameter Richards
 (generalised logistic). Logistic and Richards are fit with year as the
 time axis (matching the main-text parameterisation); Gompertz is fit on
@@ -260,7 +260,7 @@ the observed series.
 \begin{table}[H]
 \centering
 \caption{Three-way comparison of sigmoidal growth-model fits to
-plant-science annual publication counts (1990--2024, works\_clean).}
+plant-science annual publication counts (1990--2024, deduplicated corpus).}
 \label{tab:si-growth-model-fits}
 \begin{tabular}{lrrrrr}
 \toprule
@@ -296,6 +296,96 @@ reader can assess the sensitivity of the plateau claim to model choice.
   Gompertz (green dashed), and Richards (red dotted) fits. Legend
   reports $\Delta$AICc relative to the best-fitting model.}
   \label{fig:si-growth-model}
+\end{figure}
+
+\suppnote{Coauthor paradigm alignment over time (network-only)}{note2}
+
+To test whether the main-text $r_{\mathrm{inst}}$ peak at 2010--14
+(Figure~\ref{fig:M9}a) corresponds to a structural inflection in the
+field's social network, we built coauthor graphs for seven rolling
+5-year windows (1990--1994 through 2020--2024) from the
+\texttt{work\_authors} table and analysed them at the network level
+rather than with community detection. Full Leiden community
+detection on un-indexed DuckDB self-joins exceeded the sprint's
+computational budget; a pre-aggregated coauthor-edge table is flagged
+as follow-up work. We report two network-level metrics here,
+degree-weighted paradigm alignment (the mean
+\textit{Arabidopsis}-fraction of each author's portfolio weighted by
+their coauthor-graph degree) and paradigm assortativity
+(Newman's numeric assortativity coefficient on author portfolios).
+
+Paradigm assortativity is high and nearly constant (0.82--0.88)
+across all seven windows, indicating that plant-science coauthor
+networks have been structurally paradigm-segregated throughout the
+1990--2024 period --- this is not a new phenomenon. Paradigm
+alignment, however, exhibits a clear trajectory, rising from
+0.005 (1990--94) to a peak of 0.034 at 2010--14, then plateauing at
+0.030 by 2020--24 (Figure~\ref{fig:si-paradigm-alignment}). The
+2010--14 peak coincides with the independent $r_{\mathrm{inst}}$
+peak in the main-text citation-flow analysis. Two methodologically
+distinct measurements --- one on the citation graph, one on the
+author--paradigm graph --- agreeing on the timing of the inflection
+provides convergent evidence that the consolidation of
+\textit{Arabidopsis} as crop science's methodological substrate
+reached steady state in the mid-2010s.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.7\linewidth]{fig_paradigm_alignment}
+  \caption{\textbf{Paradigm alignment in the coauthor graph,
+    1990--2024.} Degree-weighted mean \textit{Arabidopsis}-fraction of
+    each author's portfolio, computed per 5-year window on a 10\%
+    sampled coauthor edge set. Peaks at 2010--14, co-located with the
+    main-text $r_{\mathrm{inst}}$ peak.}
+  \label{fig:si-paradigm-alignment}
+\end{figure}
+
+\suppnote{Paradigm-bridging authors --- pre-registered matched-impact analysis}{note3}
+
+We tested whether authors who publish in both the
+\textit{Arabidopsis} and crop paradigms (paradigm bridges) have
+disproportionate citation impact relative to matched single-paradigm
+peers. Authors active in 1990--2024 were classified as A-only
+($\geq 3$ \textit{Arabidopsis}-tagged papers, zero crop), C-only
+($\geq 3$ crop-tagged, zero \textit{Arabidopsis}), Bridge ($\geq 3$
+in both), or Other (dropped). Each Bridge was matched to three
+A-only and three C-only peers on first-paper year ($\pm 2$ years),
+total paper count (within a factor of two), and primary
+affiliation country (exact; relaxed to region when sparse).
+Citations-per-paper were trimmed at the 99th percentile to guard
+against superstar leverage.
+
+Of 5{,}547 Bridge authors, 5{,}543 matched successfully (pool sizes:
+A-only $= 19{,}299$; C-only $= 83{,}554$). Mean citations-per-paper
+were A-only $= 58.6$; Bridge $= 55.8$; C-only $= 30.1$
+(Supplementary Fig.~\ref{fig:si-citations-per-paper}).
+Bridge-versus-C-only premium was $+85.5\%$ (95\% CI
+$[+84.0, +87.0]$, permutation $p = 0.001$), clearing the
+pre-registered $+50\%$ threshold. Bridge-versus-A-only was
+$-4.7\%$ (95\% CI $[-5.6, -3.8]$), failing the pre-registered
+threshold on the A-only comparison. The pre-registration therefore
+rejects the original hypothesis ``Bridge authors are the citation
+elite.'' The data support a different, complementary claim.
+\textit{Arabidopsis}-specialist authors have a structural citation
+advantage that bridging preserves (moving into crop work reduces
+mean impact by less than 5\% relative to staying in
+\textit{Arabidopsis}), while crop-only researchers have never had
+that advantage (less than half the Bridge / A-only mean).
+This pattern is consistent with the main-text D1 interpretation. If
+\textit{Arabidopsis} literature functions as crop science's
+foundational methodological substrate (Figure~\ref{fig:M9}),
+\textit{Arabidopsis}-specialist authors attract citations precisely
+because their work is the foundation that crop papers now cite.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.55\linewidth]{fig_bridge_impact}
+  \caption{\textbf{Mean citations-per-paper by paradigm class},
+    99th-percentile trimmed, matched on first-paper year,
+    productivity, and country. Permutation test (A-only vs Bridge):
+    $p = 0.001$. Bars show group means; error bars are one standard
+    error of the mean.}
+  \label{fig:si-citations-per-paper}
 \end{figure}
 
 \suppnote{Climate-shock event study (pooled difference-in-differences)}{note4}
@@ -344,96 +434,6 @@ translational-research funding cycles.
     $n=15$ events with non-empty treated series. Shaded band: 95\%
     bootstrap CI (1{,}000 event-level resamples).}
   \label{fig:si-climate-pooled}
-\end{figure}
-
-\suppnote{Paradigm-bridging authors --- pre-registered matched-impact analysis}{note3}
-
-We tested whether authors who publish in both the
-\textit{Arabidopsis} and crop paradigms (paradigm bridges) have
-disproportionate citation impact relative to matched single-paradigm
-peers. Authors active in 1990--2024 were classified as A-only
-($\geq 3$ \textit{Arabidopsis}-tagged papers, zero crop), C-only
-($\geq 3$ crop-tagged, zero \textit{Arabidopsis}), Bridge ($\geq 3$
-in both), or Other (dropped). Each Bridge was matched to three
-A-only and three C-only peers on first-paper year ($\pm 2$ years),
-total paper count (within a factor of two), and primary
-affiliation country (exact; relaxed to region when sparse).
-Citations-per-paper were trimmed at the 99th percentile to guard
-against superstar leverage.
-
-Of 5{,}547 Bridge authors, 5{,}543 matched successfully (pool sizes:
-A-only $= 19{,}299$; C-only $= 83{,}554$). Mean citations-per-paper
-were: A-only $= 58.6$; Bridge $= 55.8$; C-only $= 30.1$
-(Supplementary Fig.~\ref{fig:si-citations-per-paper}).
-Bridge-versus-C-only premium was $+85.5\%$ (95\% CI
-$[+84.0, +87.0]$, permutation $p = 0.001$), clearing the
-pre-registered $+50\%$ threshold. Bridge-versus-A-only was
-$-4.7\%$ (95\% CI $[-5.6, -3.8]$), failing the pre-registered
-threshold on the A-only comparison. The pre-registration therefore
-rejects the original hypothesis ``Bridge authors are the citation
-elite.'' The data support a different, complementary claim.
-\textit{Arabidopsis}-specialist authors have a structural citation
-advantage that bridging preserves (moving into crop work reduces
-mean impact by less than 5\% relative to staying in
-\textit{Arabidopsis}), while crop-only researchers have never had
-that advantage (less than half the Bridge / A-only mean).
-This pattern is consistent with the main-text D1 interpretation. If
-\textit{Arabidopsis} literature functions as crop science's
-foundational methodological substrate (Figure~\ref{fig:M9}),
-\textit{Arabidopsis}-specialist authors attract citations precisely
-because their work is the foundation that crop papers now cite.
-
-\begin{figure}[H]
-  \centering
-  \includegraphics[width=0.55\linewidth]{fig_bridge_impact}
-  \caption{\textbf{Mean citations-per-paper by paradigm class},
-    99th-percentile trimmed, matched on first-paper year,
-    productivity, and country. Permutation test (A-only vs Bridge):
-    $p = 0.001$. Bars show group means; error bars are one standard
-    error of the mean.}
-  \label{fig:si-citations-per-paper}
-\end{figure}
-
-\suppnote{Coauthor paradigm alignment over time (network-only)}{note2}
-
-To test whether the main-text $r_{\mathrm{inst}}$ peak at 2010--14
-(Figure~\ref{fig:M9}a) corresponds to a structural inflection in the
-field's social network, we built coauthor graphs for seven rolling
-5-year windows (1990--1994 through 2020--2024) from the
-\texttt{work\_authors} table and analysed them at the network level
-rather than with community detection. Full Leiden community
-detection on un-indexed DuckDB self-joins exceeded the sprint's
-computational budget; a pre-aggregated coauthor-edge table is flagged
-as follow-up work. We report two network-level metrics here,
-degree-weighted paradigm alignment (the mean
-\textit{Arabidopsis}-fraction of each author's portfolio weighted by
-their coauthor-graph degree) and paradigm assortativity
-(Newman's numeric assortativity coefficient on author portfolios).
-
-Paradigm assortativity is high and nearly constant (0.82--0.88)
-across all seven windows, indicating that plant-science coauthor
-networks have been structurally paradigm-segregated throughout the
-1990--2024 period --- this is not a new phenomenon. Paradigm
-alignment, however, exhibits a clear trajectory, rising from
-0.005 (1990--94) to a peak of 0.034 at 2010--14, then plateauing at
-0.030 by 2020--24 (Figure~\ref{fig:si-paradigm-alignment}). The
-2010--14 peak coincides with the independent $r_{\mathrm{inst}}$
-peak in the main-text citation-flow analysis. Two methodologically
-distinct measurements --- one on the citation graph, one on the
-author--paradigm graph --- agreeing on the timing of the inflection
-provides convergent evidence that the consolidation of
-\textit{Arabidopsis} as crop science's methodological substrate
-reached steady state in the mid-2010s.
-
-\begin{figure}[H]
-  \centering
-  \includegraphics[width=0.7\linewidth]{fig_paradigm_alignment}
-  \caption{\textbf{Paradigm alignment in the coauthor graph,
-    1990--2024.} Degree-weighted mean \textit{Arabidopsis}-fraction of
-    each author's portfolio, computed per 5-year window on a 10\%
-    sampled coauthor edge set. Peaks at 2010--14, co-located with the
-    main-text $r_{\mathrm{inst}}$ peak.}
-  \label{fig:si-paradigm-alignment}
 \end{figure}
 
 \suppnote{Canon churn --- the plant-science reading list, 1995--2024}{note5}
@@ -621,30 +621,37 @@ this as follow-up work in Supplementary Note~\ref{note5}.
   \label{fig:si-anticorrelated}
 \end{figure}
 
-\subsection*{Boolean queries for method-diffusion categories}
+\suppnote{Temporal placebo test (reorganization signal)}{note6}
 
-\begin{table}[H]
-\centering
-\caption{Boolean keyword queries used to define the five methodological
-categories in the Online Methods diffusion analysis.}
-\label{tab:query-strings}
-\begin{tabular}{p{3.4cm}p{10.2cm}}
-\toprule
-Method & Boolean query \\
-\midrule
-Genetic mapping (QTL) &
-  QTL OR ``quantitative trait locus'' OR ``quantitative trait loci''
-  OR ``genetic mapping'' OR ``linkage mapping'' \\
-Next-generation sequencing &
-  ``next-generation sequenc'' OR ``next generation sequenc''
-  OR ``high-throughput sequenc'' OR Illumina OR RNA-seq OR RNAseq
-  OR ``rna sequencing'' \\
-RNA interference &
-  ``RNA interference'' OR RNAi OR ``gene silencing'' \\
-CRISPR-Cas9 &
-  CRISPR OR Cas9 OR Cas12 OR Cas13 \\
-Machine learning &
-  ``machine learning'' OR ``deep learning'' OR ``neural network'' \\
-\bottomrule
-\end{tabular}
-\end{table}
+To rule out the possibility that our ``reorganization around climate-relevant
+crops'' finding reflects generic publication growth rather than a genuine
+structural shift, we applied the same signal detector --- the linear slope of
+annual climate-relevant-crop abstract share --- to a placebo window
+(1970--1999), in which the climate-discourse framing was not yet established,
+and to the treatment window (2000--2024).
+
+The placebo-window slope is $-2.3 \times 10^{-4}$ per year
+(95\% bootstrap CI $[-3.7, -0.9] \times 10^{-4}$, 1{,}000 resamples of
+year--share pairs), indicating a flat or very slightly declining signal in the
+pre-2000 era.
+The treatment-window slope is $+4.5 \times 10^{-4}$ per year
+(95\% bootstrap CI $[+2.7, +6.2] \times 10^{-4}$), i.e.\ the two windows'
+confidence intervals do not overlap.
+A two-sided permutation test (1{,}000 shuffles of pooled year--share pairs,
+statistic = slope gap) rejects the null of a single underlying slope at
+$p = 0.001$.
+
+The signal is era-specific and cannot be reduced to background publication
+growth (Figure~\ref{fig:si-temporal-placebo}).
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.6\linewidth]{fig_temporal_placebo.pdf}
+  \caption{\textbf{Temporal placebo test.} Reorganization effect size (linear
+  slope of annual climate-relevant-crop abstract share) for the 1970--1999
+  placebo window (grey) and the 2000--2024 treatment window (blue). Error
+  bars show 95\% bootstrap confidence intervals from 1{,}000 resamples of
+  year--share pairs. A permutation test under the exchangeable-window null
+  gives $p = 0.001$ (1{,}000 shuffles).}
+  \label{fig:si-temporal-placebo}
+\end{figure}

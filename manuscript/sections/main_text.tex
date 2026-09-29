@@ -51,34 +51,30 @@ from approximately 40,000 papers per year in 1990 to a peak of roughly
 199,000 papers per year in 2019, with 2022--2024 counts at or slightly
 below that peak.
 When we fit both exponential and logistic growth models to this trajectory
-(works\_clean, 1990--2024), the logistic model provides a significantly
+(deduplicated corpus, 1990--2024), the logistic model provides a significantly
 better description of the data ($\Delta$AIC $= 31.2$, Figure~\ref{fig:FA1}).
 We also compared logistic against Gompertz and Richards (generalised
 logistic) sigmoidal alternatives; Richards fits better
 ($\Delta\mathrm{AICc} = 11.5$ relative to logistic) and Gompertz worse
 ($\Delta\mathrm{AICc} = 18.9$), with all three models agreeing that the
 field has reached the plateau phase (Supplementary Note~\ref{note1}).
-We retain the logistic parameterisation in the main text for
-interpretability of $K$ and $t_{\mathrm{mid}}$.
 The fitted logistic carrying capacity is $K = 217{,}781$ papers per year,
 and the inflection point --- the year at which year-on-year growth was
 fastest --- falls in 2006.
-Since 2006, year-on-year growth rates have declined monotonically toward
-zero, and the most recent five-year window (2020--2024) shows near-zero
-net growth after correcting for indexing lag.
+Since 2006, year-on-year growth has declined monotonically toward zero, with
+near-zero net growth in 2020--2024 after correcting for indexing lag.
 
-This plateau admits three interpretations: genuine saturation of research effort;
-a compositional shift in which new topics enter as fast as older ones decline,
-holding aggregate counts stable while the internal structure changes; or a
-database-coverage ceiling. The analyses that follow point to compositional change
-rather than ceiling effects or saturation, and motivate what follows.
+This plateau admits three interpretations, namely genuine saturation of research
+effort, a compositional shift in which new topics enter as fast as older ones
+decline, or a database-coverage ceiling. The analyses that follow favour
+compositional change.
 
 \begin{figure}[H]
   \centering
   \includegraphics[width=0.85\textwidth]{FA1_growth_logistic}
   \caption{\textbf{Logistic growth plateau in plant science publications.}
-    Annual publication counts (\texttt{works\_clean}, 1990--2024,
-    $n \approx 3{,}983{,}000$ deduplicated) shown as bars, overlaid
+    Annual publication counts (deduplicated corpus, 1990--2024,
+    $n \approx 3{,}983{,}000$) shown as bars, overlaid
     with the fitted logistic growth model (solid black curve). The
     logistic fit yields carrying capacity $K = 217{,}781$ papers/year
     with inflection point in 2006 ($\Delta\mathrm{AIC} = 31.2$ vs an
@@ -106,37 +102,32 @@ wheat (\textit{Triticum aestivum}), and maize (\textit{Zea mays}) rose from
 21.4\% in 1990 to 34.1\% in 2024.
 
 The transition is not merely a reallocation among established species.
-Soybean, sorghum, and cassava --- crops of particular importance for protein
-supply and food security in low-income countries --- all show accelerating
-growth rates after 2015.
-Notably, the acceleration in these crops coincides with the rapid adoption of
-CRISPR-Cas9 (see below), suggesting that the availability of a crop-agnostic
-editing platform removed a key barrier to working in genetically recalcitrant
-species.
-Hierarchical clustering of organism-level publication trajectories identifies
-three distinct groups: a declining model-organism cluster led by
-\textit{Arabidopsis}; a stable staple-crop cluster (rice, wheat, maize); and
-an emerging minor-crop cluster showing exponential growth from a low base
+Soybean, sorghum, and cassava, crops important for protein supply and food
+security in low-income countries, all show accelerating growth rates after 2015,
+coinciding with rapid CRISPR-Cas9 adoption (see below), which suggests that a
+crop-agnostic editing platform removed a key barrier in genetically recalcitrant
+species. Hierarchical clustering of organism-level publication trajectories
+identifies three groups, a declining model-organism cluster led by
+\textit{Arabidopsis}, a stable staple-crop cluster (rice, wheat, maize), and an
+emerging minor-crop cluster showing exponential growth from a low base
 (per-organism growth rates in Supplementary Fig.~\ref{fig:si-growth-rates}).
 
 The share decline is striking because \textit{Arabidopsis} absolute output kept
-growing through approximately 2018: other organisms are simply growing faster,
-and what is changing is \textit{Arabidopsis}'s relative centrality, not its
-productivity.
+growing through approximately 2018, so other organisms are simply growing faster
+and what is changing is its relative centrality, not its productivity.
 
 % [Fig FA2 moved to Extended Data]
 
 \subsection*{\textit{Arabidopsis} research is consolidating as crop science's foundational methodological substrate}
 
-The organism-share decline documented above invites a pessimistic
-reading, that \textit{Arabidopsis} is becoming irrelevant to a
-crop-centred field. A direct analysis of citation flow rejects that
-reading.
+The organism-share decline invites a pessimistic reading, that
+\textit{Arabidopsis} is becoming irrelevant to a crop-centred field. A direct
+analysis of citation flow rejects it.
 
 We define the instrumentalization ratio
 $r_{\mathrm{inst}}(Y) = [\text{C}{\to}\text{A}\text{ share in year }Y] / [\text{A}{\to}\text{A}\text{ share in year }Y]$,
 where C is the rice/wheat/maize crop triad and A is \textit{Arabidopsis}
-(\textit{Methods}; paper\_a\_organism.csv confidence $\geq 0.7$).
+(\textit{Online Methods}; organism labels of confidence $\geq 0.7$).
 Between 1995 and 2016, $r_{\mathrm{inst}}$ rose from 0.018 to 0.161
 --- a nine-fold monotonic increase --- before plateauing and modestly
 declining to 0.131 by 2024 (Figure~\ref{fig:M9}a). In parallel, the
@@ -147,22 +138,19 @@ two-year floor by the 2002 cohort and onward (Figure~\ref{fig:M9}b).
 Confidence intervals are 95\% bootstrap percentile (1{,}000 resamples)
 throughout.
 
-Taken together, the two curves describe \textit{Arabidopsis}
-transitioning from a standalone model-organism paradigm to a
-foundational methodological substrate --- a lookup library --- from
-which crop science launches translational work. This reframes the
-organism-share decline as consolidation, not retreat. The field has
-not abandoned \textit{Arabidopsis}, it has completed the work of
-\textit{Arabidopsis} as a topic and is now using it as a tool. The
-2010--14 peak in $r_{\mathrm{inst}}$ coincides with an independent
-2010--14 peak in coauthor-network paradigm alignment reported in
-Supplementary Note~\ref{note2}, providing convergent evidence that
-the consolidation reached steady state in the mid-2010s.
-Supplementary analyses further show that
-\textit{Arabidopsis}-specialist authors retain a structural citation
-advantage (Supplementary Note~\ref{note3}), consistent with their
-work functioning as the canonical reference library for downstream
-crop research.
+Taken together, the two curves describe \textit{Arabidopsis} moving from a
+standalone model-organism paradigm to a foundational methodological substrate, a
+lookup library from which crop science launches translational work. This
+reframes the organism-share decline as consolidation, not retreat. The field has
+not abandoned \textit{Arabidopsis}; it has completed the work of
+\textit{Arabidopsis} as a topic and now uses it as a tool. The 2010--14 peak in
+$r_{\mathrm{inst}}$ coincides with an independent 2010--14 peak in
+coauthor-network paradigm alignment (Supplementary
+Note~\ref{note2}), indicating that consolidation reached steady
+state in the mid-2010s, and \textit{Arabidopsis}-specialist authors retain a
+structural citation advantage (Supplementary Note~\ref{note3}),
+consistent with their work serving as the canonical reference library for crop
+research.
 
 \begin{figure}[H]
   \centering
@@ -199,11 +187,11 @@ pooled difference-in-differences event study on 15 pre-registered climate events
 \textit{Online Methods}, Supplementary Note~\ref{note4}), comparing
 detrended monthly publication counts on affected taxa or policy keywords against
 matched controls over $[t-36, +36]$ months. The pooled residual shows two
-significant response windows: a fast spike at lag $+6$ months (commentary and
+significant response windows, a fast spike at lag $+6$ months (commentary and
 reviews) and a main spike at $+18$ months (empirical studies), the latter
 $+376.8$ papers per month above control (95\% CI $[+28.6, +773.8]$). Against a
 field publishing roughly $15{,}000$ papers per month, this $\sim$2--3\%
-redirection of output falls in exactly the months that translational-research
+redirection of output falls in the months that translational-research
 funding cycles would predict.
 
 \subsection*{Corpus-wide organism classification and paradigm analysis}
@@ -232,10 +220,10 @@ structural transition (head-to-head in Extended Data Fig.~\ref{fig:ED2}).
 % [Fig M2 moved to Extended Data]
 
 A chi-square test of paradigm (applied vs.\ fundamental) against organism is
-highly heterogeneous ($\chi^2 = 12{,}361$, $df = 9$, $p \approx 0$): 80\% of the
-corpus is applied, but the fraction varies --- \textit{Arabidopsis} skews applied
-at 95.6\%, while maize (78.2\%) and other model organisms (77.9\%) retain more
-fundamental research (Extended Data Fig.~\ref{fig:ED3}; citation impact by
+highly heterogeneous ($\chi^2 = 12{,}361$, $df = 9$, $p \approx 0$). Although 80\%
+of the corpus is applied, the fraction varies, with \textit{Arabidopsis} skewing
+applied at 95.6\% while maize (78.2\%) and other model organisms (77.9\%) retain
+more fundamental research (Extended Data Fig.~\ref{fig:ED3}; citation impact by
 paradigm in Supplementary Fig.~\ref{fig:si-citation-impact}).
 
 % [Fig M3 moved to Extended Data]
@@ -269,20 +257,20 @@ windows (Extended Data Fig.~\ref{fig:ED7}). Tobacco converges most strongly
 toward \textit{Arabidopsis} concept space in 2020--2024 ($d = 0.016$),
 consistent with adoption of tools originally developed in the model organism, whereas
 non-specific papers remain most distant ($d = 0.047$, 2020--2024). This semantic
-convergence complements the citation-flow findings: crop papers are not merely
-citing \textit{Arabidopsis} but increasingly resemble it in concepts and methods.
+convergence complements the citation-flow findings, since crop papers not only
+cite \textit{Arabidopsis} but increasingly resemble it in concepts and methods.
 
 % [Fig M7 moved to Extended Data]
 
 \subsection*{Disruption index and citation dynamics by organism}
 
 We compute the CD disruption index~\cite{funk2017disruption} at decade resolution
-for each organism (Figure~\ref{fig:si-cd-index}). \textit{Arabidopsis} has the most
+for each organism (Supplementary Fig.~\ref{fig:si-cd-index}). \textit{Arabidopsis} has the most
 negative mean value (CD\,$= -0.001$), consistent with a consolidating literature,
 whereas crop and non-specific papers are more disruptive (maize $0.095$, soybean
 $0.102$, cotton $0.099$, non-specific $0.107$). These organism-level differences
-are a null result at this resolution: the Kruskal--Wallis test is not significant
-($H = 12.9$, $p = 0.17$, $n_{\mathrm{groups}} = 10$), and although the direction is
+are a null result at this resolution, as the Kruskal--Wallis test is not significant
+($H = 12.9$, $p = 0.17$, $n_{\mathrm{groups}} = 10$) and, although the direction is
 consistent across all 10 groups, the standardised effect is negligible
 ($\eta^2 = 0.0001$) despite $99.6\%$ power ($0.996$) on $N = 30{,}462$
 organism-decade observations. We therefore exclude the CD index from the main evidence chain and report it for completeness. \textit{Arabidopsis} also shows the
@@ -294,9 +282,9 @@ Fig.~\ref{fig:si-collab-rate}), while crop organisms have lower, more variable r
 \subsection*{CRISPR adoption lags differ by organism}
 
 CRISPR-Cas9 diffusion is uneven across organisms (Extended Data
-Fig.~\ref{fig:ED8}): \textit{Arabidopsis}, rice, and wheat adopt earliest and
+Fig.~\ref{fig:ED8}). \textit{Arabidopsis}, rice, and wheat adopt earliest and
 fastest, maize lags by one to two years (consistent with harder transformation),
-and minor crops and non-specific papers adopt slowest --- CRISPR
+and minor crops and non-specific papers adopt slowest, so CRISPR
 democratisation, while real, has not yet reached the most neglected species.
 
 % [Fig M8 moved to Extended Data]
@@ -308,15 +296,13 @@ dormancy before a sudden, sustained burst~\cite{ke2015sleeping}. Applying the Ke
 et al.\ index $B$ to the full corpus, we identify \num{40} papers on minor or
 under-studied crops meeting strict criteria (dormancy $\geq 8$ years, awakening
 amplitude $\geq 10\times$), spanning the species listed in Supplementary
-Table~\ref{tab:si-sleeping-beauty}: Moringa (eight of the ten highest-$B$
+Table~\ref{tab:si-sleeping-beauty}, chiefly Moringa (eight of the ten highest-$B$
 papers), millet, and amaranth --- long peripheral to mainstream plant biology.
-Their awakenings are strikingly non-uniform: 35 of the 40 (87.5\%) fall in
-2019--2022 (Figure~\ref{fig:FA3}), with median dormancy 11.4 years and median
-awakening magnitude $17.3\times$ (highest-index papers in Supplementary
-Table~\ref{tab:si-sleeping-beauty}). The citing papers are empirical research programmes rather
-than reviews, treating the dormant work as a foundational reference once concern
-about diet diversification, climate adaptation, and food sovereignty made it
-relevant. With $n = 40$ from a 4.9-million corpus this is a case study of
+Their awakenings are strikingly non-uniform, with 35 of the 40 (87.5\%) falling in
+2019--2022 (Figure~\ref{fig:FA3}), median dormancy 11.4 years, and median
+awakening magnitude $17.3\times$. The citing papers are empirical programmes rather than
+reviews, treating the dormant work as foundational once diet diversification,
+climate adaptation, and food sovereignty made it relevant. With $n = 40$ from a 4.9-million corpus this is a case study of
 specific minor-crop taxa, not field-wide evidence; the narrow statistical claim
 is that these papers' awakening times cluster --- the probability of $\geq 35$
 awakenings in a four-year window, given the historical rate across the 34-year
@@ -341,8 +327,8 @@ Methodological innovation is historically a leading indicator of paradigm shifts
 in biology~\cite{kuhn1962,hegarty2008}. Fitting sigmoid adoption models to five
 method categories --- genetic mapping, next-generation sequencing, RNA
 interference, CRISPR-Cas9, and machine learning (Figure~\ref{fig:FA4}) ---
-CRISPR-Cas9 shows the fastest diffusion in the dataset: 9.2 years from its first
-plant-science application (2013) to crossing the 5\% publication-share threshold,
+CRISPR-Cas9 shows the fastest diffusion in the dataset, needing 9.2 years from its first
+plant-science application (2013) to cross the 5\% publication-share threshold,
 versus 16.8 years for NGS, 14.1 for RNAi, and 22.3 for QTL mapping. Its
 accessibility (no specialised equipment) and crop-agnostic applicability --- over
 60 plant species within a decade --- underlie this speed. Machine learning does
@@ -434,7 +420,7 @@ diversity makes a single artefact unlikely, and a temporal placebo confirms that
 the signal is specific to the recent era (Supplementary Note~\ref{note6}).
 
 The 2012 peak in \textit{Arabidopsis} share coincides with CRISPR-Cas9 and the
-deep-learning revolution. The shift is nevertheless a rebalancing, not replacement:
+deep-learning revolution. The shift is nevertheless a rebalancing, not replacement, as
 \textit{Arabidopsis} output kept growing through 2018 while its methods became part
 of crop science's substrate, paralleling transitions in neuroscience, cancer
 biology, and microbiology~\cite{nestler2010,frese2007,sunagawa2015}. The data
