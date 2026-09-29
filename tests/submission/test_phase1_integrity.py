@@ -110,12 +110,13 @@ MANUSCRIPT_COUNT_FILES = (
 
 def test_corpus_states_harvested_and_classified():
     methods = read("manuscript/sections/methods.tex")
-    assert "4,912,447" in methods
-    assert "2,466,390" in methods
+    assert "4,889,914" in methods      # works_clean, verified against plant_science.duckdb
+    assert "2,770,088" in methods      # classified/embedded papers (abstract > 100 chars)
+    assert "2,466,390" in methods      # of those, published 1990-2024
     assert "each with at least one author affiliation and abstract text" not in methods
 
     combined = "\n".join(read(path) for path in MANUSCRIPT_COUNT_FILES)
-    for stale in ("2,770,088", "2.77 million", "56\\%"):
+    for stale in ("4,912,447", "harvested corpus comprises", "2.77 million"):
         assert stale not in combined, stale
 
     main = read("manuscript/sections/main_text.tex")

@@ -3,18 +3,21 @@
 % ============================================================
 
 \paragraph{Data sources and corpus construction.}
-The harvested corpus comprises 4,912,447 plant science publications indexed in
+The analysed corpus comprises 4,889,914 plant science publications indexed in
 OpenAlex~\cite{priem2022openalex} and PubMed.
 OpenAlex 1900--2024; PubMed 1990--2024.
 Records were retrieved using a controlled vocabulary of plant-science
 subject tags (OpenAlex concept hierarchy, level 1--2) combined with
 PubMed MeSH terms (Plant Physiology, Plant Biology, Botany, Agronomy,
 and 47 related headings).
-Duplicate records were resolved by DOI and then by title--author--year
-triple matching, and publication years were capped at 2024 with pre-1900
-records removed.
-Records without abstracts are excluded from embedding and organism
-classification and remain in the harvested count only.
+PubMed records were matched to OpenAlex records by exact DOI and then by
+normalised title and publication year, and only unmatched records were added;
+2,748 records (0.06\%) still share a DOI with another record.
+Of 5,205,106 harvested records, 4,889,914 have a title of more than five
+characters and a publication year between 1900 and 2024, and form the analysed
+corpus.
+Only the 2,770,088 records with an abstract of more than 100 characters were
+embedded and classified by organism.
 Field-growth and organism-share analyses use the 1990--2024 modern window
 ($n \approx 3.98$ million), for which coverage from both sources is dense;
 the historical analyses (temporal placebo, concept-marriage epochs, and the
@@ -84,7 +87,7 @@ applied to the full $J$ matrix averaged over five-year windows, with the
 number of clusters (six) selected by the silhouette criterion.
 
 \paragraph{Semantic embedding (SPECTER2).}
-SPECTER2~\cite{singh2023specter2} embeddings were computed for all 2,466,390
+SPECTER2~\cite{singh2023specter2} embeddings were computed for all 2,770,088
 abstracts with organism classification using a Kebnekaise A100 GPU node
 (gpu\_zen3 partition, PyTorch 2.7.1).
 Abstracts were tokenised with the SPECTER2 tokeniser and encoded in batches
@@ -114,13 +117,13 @@ distribution between confidence~0.7 and confidence~1.0 papers
 minimal divergence (KS\,=\,0.023, $p < 0.001$).
 The confidence~0.7 papers represent genuine multi-species mentions and
 are retained to avoid systematic exclusion of interdisciplinary research.
-The 2,466,390 classified records used in organism-level analyses represent
-50\% of the harvested 4,912,447-record corpus; the remainder lack abstracts or
-were excluded by the quality filters in \texttt{code/db/clean.py}.
+The 2,770,088 classified records represent 57\% of the 4,889,914-record corpus,
+the remainder lacking a usable abstract; the 2,466,390 of them published in
+1990--2024 form the organism-share time series.
 
 \paragraph{BERTopic modelling.}
 BERTopic~\cite{grootendorst2022bertopic} was applied to the SPECTER2 embeddings to
-identify fine-grained topics across the 2,466,390 classified papers.
+identify fine-grained topics across the 2,770,088 classified papers.
 HDBSCAN ($\mathtt{min\_cluster\_size} = 50$) was used for initial clustering,
 yielding 1,632 topics after outlier removal.
 Papers receiving a topic assignment of $-1$ (outlier) from HDBSCAN were
